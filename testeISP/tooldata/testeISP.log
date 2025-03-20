@@ -1,0 +1,16 @@
+Project Name: testeISP
+Location: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025T-VF256
+Family         : SmartFusion2
+Die            : M2S025T
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

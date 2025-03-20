@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 1 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.1.0 
+Design: testeISP                        Started: Wed Mar 19 23:23:02 2025
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: testeISP                        
+Finished: Wed Mar 19 23:23:04 2025
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
+Total Memory Usage: 139.1 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISPStarted: Wed Mar 19 23:23:07 2025
+
+
+Router completed successfully.
+
+Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP
+Finished: Wed Mar 19 23:23:13 2025
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:06
+Total Memory Usage: 896.8 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 47   | 27696 | 0.17       |
+| DFF           | 34   | 27696 | 0.12       |
+| I/O Register  | 0    | 414   | 0.00       |
+| Logic Element | 54   | 27696 | 0.19       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  16   | 94.12%     |
+| Placed |  1    | 5.88%      |
++--------+-------+------------+
+

@@ -1,0 +1,8 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART,RCOSC_50MHZ
+Primitives/Primitives,0,0,5,0,0,0,0,0,0
+led_blink_0/Primitives,45,25,0,0,1,0,0,0,0
+testeISP_sb_0/CCC_0/Primitives,0,0,0,1,1,0,0,0,0
+testeISP_sb_0/CORERESETP_0/Primitives,2,9,0,0,1,0,0,0,0
+testeISP_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,1
+testeISP_sb_0/testeISP_sb_MSS_0/Primitives,0,0,12,0,0,1,0,0,0

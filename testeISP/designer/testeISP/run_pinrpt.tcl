@@ -1,0 +1,10 @@
+DESIGN=testeISP
+DESDIR=D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP
+TARGET_DIR=D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP
+FAM=SmartFusion2
+DIE=PA4M2500
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

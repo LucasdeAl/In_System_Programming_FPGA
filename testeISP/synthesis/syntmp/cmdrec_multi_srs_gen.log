@@ -1,0 +1,7 @@
+D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  testeISP  -multisrs  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_comp.srs  -osyn  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_mult.srs  -log  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synlog\testeISP_multi_srs_gen.srr 
+relcom:..\..\..\..\..\SynplifyPro\bin64\syn_nfilter.exe -link -top testeISP -multisrs ..\synwork\testeISP_comp.srs -osyn ..\synwork\testeISP_mult.srs -log ..\synlog\testeISP_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\testeisp_comp.srs|io:i|time:1742414365|size:67491|exec:0|csum:97B32A9E73B74A3A4D8C34D685463918
+file:..\synwork\testeisp_mult.srs|io:o|time:1742414366|size:3117|exec:0|csum:
+file:..\synlog\testeisp_multi_srs_gen.srr|io:o|time:1742414366|size:1179|exec:0|csum:
+file:..\..\..\..\..\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0
