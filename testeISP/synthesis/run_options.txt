@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
 #--  Project file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\run_options.txt
-#--  Written on Wed Mar 19 16:59:22 2025
+#--  Written on Thu Mar 20 15:46:17 2025
 
 
 #project files

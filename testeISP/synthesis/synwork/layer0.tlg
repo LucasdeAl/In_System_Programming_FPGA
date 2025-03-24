@@ -17,7 +17,7 @@ Running optimization stage 1 on CCC .......
 Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v":5:7:5:28|Synthesizing module testeISP_sb_CCC_0_FCCC in library work.
 Running optimization stage 1 on testeISP_sb_CCC_0_FCCC .......
-Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
 
 	FAMILY=32'b00000000000000000000000000010011

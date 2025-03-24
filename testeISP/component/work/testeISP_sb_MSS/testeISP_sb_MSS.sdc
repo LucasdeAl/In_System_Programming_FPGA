@@ -1,6 +1,6 @@
 set_component testeISP_sb_MSS
 # Microchip Technology Inc.
-# Date: 2025-Mar-19 16:31:40
+# Date: 2025-Mar-20 15:22:19
 #
 
 create_clock -period 40 [ get_pins { MSS_ADLIB_INST/CLK_CONFIG_APB } ]

@@ -11,13 +11,13 @@ Incremental              : OFF
 INFO: Reading User PDC file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 1 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 17 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.1.0 
-Design: testeISP                        Started: Wed Mar 19 23:23:02 2025
+Design: testeISP                        Started: Thu Mar 20 21:48:19 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,22 +33,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: testeISP                        
-Finished: Wed Mar 19 23:23:04 2025
-Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
-Total Memory Usage: 139.1 Mbytes
+Finished: Thu Mar 20 21:48:22 2025
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
+Total Memory Usage: 138.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISPStarted: Wed Mar 19 23:23:07 2025
+Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISPStarted: Thu Mar 20 21:48:24 2025
 
 
 Router completed successfully.
 
 Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP
-Finished: Wed Mar 19 23:23:13 2025
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:06
-Total Memory Usage: 896.8 Mbytes
+Finished: Thu Mar 20 21:48:30 2025
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 896.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
@@ -58,14 +58,14 @@ Resource Usage
 | 4LUT          | 47   | 27696 | 0.17       |
 | DFF           | 34   | 27696 | 0.12       |
 | I/O Register  | 0    | 414   | 0.00       |
-| Logic Element | 54   | 27696 | 0.19       |
+| Logic Element | 52   | 27696 | 0.19       |
 +---------------+------+-------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  16   | 94.12%     |
-| Placed |  1    | 5.88%      |
+| Locked |  17   | 100.00%    |
+| Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

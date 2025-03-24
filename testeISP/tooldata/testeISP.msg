@@ -180,3 +180,5 @@ Implementation;Synthesis||MT420||@W:Found inferred clock testeISP_sb_FABOSC_0_OS
 Implementation;Synthesis||MT420||@W:Found inferred clock led_blink|reg_counter_inferred_clock[20] with period 10.00ns. Please declare a user-defined clock on net led_blink_0.reg_counter_0[20].||testeISP.srr(744);liberoaction://cross_probe/hdl/file/'<project>\synthesis\testeISP.srr'/linenumber/744||null;null
 Implementation;Place and Route;RootName:testeISP
 Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||testeISP_layout_log.log;liberoaction://open_report/file/testeISP_layout_log.log||(null);(null)
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details about 1 Info(s)||testeISP_generateBitstream.log;liberoaction://open_report/file/testeISP_generateBitstream.log||(null);(null)
+Implementation;Generate Bitstream;RootName:testeISP

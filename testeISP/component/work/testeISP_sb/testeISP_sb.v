@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Mar 19 16:31:44 2025
+// Created by SmartDesign Thu Mar 20 15:22:24 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -10,7 +10,7 @@ module testeISP_sb(
     // Inputs
     DEVRST_N,
     FAB_RESET_N,
-    MMUART_0_RXD_F2M,
+    MMUART_1_RXD_F2M,
     USB_ULPI_DIR,
     USB_ULPI_NXT,
     USB_ULPI_XCLK,
@@ -19,7 +19,7 @@ module testeISP_sb(
     FAB_CCC_LOCK,
     GPIO_3_M2F,
     INIT_DONE,
-    MMUART_0_TXD_M2F,
+    MMUART_1_TXD_M2F,
     MSS_READY,
     POWER_ON_RESET_N,
     USB_ULPI_STP,
@@ -32,7 +32,7 @@ module testeISP_sb(
 //--------------------------------------------------------------------
 input        DEVRST_N;
 input        FAB_RESET_N;
-input        MMUART_0_RXD_F2M;
+input        MMUART_1_RXD_F2M;
 input        USB_ULPI_DIR;
 input        USB_ULPI_NXT;
 input        USB_ULPI_XCLK;
@@ -43,7 +43,7 @@ output       FAB_CCC_GL0;
 output       FAB_CCC_LOCK;
 output       GPIO_3_M2F;
 output       INIT_DONE;
-output       MMUART_0_TXD_M2F;
+output       MMUART_1_TXD_M2F;
 output       MSS_READY;
 output       POWER_ON_RESET_N;
 output       USB_ULPI_STP;
@@ -63,8 +63,8 @@ wire         FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC;
 wire         FABOSC_0_RCOSC_25_50MHZ_O2F;
 wire         GPIO_3_M2F_net_0;
 wire         INIT_DONE_net_0;
-wire         MMUART_0_RXD_F2M;
-wire         MMUART_0_TXD_M2F_net_0;
+wire         MMUART_1_RXD_F2M;
+wire         MMUART_1_TXD_M2F_net_0;
 wire         MSS_READY_net_0;
 wire         POWER_ON_RESET_N_net_0;
 wire         testeISP_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
@@ -80,7 +80,7 @@ wire         INIT_DONE_net_1;
 wire         FAB_CCC_GL0_net_1;
 wire         FAB_CCC_LOCK_net_1;
 wire         MSS_READY_net_1;
-wire         MMUART_0_TXD_M2F_net_1;
+wire         MMUART_1_TXD_M2F_net_1;
 wire         GPIO_3_M2F_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
@@ -121,8 +121,8 @@ assign FAB_CCC_LOCK_net_1     = FAB_CCC_LOCK_net_0;
 assign FAB_CCC_LOCK           = FAB_CCC_LOCK_net_1;
 assign MSS_READY_net_1        = MSS_READY_net_0;
 assign MSS_READY              = MSS_READY_net_1;
-assign MMUART_0_TXD_M2F_net_1 = MMUART_0_TXD_M2F_net_0;
-assign MMUART_0_TXD_M2F       = MMUART_0_TXD_M2F_net_1;
+assign MMUART_1_TXD_M2F_net_1 = MMUART_1_TXD_M2F_net_0;
+assign MMUART_1_TXD_M2F       = MMUART_1_TXD_M2F_net_1;
 assign GPIO_3_M2F_net_1       = GPIO_3_M2F_net_0;
 assign GPIO_3_M2F             = GPIO_3_M2F_net_1;
 //--------------------------------------------------------------------
@@ -262,14 +262,14 @@ testeISP_sb_MSS testeISP_sb_MSS_0(
         .USB_ULPI_XCLK          ( USB_ULPI_XCLK ),
         .MCCC_CLK_BASE_PLL_LOCK ( FAB_CCC_LOCK_net_0 ),
         .MSS_RESET_N_F2M        ( CORERESETP_0_RESET_N_F2M ),
-        .MMUART_0_RXD_F2M       ( MMUART_0_RXD_F2M ),
+        .MMUART_1_RXD_F2M       ( MMUART_1_RXD_F2M ),
         .FIC_2_APB_M_PREADY     ( VCC_net ), // tied to 1'b1 from definition
         .FIC_2_APB_M_PSLVERR    ( GND_net ), // tied to 1'b0 from definition
         .FIC_2_APB_M_PRDATA     ( FIC_2_APB_M_PRDATA_const_net_0 ), // tied to 32'h00000000 from definition
         // Outputs
         .USB_ULPI_STP           ( USB_ULPI_STP_net_0 ),
         .MSS_RESET_N_M2F        ( testeISP_sb_MSS_TMP_0_MSS_RESET_N_M2F ),
-        .MMUART_0_TXD_M2F       ( MMUART_0_TXD_M2F_net_0 ),
+        .MMUART_1_TXD_M2F       ( MMUART_1_TXD_M2F_net_0 ),
         .GPIO_3_M2F             ( GPIO_3_M2F_net_0 ),
         .FIC_2_APB_M_PRESET_N   ( testeISP_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N ),
         .FIC_2_APB_M_PCLK       (  ),

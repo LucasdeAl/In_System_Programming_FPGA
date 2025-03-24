@@ -1,4 +1,4 @@
-# Wed Mar 19 16:59:28 2025
+# Thu Mar 20 15:46:28 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -37,7 +37,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 248MB peak: 248MB)
 
 @N: MO111 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
@@ -48,7 +48,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @W: BN132 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -60,12 +60,12 @@ original code -> new code
    101 -> 0100000
    110 -> 1000000
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[6] (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -73,16 +73,16 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
@@ -130,14 +130,14 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[0] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[5] (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 254MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 254MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     7.67ns		  59 /        34
+   1		0h:00m:02s		     7.67ns		  59 /        34
 @N: FP130 |Promoting Net testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int on CLKINT  I_55 
 @N: FP130 |Promoting Net led_blink_0.reg_counter[20] on CLKINT  I_56 
 
@@ -146,23 +146,23 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 206MB peak: 256MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 206MB peak: 256MB)
 
 Writing Analyst data base D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 256MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 254MB peak: 256MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -171,13 +171,13 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 255MB peak: 256MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 255MB peak: 256MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 255MB peak: 256MB)
 
 @W: MT246 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.CCC_0.GL0_net.
@@ -186,7 +186,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Mar 19 16:59:30 2025
+# Timing report written on Thu Mar 20 15:46:32 2025
 #
 
 
@@ -401,10 +401,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 256MB peak: 256MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 256MB peak: 256MB)
 
 ---------------------------------------
 Resource Usage Report for testeISP 
@@ -452,9 +452,9 @@ Total number of LUTs after P&R:  46 + 0 + 0 + 0 = 46;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 256MB)
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 256MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Mar 19 16:59:30 2025
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Thu Mar 20 15:46:33 2025
 
 ###########################################################]

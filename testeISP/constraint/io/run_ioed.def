@@ -22,11 +22,10 @@ data VCCI_2.5_VOLTR COM
 data VCCI_3.3_VOLTR COM
 data FLOW_TYPE NEW
 data PLANNER_IOMODE 1
-data AFL 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.afl'
+data AFL 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/COMPILE/testeISP.afl'
 data ADL 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.adl'
-data LOC 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.loc'
-data SEG 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.seg'
-data NMAT_PDC 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.nmatinit.pdc'
+data LOC 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/COMPILE/testeISP.loc'
+data SEG 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/COMPILE/testeISP.seg'
 
 data IO_PDC_0 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/constraint/io/user.pdc'
 data TARGET_IOPDC  'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/constraint/io/user.pdc'

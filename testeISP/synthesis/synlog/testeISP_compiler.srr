@@ -80,7 +80,7 @@ Running optimization stage 1 on CCC .......
 Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v":5:7:5:28|Synthesizing module testeISP_sb_CCC_0_FCCC in library work.
 Running optimization stage 1 on testeISP_sb_CCC_0_FCCC .......
-Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
 
 	FAMILY=32'b00000000000000000000000000010011
@@ -309,12 +309,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 93MB peak: 94MB)
+At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 93MB peak: 94MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Thu Mar 20 15:46:23 2025
 
 ###########################################################]
 ###########################################################[
@@ -341,7 +341,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Thu Mar 20 15:46:23 2025
 
 ###########################################################]
 
@@ -351,11 +351,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 22MB peak: 23MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Thu Mar 20 15:46:23 2025
 
 ###########################################################]

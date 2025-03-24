@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Mar 19 16:31:40 2025
+// Created by SmartDesign Thu Mar 20 15:22:19 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -13,7 +13,7 @@ module testeISP_sb_MSS(
     FIC_2_APB_M_PSLVERR,
     MCCC_CLK_BASE,
     MCCC_CLK_BASE_PLL_LOCK,
-    MMUART_0_RXD_F2M,
+    MMUART_1_RXD_F2M,
     MSS_RESET_N_F2M,
     USB_ULPI_DIR,
     USB_ULPI_NXT,
@@ -27,7 +27,7 @@ module testeISP_sb_MSS(
     FIC_2_APB_M_PWDATA,
     FIC_2_APB_M_PWRITE,
     GPIO_3_M2F,
-    MMUART_0_TXD_M2F,
+    MMUART_1_TXD_M2F,
     MSS_RESET_N_M2F,
     USB_ULPI_STP,
     // Inouts
@@ -42,7 +42,7 @@ input         FIC_2_APB_M_PREADY;
 input         FIC_2_APB_M_PSLVERR;
 input         MCCC_CLK_BASE;
 input         MCCC_CLK_BASE_PLL_LOCK;
-input         MMUART_0_RXD_F2M;
+input         MMUART_1_RXD_F2M;
 input         MSS_RESET_N_F2M;
 input         USB_ULPI_DIR;
 input         USB_ULPI_NXT;
@@ -58,7 +58,7 @@ output        FIC_2_APB_M_PSEL;
 output [31:0] FIC_2_APB_M_PWDATA;
 output        FIC_2_APB_M_PWRITE;
 output        GPIO_3_M2F;
-output        MMUART_0_TXD_M2F;
+output        MMUART_1_TXD_M2F;
 output        MSS_RESET_N_M2F;
 output        USB_ULPI_STP;
 //--------------------------------------------------------------------
@@ -81,8 +81,8 @@ wire          FIC_2_APB_MASTER_0_PWRITE;
 wire          GPIO_3_M2F_net_0;
 wire          MCCC_CLK_BASE;
 wire          MCCC_CLK_BASE_PLL_LOCK;
-wire          MMUART_0_RXD_F2M;
-wire          MMUART_0_TXD_M2F_net_0;
+wire          MMUART_1_RXD_F2M;
+wire          MMUART_1_TXD_M2F_net_0;
 wire          MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE;
 wire          MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT;
 wire          MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE;
@@ -120,7 +120,7 @@ wire          USB_ULPI_XCLK;
 wire          USB_ULPI_XCLK_PAD_Y;
 wire          USB_ULPI_STP_net_1;
 wire          MSS_RESET_N_M2F_net_1;
-wire          MMUART_0_TXD_M2F_net_1;
+wire          MMUART_1_TXD_M2F_net_1;
 wire          GPIO_3_M2F_net_1;
 wire          FIC_2_APB_M_PRESET_N_0_net_0;
 wire          FIC_2_APB_M_PCLK_0_net_0;
@@ -212,8 +212,8 @@ assign USB_ULPI_STP_net_1               = USB_ULPI_STP_net_0;
 assign USB_ULPI_STP                     = USB_ULPI_STP_net_1;
 assign MSS_RESET_N_M2F_net_1            = MSS_RESET_N_M2F_net_0;
 assign MSS_RESET_N_M2F                  = MSS_RESET_N_M2F_net_1;
-assign MMUART_0_TXD_M2F_net_1           = MMUART_0_TXD_M2F_net_0;
-assign MMUART_0_TXD_M2F                 = MMUART_0_TXD_M2F_net_1;
+assign MMUART_1_TXD_M2F_net_1           = MMUART_1_TXD_M2F_net_0;
+assign MMUART_1_TXD_M2F                 = MMUART_1_TXD_M2F_net_1;
 assign GPIO_3_M2F_net_1                 = GPIO_3_M2F_net_0;
 assign GPIO_3_M2F                       = GPIO_3_M2F_net_1;
 assign FIC_2_APB_M_PRESET_N_0_net_0     = FIC_2_APB_M_PRESET_N_0;
@@ -237,7 +237,7 @@ assign FIC_2_APB_M_PWDATA[31:0]         = FIC_2_APB_MASTER_0_PWDATA_net_0;
 MSS_025 #( 
         .ACT_UBITS         ( 56'hFFFFFFFFFFFFFF ),
         .DDR_CLK_FREQ      ( 100.0 ),
-        .INIT              ( 1438'h0000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000120481204812048120D8120D8120F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E094C0700003FFFFE4000000000001100000000F0F01C000001824FC4010842108421000001FE34001FF8000000400000000020091007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
+        .INIT              ( 1438'h0000000000000000000000000000000000000C00000000000000000000000000000000000000000000000000000000000000000000000000000120481204812048120D8120D8120F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E094C0700003FFFFE4000000000001100000000F0F01C000001824FA4010842108421000001FE34001FF8000000400000000020091007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
         .MEMORYFILE        ( "ENVM_init.mem" ),
         .RTC_MAIN_XTL_FREQ ( 0.0 ),
         .RTC_MAIN_XTL_MODE ( "" ) )
@@ -325,7 +325,7 @@ MSS_ADLIB_INST(
         .MMUART0_DTR_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_RI_F2H_SCP                      ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_RTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
-        .MMUART0_RXD_F2H_SCP                     ( MMUART_0_RXD_F2M ),
+        .MMUART0_RXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_SCK_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_TXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_CTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
@@ -333,7 +333,7 @@ MSS_ADLIB_INST(
         .MMUART1_DSR_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_RI_F2H_SCP                      ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_RTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
-        .MMUART1_RXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
+        .MMUART1_RXD_F2H_SCP                     ( MMUART_1_RXD_F2M ),
         .MMUART1_SCK_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_TXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .PER2_FABRIC_PRDATA                      ( FIC_2_APB_M_PRDATA ),
@@ -538,7 +538,7 @@ MSS_ADLIB_INST(
         .MMUART0_RXD_MGPIO28B_H2F_B              (  ),
         .MMUART0_SCK_MGPIO29B_H2F_A              (  ),
         .MMUART0_SCK_MGPIO29B_H2F_B              (  ),
-        .MMUART0_TXD_MGPIO27B_H2F_A              ( MMUART_0_TXD_M2F_net_0 ),
+        .MMUART0_TXD_MGPIO27B_H2F_A              (  ),
         .MMUART0_TXD_MGPIO27B_H2F_B              (  ),
         .MMUART1_DTR_MGPIO12B_H2F_A              (  ),
         .MMUART1_RTS_MGPIO11B_H2F_A              (  ),
@@ -547,7 +547,7 @@ MSS_ADLIB_INST(
         .MMUART1_RXD_MGPIO26B_H2F_B              (  ),
         .MMUART1_SCK_MGPIO25B_H2F_A              (  ),
         .MMUART1_SCK_MGPIO25B_H2F_B              (  ),
-        .MMUART1_TXD_MGPIO24B_H2F_A              (  ),
+        .MMUART1_TXD_MGPIO24B_H2F_A              ( MMUART_1_TXD_M2F_net_0 ),
         .MMUART1_TXD_MGPIO24B_H2F_B              (  ),
         .MPLL_LOCK                               (  ),
         .PER2_FABRIC_PADDR                       ( FIC_2_APB_MASTER_0_PADDR ),

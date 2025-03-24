@@ -3079,7 +3079,7 @@
 </data>
 <separator/>
 <data>
-<name>MM_UART_0</name>
+<name>MM_UART_1</name>
 <table>
 <header>
  <cell>Name</cell>
@@ -3111,7 +3111,7 @@
 </row>
 <row>
  <cell>MODEM_MUX</cell>
- <cell>MUX_FABRIC</cell>
+ <cell>MUX_IO</cell>
 </row>
 <row>
  <cell>TX_RX_MUX</cell>
@@ -3701,12 +3701,12 @@
  <cell>-</cell>
 </row>
 <row>
- <cell>MMUART_0_TXD_M2F</cell>
+ <cell>MMUART_1_TXD_M2F</cell>
  <cell>OUT</cell>
  <cell>-</cell>
 </row>
 <row>
- <cell>MMUART_0_RXD_F2M</cell>
+ <cell>MMUART_1_RXD_F2M</cell>
  <cell>IN</cell>
  <cell>-</cell>
 </row>
