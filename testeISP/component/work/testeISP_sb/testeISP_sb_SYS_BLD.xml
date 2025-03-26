@@ -3126,6 +3126,53 @@
 </data>
 <separator/>
 <data>
+<name>MM_UART_1</name>
+<table>
+<header>
+ <cell>Name</cell>
+ <cell>Subsystem</cell>
+ <cell>Vendor</cell>
+ <cell>Version</cell>
+</header>
+<row>
+ <cell>SF2_MSS_UART</cell>
+ <cell>MSS Peripherals</cell>
+ <cell>Actel</cell>
+ <cell>0.0.101</cell>
+</row>
+</table>
+<cdata>
+<name>Configuration</name>
+<table>
+<header>
+ <cell>Parameter</cell>
+ <cell>Value</cell>
+</header>
+<row>
+ <cell>MODE</cell>
+ <cell>MODE_ASYNC</cell>
+</row>
+<row>
+ <cell>MODE_DUPLEX</cell>
+ <cell>MODE_FULL</cell>
+</row>
+<row>
+ <cell>MODEM_MUX</cell>
+ <cell>MUX_IO</cell>
+</row>
+<row>
+ <cell>TX_RX_MUX</cell>
+ <cell>MUX_FABRIC</cell>
+</row>
+<row>
+ <cell>USE_MODEM</cell>
+ <cell>false</cell>
+</row>
+</table>
+</cdata>
+</data>
+<separator/>
+<data>
 <name>MSS_GPIO</name>
 <table>
 <header>
@@ -3707,6 +3754,16 @@
 </row>
 <row>
  <cell>MMUART_0_RXD_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_1_TXD_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_1_RXD_F2M</cell>
  <cell>IN</cell>
  <cell>-</cell>
 </row>

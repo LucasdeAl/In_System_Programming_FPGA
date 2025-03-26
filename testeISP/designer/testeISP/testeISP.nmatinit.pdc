@@ -8,16 +8,18 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF , Speed grade: STD 
 
-# Date generated: Wed Mar 19 23:23:13 2025 
+# Date generated: Wed Mar 26 17:56:58 2025 
 
 
 #
 # I/O constraints
 #
 
-set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname D14 -fixed no
-set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname H12 -fixed no
-set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname H13 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname K1 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname H13 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname H12 -fixed no
+set_io MMUART_1_RXD_F2M -DIRECTION INPUT -pinname H16 -fixed no
+set_io MMUART_1_TXD_M2F -DIRECTION OUTPUT -pinname J16 -fixed no
 set_io USB_ULPI_DATA\[0\] -DIRECTION INOUT -pinname L11 -fixed no
 set_io USB_ULPI_DATA\[1\] -DIRECTION INOUT -pinname L12 -fixed no
 set_io USB_ULPI_DATA\[2\] -DIRECTION INOUT -pinname K16 -fixed no
@@ -30,72 +32,15 @@ set_io USB_ULPI_DIR -DIRECTION INPUT -pinname M16 -fixed no
 set_io USB_ULPI_NXT -DIRECTION INPUT -pinname M13 -fixed no
 set_io USB_ULPI_STP -DIRECTION OUTPUT -pinname N14 -fixed no
 set_io USB_ULPI_XCLK -DIRECTION INPUT -pinname N16 -fixed no
-set_io o_LED\[0\] -DIRECTION OUTPUT -pinname K1 -fixed no
-set_io o_LED\[1\] -DIRECTION OUTPUT -pinname L1 -fixed no
 
 #
 # Core cell constraints
 #
 
-set_location led_blink_0/john_counter_RNO\[0\] -fixed no 13 3
-set_location led_blink_0/reg_counter\[17\] -fixed no 569 76
-set_location led_blink_0/reg_counter\[10\] -fixed no 562 76
-set_location led_blink_0/reg_counter\[18\] -fixed no 570 76
-set_location testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 553 76
-set_location led_blink_0/john_counter_RNINAN55\[0\] -fixed no 12 3
-set_location led_blink_0/reg_counter\[4\] -fixed no 556 76
-set_location led_blink_0/reg_counter\[2\] -fixed no 554 76
-set_location testeISP_sb_0/CORERESETP_0/RESET_N_M2F_clk_base -fixed no 568 79
-set_location testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 552 76
-set_location led_blink_0/reg_counter\[19\] -fixed no 571 76
-set_location testeISP_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base -fixed no 573 76
-set_location led_blink_0/john_counter\[1\] -fixed no 14 4
-set_location led_blink_0/john_counter\[2\] -fixed no 16 4
-set_location led_blink_0/reg_counter\[15\] -fixed no 567 76
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_4 -fixed no 564 78
-set_location led_blink_0/reg_counter\[9\] -fixed no 561 76
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_RGB1 -fixed no 446 75
-set_location led_blink_0/reg_counter\[5\] -fixed no 557 76
-set_location led_blink_0/reg_counter\[3\] -fixed no 555 76
-set_location led_blink_0/reg_counter\[7\] -fixed no 559 76
-set_location led_blink_0/reg_counter_RNO\[0\] -fixed no 572 75
 set_location testeISP_sb_0/CCC_0/GL0_INST -fixed no 297 72
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int -fixed no 564 79
-set_location led_blink_0/reg_counter\[6\] -fixed no 558 76
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3 -fixed no 293 72
-set_location led_blink_0/reg_counter\[14\] -fixed no 566 76
 set_location ip_interface_inst -fixed no 203 0
 set_location testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 446 144
-set_location led_blink_0/reg_counter\[20\] -fixed no 572 70
-set_location testeISP_sb_0/CORERESETP_0/mss_ready_state -fixed no 566 79
-set_location led_blink_0/john_counter\[0\] -fixed no 13 4
-set_location led_blink_0/reg_counter\[16\] -fixed no 568 76
-set_location led_blink_0/reg_counter\[8\] -fixed no 560 76
-set_location led_blink_0/reg_counter\[1\] -fixed no 553 70
 set_location testeISP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 24 134
-set_location testeISP_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 -fixed no 574 76
-set_location testeISP_sb_0/CORERESETP_0/mss_ready_select6 -fixed no 566 78
-set_location testeISP_sb_0/CORERESETP_0/mss_ready_select -fixed no 567 79
-set_location led_blink_0/john_counter_RNIOBN55\[1\] -fixed no 14 3
-set_location led_blink_0/reg_counter_inferred_clock_RNIH1594\[20\] -fixed no 296 72
-set_location led_blink_0/reg_counter\[0\] -fixed no 572 76
-set_location led_blink_0/reg_counter\[12\] -fixed no 564 76
-set_location led_blink_0/reg_counter\[13\] -fixed no 565 76
-set_location led_blink_0/reg_counter\[11\] -fixed no 563 76
-set_location led_blink_0/john_counter\[3\] -fixed no 15 4
-set_location testeISP_sb_0/CORERESETP_0/RESET_N_M2F_q1 -fixed no 565 79
-set_location led_blink_0/reg_counter_inferred_clock_RNIH1594\[20\]/U0_RGB1 -fixed no 147 3
-set_location testeISP_sb_0/SYSRESET_POR -fixed no 624 8
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 624 8
 set_location testeISP_sb_0/CCC_0/CCC_INST -fixed no 18 134
 set_location testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST -fixed no 528 146
-set_location led_blink_0/un1_reg_counter_cry_1 -fixed no 552 75
-set_location led_blink_0/un1_reg_counter_s_1_54 -fixed no 552 69
-set_location testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 446 78
-set_location testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 447 75
-set_location testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB2 -fixed no 447 69
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_RGB1_RGB0 -fixed no 446 69
-set_location testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_RGB1_RGB1 -fixed no 146 3
-set_location led_blink_0/un1_reg_counter_cry_1_FCINST1_CC_0 -fixed no 552 77
-set_location led_blink_0/un1_reg_counter_cry_1_FCINST1_CC_1 -fixed no 564 77
-set_location led_blink_0/un1_reg_counter_s_1_54_CC_0 -fixed no 552 71
-set_location led_blink_0/un1_reg_counter_s_1_54_CC_1 -fixed no 564 71

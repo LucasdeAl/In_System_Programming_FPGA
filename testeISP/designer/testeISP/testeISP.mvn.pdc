@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF , Speed grade: STD 
 
-# Date generated: Wed Mar 19 16:59:35 2025 
+# Date generated: Mon Mar 24 21:58:48 2025 
 
 
 #
@@ -31,7 +31,6 @@ set_iobank Bank2 -vcci 2.50 -fixed no
 # I/O constraints
 #
 
-set_io DEVRST_N -DIRECTION INPUT -pinname M11
 set_io USB_ULPI_DATA\[0\] -DIRECTION INOUT -pinname L11 -fixed yes
 set_io USB_ULPI_DATA\[1\] -DIRECTION INOUT -pinname L12 -fixed yes
 set_io USB_ULPI_DATA\[2\] -DIRECTION INOUT -pinname K16 -fixed yes

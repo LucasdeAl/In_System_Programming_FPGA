@@ -5,9 +5,6 @@ CLOCK GLOBAL THRESHOLD - 2
 ASYNC GLOBAL THRESHOLD - 12
 GLOBAL THRESHOLD - 5000
 
-NET NAME                                          CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
--------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_0_FAB_CCC_GL0                         31              0                   0              31               YES                  
-led_blink_0.reg_counter[20]                       4               0                   0              4                YES                  
-testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int     0               25                  0              25               YES                  
-===========================================================================================================================================
+NET NAME     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+------------------------------------------------------------------------------------------------------
+======================================================================================================

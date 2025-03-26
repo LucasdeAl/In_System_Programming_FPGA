@@ -5,7 +5,6 @@
 @W: CG100 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":55:13:55:25|User defined pragma syn_black_box detected
 @W: CG100 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":67:13:67:25|User defined pragma syn_black_box detected
 @W: CG100 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v":532:13:532:25|User defined pragma syn_black_box detected
-@W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v":57:0:57:5|Pruning unused register ring_counter[3:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.

@@ -6,7 +6,7 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF
 
-# Date generated: Wed Mar 19 23:23:45 2025 
+# Date generated: Wed Mar 26 17:56:04 2025 
 
 
 # 
@@ -25,27 +25,33 @@
 # User Locked I/O settings
 # 
 
-set_io MMUART_0_RXD_F2M  \
-    -pinname H12         \
-    -fixed yes           \
-    -DIRECTION INPUT
-
-
-set_io MMUART_0_TXD_M2F  \
-    -pinname H13         \
-    -fixed yes           \
-    -DIRECTION OUTPUT
-
-
-set_io {o_LED[0]}      \
+set_io GPIO_3_M2F      \
     -pinname K1        \
     -fixed yes         \
     -DIRECTION OUTPUT
 
 
-set_io {o_LED[1]}      \
-    -pinname L1        \
-    -fixed yes         \
+set_io MMUART_0_RXD_F2M  \
+    -pinname H13         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_0_TXD_M2F  \
+    -pinname H12         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io MMUART_1_RXD_F2M  \
+    -pinname H16         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_1_TXD_M2F  \
+    -pinname J16         \
+    -fixed yes           \
     -DIRECTION OUTPUT
 
 
@@ -54,17 +60,72 @@ set_io {o_LED[1]}      \
 # Dedicated Peripheral I/O Settings
 # 
 
+set_io {USB_ULPI_DATA[0]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[1]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[2]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[3]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[4]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[5]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[6]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io {USB_ULPI_DATA[7]}  \
+    -FF_IO_AVAIL Yes       \
+    -DIRECTION INOUT
+
+
+set_io USB_ULPI_DIR   \
+    -FF_IO_AVAIL Yes  \
+    -DIRECTION INPUT
+
+
+set_io USB_ULPI_NXT   \
+    -FF_IO_AVAIL Yes  \
+    -DIRECTION INPUT
+
+
+set_io USB_ULPI_STP    \
+    -FF_IO_AVAIL Yes   \
+    -DIRECTION OUTPUT
+
+
+set_io USB_ULPI_XCLK  \
+    -FF_IO_AVAIL Yes  \
+    -DIRECTION INPUT
+
+
 
 # 
 # Unlocked I/O settings
 # The I/Os in this section are unplaced or placed but are not locked
 # the other listed attributes have been applied
 # 
-
-set_io GPIO_3_M2F            \
-    -FF_IO_STATE LAST_VALUE  \
-    -DIRECTION OUTPUT
-
 
 
 #

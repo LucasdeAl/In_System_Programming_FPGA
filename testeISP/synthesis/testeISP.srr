@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: DESKTOP-RIO960C
 
-# Wed Mar 19 16:59:22 2025
+# Mon Mar 24 21:58:35 2025
 
 #Implementation: synthesis
 
@@ -44,7 +44,6 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 
 @I::"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
 @I::"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
-@I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v" (library work)
 @I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
 @I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
 @I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v" (library work)
@@ -69,24 +68,25 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\testeISP_sb.v" (library work)
 @I::"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP\testeISP.v" (library work)
 Verilog syntax check successful!
+File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v changed - recompiling
+File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v changed - recompiling
+File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v changed - recompiling
+File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v changed - recompiling
+File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\testeISP_sb.v changed - recompiling
 File D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP\testeISP.v changed - recompiling
 Selecting top level module testeISP
-@N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v":20:7:20:15|Synthesizing module led_blink in library work.
-Running optimization stage 1 on led_blink .......
-@W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v":57:0:57:5|Pruning unused register ring_counter[3:0]. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
 Running optimization stage 1 on CCC .......
-Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v":5:7:5:28|Synthesizing module testeISP_sb_CCC_0_FCCC in library work.
 Running optimization stage 1 on testeISP_sb_CCC_0_FCCC .......
 Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
@@ -192,13 +192,13 @@ Running optimization stage 1 on TRIBUFF .......
 Finished optimization stage 1 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v":9:7:9:21|Synthesizing module testeISP_sb_MSS in library work.
 Running optimization stage 1 on testeISP_sb_MSS .......
-Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\testeISP_sb.v":9:7:9:17|Synthesizing module testeISP_sb in library work.
 Running optimization stage 1 on testeISP_sb .......
-Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP\testeISP.v":9:7:9:14|Synthesizing module testeISP in library work.
 Running optimization stage 1 on testeISP .......
-Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP .......
 Finished optimization stage 2 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP_sb .......
@@ -309,8 +309,6 @@ Running optimization stage 2 on GND .......
 Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on VCC .......
 Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
-Running optimization stage 2 on led_blink .......
-Finished optimization stage 2 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -318,12 +316,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 93MB peak: 94MB)
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 93MB peak: 94MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Mon Mar 24 21:58:38 2025
 
 ###########################################################]
 ###########################################################[
@@ -350,7 +348,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Mon Mar 24 21:58:38 2025
 
 ###########################################################]
 
@@ -360,12 +358,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 22MB peak: 23MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:25 2025
+# Mon Mar 24 21:58:38 2025
 
 ###########################################################]
 ###########################################################[
@@ -392,12 +390,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Mar 19 16:59:26 2025
+# Mon Mar 24 21:58:40 2025
 
 ###########################################################]
 Premap Report
 
-# Wed Mar 19 16:59:27 2025
+# Mon Mar 24 21:58:40 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -459,10 +457,10 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 @W: MO129 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance testeISP_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 250MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 250MB)
 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -500,11 +498,9 @@ Clock Summary
           Start                                                          Requested     Requested     Clock        Clock          Clock
 Level     Clock                                                          Frequency     Period        Type         Group          Load 
 --------------------------------------------------------------------------------------------------------------------------------------
-0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     57   
+0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     36   
                                                                                                                                       
 0 -       testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
-                                                                                                                                      
-0 -       led_blink|reg_counter_inferred_clock[20]                       100.0 MHz     10.000        inferred     (multiple)     4    
 ======================================================================================================================================
 
 
@@ -515,22 +511,19 @@ Clock Load Summary
                                                                Clock     Source                                                             Clock Pin                                                   Non-clock Pin     Non-clock Pin                                                    
 Clock                                                          Load      Pin                                                                Seq Example                                                 Seq Example       Comb Example                                                     
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  57        testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  36        testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
                                                                                                                                                                                                                                                                                            
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     testeISP_sb_0.CORERESETP_0.release_sdif0_core.C             -                 testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
-                                                                                                                                                                                                                                                                                           
-led_blink|reg_counter_inferred_clock[20]                       4         led_blink_0.reg_counter[20:0].Q[20](dffr)                          led_blink_0.john_counter[3:0].C                             -                 led_blink_0.un1_reg_counter[20:0].D0[20](add)                    
 ===========================================================================================================================================================================================================================================================================================
 
-@W: MT530 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\hdl\led_blink.v":47:0:47:5|Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 57 sequential elements including led_blink_0.reg_counter[20:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 36 sequential elements including testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including testeISP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\hdl\led_blink.v":66:0:66:5|Found inferred clock led_blink|reg_counter_inferred_clock[20] which controls 4 sequential elements including led_blink_0.john_counter[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\testeISP.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -552,12 +545,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 255MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Mar 19 16:59:28 2025
+# Mon Mar 24 21:58:41 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Mar 19 16:59:28 2025
+# Mon Mar 24 21:58:41 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -590,13 +583,13 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
 
 @N: MO111 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
@@ -607,7 +600,7 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @W: BN132 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -619,12 +612,12 @@ original code -> new code
    101 -> 0100000
    110 -> 1000000
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[6] (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 253MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -632,23 +625,27 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
+@W: BN114 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\testeisp_sb.v":258:9:258:20|Removing instance testeISP_sb_0.SYSRESET_POR (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
@@ -665,6 +662,9 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
@@ -682,70 +682,69 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[5] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[4] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[3] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[2] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[1] (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[0] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[5] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_state (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_select (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     7.67ns		  59 /        34
-@N: FP130 |Promoting Net testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int on CLKINT  I_55 
-@N: FP130 |Promoting Net led_blink_0.reg_counter[20] on CLKINT  I_56 
+   1		0h:00m:01s		100000.00ns		   9 /         0
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 206MB peak: 256MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 205MB peak: 255MB)
 
 Writing Analyst data base D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 256MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 255MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
-@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
-
-
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
 
 @W: MT246 :"d:\microchip\libero_soc_v2024.1\designer\bin\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.CCC_0.GL0_net.
 @W: MT420 |Found inferred clock testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
-@W: MT420 |Found inferred clock led_blink|reg_counter_inferred_clock[20] with period 10.00ns. Please declare a user-defined clock on net led_blink_0.reg_counter_0[20].
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Mar 19 16:59:30 2025
+# Timing report written on Mon Mar 24 21:58:44 2025
 #
 
 
@@ -765,15 +764,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 6.236
+Worst slack in design: NA
 
-                                                               Requested     Estimated      Requested     Estimated               Clock        Clock     
-Starting Clock                                                 Frequency     Frequency      Period        Period        Slack     Type         Group     
----------------------------------------------------------------------------------------------------------------------------------------------------------
-led_blink|reg_counter_inferred_clock[20]                       100.0 MHz     1041.0 MHz     10.000        0.961         9.039     inferred     (multiple)
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     265.7 MHz      10.000        3.764         6.236     inferred     (multiple)
-testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA             10.000        NA            NA        inferred     (multiple)
-=========================================================================================================================================================
+                                                               Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                                 Frequency     Frequency     Period        Period        Slack     Type         Group     
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+========================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
@@ -783,14 +781,11 @@ Estimated period and frequency reported as NA means no slack depends directly on
 Clock Relationships
 *******************
 
-Clocks                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                                       Ending                                         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      6.236  |  No paths    -      |  No paths    -      |  No paths    -    
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock  led_blink|reg_counter_inferred_clock[20]       |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
-led_blink|reg_counter_inferred_clock[20]       led_blink|reg_counter_inferred_clock[20]       |  10.000      9.039  |  No paths    -      |  No paths    -      |  No paths    -    
-====================================================================================================================================================================================
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -802,168 +797,14 @@ Interface Information
 No IO constraint found
 
 
-
-====================================
-Detailed Report for Clock: led_blink|reg_counter_inferred_clock[20]
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                Starting                                                                          Arrival          
-Instance                        Reference                                    Type     Pin     Net                 Time        Slack
-                                Clock                                                                                              
------------------------------------------------------------------------------------------------------------------------------------
-led_blink_0.john_counter[3]     led_blink|reg_counter_inferred_clock[20]     SLE      Q       john_counter[3]     0.108       9.039
-led_blink_0.john_counter[0]     led_blink|reg_counter_inferred_clock[20]     SLE      Q       john_counter[0]     0.087       9.160
-led_blink_0.john_counter[1]     led_blink|reg_counter_inferred_clock[20]     SLE      Q       john_counter[1]     0.087       9.160
-led_blink_0.john_counter[2]     led_blink|reg_counter_inferred_clock[20]     SLE      Q       john_counter[2]     0.087       9.409
-===================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                Starting                                                                            Required          
-Instance                        Reference                                    Type     Pin     Net                   Time         Slack
-                                Clock                                                                                                 
---------------------------------------------------------------------------------------------------------------------------------------
-led_blink_0.john_counter[0]     led_blink|reg_counter_inferred_clock[20]     SLE      D       john_counter_i[3]     9.745        9.039
-led_blink_0.john_counter[1]     led_blink|reg_counter_inferred_clock[20]     SLE      D       john_counter[0]       9.745        9.160
-led_blink_0.john_counter[2]     led_blink|reg_counter_inferred_clock[20]     SLE      D       john_counter[1]       9.745        9.160
-led_blink_0.john_counter[3]     led_blink|reg_counter_inferred_clock[20]     SLE      D       john_counter[2]       9.745        9.409
-======================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      10.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.745
-
-    - Propagation time:                      0.705
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 9.039
-
-    Number of logic level(s):                1
-    Starting point:                          led_blink_0.john_counter[3] / Q
-    Ending point:                            led_blink_0.john_counter[0] / D
-    The start point is clocked by            led_blink|reg_counter_inferred_clock[20] [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-    The end   point is clocked by            led_blink|reg_counter_inferred_clock[20] [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-
-Instance / Net                               Pin      Pin               Arrival     No. of    
-Name                                Type     Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------
-led_blink_0.john_counter[3]         SLE      Q        Out     0.108     0.108 f     -         
-john_counter[3]                     Net      -        -       0.248     -           1         
-led_blink_0.john_counter_RNO[0]     CFG1     A        In      -         0.357 f     -         
-led_blink_0.john_counter_RNO[0]     CFG1     Y        Out     0.100     0.457 r     -         
-john_counter_i[3]                   Net      -        -       0.248     -           1         
-led_blink_0.john_counter[0]         SLE      D        In      -         0.705 r     -         
-==============================================================================================
-Total path delay (propagation time + setup) of 0.961 is 0.464(48.3%) logic and 0.497(51.7%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
-Detailed Report for Clock: testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                                  Starting                                                                                    Arrival          
-Instance                                          Reference                                         Type     Pin     Net                      Time        Slack
-                                                  Clock                                                                                                        
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       MSS_HPMS_READY_int_0     0.108       6.236
-led_blink_0.reg_counter[20]                       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter_i[20]        0.108       7.963
-led_blink_0.reg_counter[0]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[0]           0.108       8.059
-led_blink_0.reg_counter[1]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[1]           0.108       8.324
-led_blink_0.reg_counter[2]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[2]           0.108       8.340
-led_blink_0.reg_counter[3]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[3]           0.108       8.357
-led_blink_0.reg_counter[4]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[4]           0.108       8.373
-led_blink_0.reg_counter[5]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[5]           0.108       8.389
-led_blink_0.reg_counter[6]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[6]           0.108       8.405
-led_blink_0.reg_counter[7]                        testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       reg_counter[7]           0.108       8.422
-===============================================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                               Starting                                                                                  Required          
-Instance                       Reference                                         Type     Pin     Net                    Time         Slack
-                               Clock                                                                                                       
--------------------------------------------------------------------------------------------------------------------------------------------
-led_blink_0.reg_counter[0]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[1]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[2]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[3]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[4]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[5]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[6]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[7]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[8]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-led_blink_0.reg_counter[9]     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      ALn     MSS_HPMS_READY_int     10.000       6.236
-===========================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      10.000
-    - Setup time:                            0.000
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         10.000
-
-    - Propagation time:                      3.764
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     6.236
-
-    Number of logic level(s):                1
-    Starting point:                          testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int / Q
-    Ending point:                            led_blink_0.reg_counter[0] / ALn
-    The start point is clocked by            testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-    The end   point is clocked by            testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                       Type       Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int              SLE        Q        Out     0.108     0.108 f     -         
-MSS_HPMS_READY_int_0                                       Net        -        -       1.830     -           1         
-testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int_RNI3GGD3     CLKINT     A        In      -         1.938 f     -         
-testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int_RNI3GGD3     CLKINT     Y        Out     0.375     2.314 f     -         
-MSS_HPMS_READY_int                                         Net        -        -       1.450     -           25        
-led_blink_0.reg_counter[0]                                 SLE        ALn      In      -         3.764 f     -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 3.764 is 0.484(12.8%) logic and 3.280(87.2%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 ---------------------------------------
 Resource Usage Report for testeISP 
@@ -971,34 +812,27 @@ Resource Usage Report for testeISP
 Mapping to part: m2s025tvf400std
 Cell usage:
 CCC             1 use
-CLKINT          3 uses
+CLKINT          1 use
 MSS_025         1 use
 RCOSC_25_50MHZ  1 use
-SYSRESET        1 use
-CFG1           4 uses
-CFG2           1 use
-CFG3           1 use
-
-Carry cells:
-ARI1            40 uses - used for arithmetic functions
 
 
 Sequential Cells: 
-SLE            34 uses
+SLE            0 uses
 
 DSP Blocks:    0 of 34 (0%)
 
 I/O ports: 18
 I/O primitives: 17
 BIBUF          8 uses
-INBUF          4 uses
-OUTBUF         4 uses
+INBUF          5 uses
+OUTBUF         3 uses
 TRIBUFF        1 use
 
 
-Global Clock Buffers: 3
+Global Clock Buffers: 1
 
-Total LUTs:    46
+Total LUTs:    0
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -1006,14 +840,14 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  34 + 0 + 0 + 0 = 34;
-Total number of LUTs after P&R:  46 + 0 + 0 + 0 = 46;
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 256MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 255MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Mar 19 16:59:30 2025
+# Mon Mar 24 21:58:44 2025
 
 ###########################################################]

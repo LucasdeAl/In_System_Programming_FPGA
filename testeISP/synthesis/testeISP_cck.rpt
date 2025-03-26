@@ -12,7 +12,7 @@ Hostname: DESKTOP-RIO960C
 
 Implementation : synthesis
 
-# Written on Wed Mar 19 16:59:28 2025
+# Written on Mon Mar 24 21:58:41 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -38,10 +38,8 @@ Starting                                                       Ending           
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     10.000           |     No paths         |     No paths         |     No paths                         
 testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  led_blink|reg_counter_inferred_clock[20]                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
-led_blink|reg_counter_inferred_clock[20]                       led_blink|reg_counter_inferred_clock[20]                       |     10.000           |     No paths         |     No paths         |     No paths                         
 =========================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -54,6 +52,8 @@ p:DEVRST_N
 p:GPIO_3_M2F
 p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
+p:MMUART_1_RXD_F2M
+p:MMUART_1_TXD_M2F
 p:USB_ULPI_DATA[0] (bidir end point)
 p:USB_ULPI_DATA[0] (bidir start point)
 p:USB_ULPI_DATA[1] (bidir end point)
@@ -74,8 +74,6 @@ p:USB_ULPI_DIR
 p:USB_ULPI_NXT
 p:USB_ULPI_STP
 p:USB_ULPI_XCLK
-p:o_LED[0]
-p:o_LED[1]
 
 
 Inapplicable constraints

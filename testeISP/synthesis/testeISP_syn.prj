@@ -1,11 +1,10 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
 #--  Project file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\testeISP_syn.prj
-#--  Written on Wed Mar 19 16:59:31 2025
+#--  Written on Mon Mar 24 21:58:44 2025
 
 
 #project files
-add_file -verilog "D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/hdl/led_blink.v"
 add_file -verilog "D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
 add_file -verilog "D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
 add_file -verilog "D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/work/testeISP_sb/CCC_0/testeISP_sb_CCC_0_FCCC.v"

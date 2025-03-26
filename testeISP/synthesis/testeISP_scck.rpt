@@ -12,7 +12,7 @@ Hostname: DESKTOP-RIO960C
 
 Implementation : synthesis
 
-# Written on Wed Mar 19 16:59:27 2025
+# Written on Mon Mar 24 21:58:40 2025
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\synthesis.fdc"
@@ -32,11 +32,9 @@ Clock Summary
           Start                                                          Requested     Requested     Clock        Clock          Clock
 Level     Clock                                                          Frequency     Period        Type         Group          Load 
 --------------------------------------------------------------------------------------------------------------------------------------
-0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     57   
+0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     36   
                                                                                                                                       
 0 -       testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
-                                                                                                                                      
-0 -       led_blink|reg_counter_inferred_clock[20]                       100.0 MHz     10.000        inferred     (multiple)     4    
 ======================================================================================================================================
 
 
@@ -46,9 +44,7 @@ Clock Load Summary
                                                                Clock     Source                                                             Clock Pin                                                   Non-clock Pin     Non-clock Pin                                                    
 Clock                                                          Load      Pin                                                                Seq Example                                                 Seq Example       Comb Example                                                     
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  57        testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  36        testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
                                                                                                                                                                                                                                                                                            
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     testeISP_sb_0.CORERESETP_0.release_sdif0_core.C             -                 testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
-                                                                                                                                                                                                                                                                                           
-led_blink|reg_counter_inferred_clock[20]                       4         led_blink_0.reg_counter[20:0].Q[20](dffr)                          led_blink_0.john_counter[3:0].C                             -                 led_blink_0.un1_reg_counter[20:0].D0[20](add)                    
 ===========================================================================================================================================================================================================================================================================================

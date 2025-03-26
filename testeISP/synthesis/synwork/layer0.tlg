@@ -1,20 +1,16 @@
 Selecting top level module testeISP
-@N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v":20:7:20:15|Synthesizing module led_blink in library work.
-Running optimization stage 1 on led_blink .......
-@W: CL169 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\hdl\led_blink.v":57:0:57:5|Pruning unused register ring_counter[3:0]. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
 Running optimization stage 1 on CCC .......
-Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v":5:7:5:28|Synthesizing module testeISP_sb_CCC_0_FCCC in library work.
 Running optimization stage 1 on testeISP_sb_CCC_0_FCCC .......
 Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
@@ -120,13 +116,13 @@ Running optimization stage 1 on TRIBUFF .......
 Finished optimization stage 1 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v":9:7:9:21|Synthesizing module testeISP_sb_MSS in library work.
 Running optimization stage 1 on testeISP_sb_MSS .......
-Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP_sb\testeISP_sb.v":9:7:9:17|Synthesizing module testeISP_sb in library work.
 Running optimization stage 1 on testeISP_sb .......
-Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\component\work\testeISP\testeISP.v":9:7:9:14|Synthesizing module testeISP in library work.
 Running optimization stage 1 on testeISP .......
-Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP .......
 Finished optimization stage 2 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP_sb .......
@@ -237,8 +233,6 @@ Running optimization stage 2 on GND .......
 Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 Running optimization stage 2 on VCC .......
 Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
-Running optimization stage 2 on led_blink .......
-Finished optimization stage 2 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================

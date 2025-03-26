@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Wed Mar 19 16:59:35 2025
+<text>Date: Mon Mar 24 21:58:48 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>47</cell>
+ <cell>0</cell>
  <cell>27696</cell>
- <cell>0.17</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>34</cell>
+ <cell>0</cell>
  <cell>27696</cell>
- <cell>0.12</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -160,9 +160,9 @@
 </row>
 <row>
  <cell>Chip Globals</cell>
- <cell>3</cell>
+ <cell>1</cell>
  <cell>16</cell>
- <cell>18.75</cell>
+ <cell>6.25</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -216,8 +216,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>47</cell>
- <cell>34</cell>
+ <cell>0</cell>
+ <cell>0</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -236,8 +236,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>47</cell>
- <cell>34</cell>
+ <cell>0</cell>
+ <cell>0</cell>
 </row>
 </table>
 <section><name>MSS Resource Usage</name></section>
@@ -284,7 +284,7 @@
 </row>
 <row>
  <cell>UART</cell>
- <cell>1</cell>
+ <cell>2</cell>
  <cell>2</cell>
 </row>
 <row>
@@ -315,27 +315,6 @@
 </table>
 <text>* These resources are always marked as used when you are using the MSS</text>
 <text></text>
-<section><name>Detailed Carry Chains Resource Usage</name></section>
-<table>
-<header>
-</header>
-<row>
- <cell>Length</cell>
- <cell>Used</cell>
-</row>
-<row>
- <cell>20</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>21</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>Total</cell>
- <cell>2</cell>
-</row>
-</table>
 <section><name>I/O Function</name></section>
 <table>
 <header>
@@ -346,13 +325,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>4</cell>
+ <cell>5</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>5</cell>
+ <cell>4</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -389,8 +368,8 @@
  <cell>LVCMOS25</cell>
  <cell> 2.50v</cell>
  <cell> N/A</cell>
- <cell> 4</cell>
  <cell> 5</cell>
+ <cell> 4</cell>
  <cell> 8</cell>
 </row>
 </table>
@@ -402,44 +381,14 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>31</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : testeISP_sb_0_FAB_CCC_GL0</cell>
+ <cell>Net   : testeISP_sb_0/GL0_INST</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
  <cell>Driver: testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>25</cell>
- <cell>INT_NET</cell>
- <cell>Net   : testeISP_sb_0_CORERESETP_0_MSS_HPMS_READY_int</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>4</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[20]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_blink_0/reg_counter_inferred_clock_RNIH1594[20]/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -463,104 +412,84 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>3</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[0]</cell>
+ <cell>Net   : MMUART_0_RXD_F2M_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[0]</cell>
+ <cell>Driver: MMUART_0_RXD_F2M_ibuf</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base_Z</cell>
+ <cell>Net   : MMUART_1_RXD_F2M_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base</cell>
+ <cell>Driver: MMUART_1_RXD_F2M_ibuf</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[19]</cell>
+ <cell>Net   : GPIO_3_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[19]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[18]</cell>
+ <cell>Net   : MMUART_0_TXD_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[18]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[17]</cell>
+ <cell>Net   : MMUART_1_TXD_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[17]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[16]</cell>
+ <cell>Net   : testeISP_sb_0/LOCK</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[16]</cell>
+ <cell>Driver: testeISP_sb_0/CCC_0/CCC_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[15]</cell>
+ <cell>Net   : testeISP_sb_0/CCC_0/GL0_INST/U0_YWn</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[15]</cell>
+ <cell>Driver: testeISP_sb_0/CCC_0/GL0_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[14]</cell>
+ <cell>Net   : ff_to_start_net</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[14]</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[13]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[13]</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[12]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[12]</cell>
+ <cell>Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -571,104 +500,84 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>3</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[0]</cell>
+ <cell>Net   : MMUART_0_RXD_F2M_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[0]</cell>
+ <cell>Driver: MMUART_0_RXD_F2M_ibuf</cell>
 </row>
 <row>
- <cell>3</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base_Z</cell>
+ <cell>Net   : MMUART_1_RXD_F2M_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: testeISP_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base</cell>
+ <cell>Driver: MMUART_1_RXD_F2M_ibuf</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[19]</cell>
+ <cell>Net   : GPIO_3_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[19]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[18]</cell>
+ <cell>Net   : MMUART_0_TXD_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[18]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[17]</cell>
+ <cell>Net   : MMUART_1_TXD_M2F_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[17]</cell>
+ <cell>Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[16]</cell>
+ <cell>Net   : testeISP_sb_0/LOCK</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[16]</cell>
+ <cell>Driver: testeISP_sb_0/CCC_0/CCC_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[15]</cell>
+ <cell>Net   : testeISP_sb_0/CCC_0/GL0_INST/U0_YWn</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[15]</cell>
+ <cell>Driver: testeISP_sb_0/CCC_0/GL0_INST</cell>
 </row>
 <row>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[14]</cell>
+ <cell>Net   : ff_to_start_net</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[14]</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[13]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[13]</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>INT_NET</cell>
- <cell>Net   : led_blink_0/reg_counter_Z[12]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: led_blink_0/reg_counter[12]</cell>
+ <cell>Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP</cell>
 </row>
 </table>
 </doc>

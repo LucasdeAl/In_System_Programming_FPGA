@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Wed Mar 19 23:23:05 2025
+<text>Date: Wed Mar 26 17:56:32 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,21 +20,7 @@
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>testeISP_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
- <cell>31</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>GB[3] </cell>
- <cell>(293, 72)</cell>
- <cell>testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_YWn</cell>
- <cell>25</cell>
-</row>
-<row>
- <cell>3</cell>
- <cell>GB[6] </cell>
- <cell>(296, 72)</cell>
- <cell>led_blink_0/reg_counter_inferred_clock_RNIH1594[20]/U0_YWn</cell>
- <cell>4</cell>
+ <cell>1</cell>
 </row>
 </table>
 <text></text>
@@ -45,36 +31,7 @@
 </section>
 <section>
 <name>Fabric to GB Connections</name>
-<table>
-<header>
- <cell/>
- <cell> From </cell>
- <cell> From Location </cell>
- <cell> To </cell>
- <cell> Net Name </cell>
- <cell> Net Type </cell>
- <cell> Fanout </cell>
-</header>
-<row>
- <cell>1</cell>
- <cell>testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int:Q</cell>
- <cell>(564, 79)</cell>
- <cell>GB[3] </cell>
- <cell>testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_0</cell>
- <cell>ROUTED</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>led_blink_0/reg_counter[20]:Q</cell>
- <cell>(572, 70)</cell>
- <cell>GB[6] </cell>
- <cell>led_blink_0/reg_counter_0[20]</cell>
- <cell>ROUTED</cell>
- <cell>2</cell>
-</row>
-</table>
-<text></text>
+<text>(none)</text>
 </section>
 <section>
 <name>CCC to GB Connections</name>
@@ -150,60 +107,10 @@
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>testeISP_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
- <cell>31</cell>
  <cell>1</cell>
- <cell>(446, 78)</cell>
- <cell>5</cell>
-</row>
-<row>
  <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
  <cell>(446, 144)</cell>
  <cell>1</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(447, 69)</cell>
- <cell>2</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>4</cell>
- <cell>(447, 75)</cell>
- <cell>23</cell>
-</row>
-<row>
- <cell>2</cell>
- <cell>GB[3] </cell>
- <cell>(293, 72)</cell>
- <cell>testeISP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI3GGD3/U0_YWn</cell>
- <cell>25</cell>
- <cell> </cell>
- <cell>(146, 3)</cell>
- <cell>4</cell>
-</row>
-<row>
- <cell>3</cell>
- <cell>GB[6] </cell>
- <cell>(296, 72)</cell>
- <cell>led_blink_0/reg_counter_inferred_clock_RNIH1594[20]/U0_YWn</cell>
- <cell>4</cell>
- <cell> </cell>
- <cell>(147, 3)</cell>
- <cell>4</cell>
 </row>
 </table>
 <text></text>

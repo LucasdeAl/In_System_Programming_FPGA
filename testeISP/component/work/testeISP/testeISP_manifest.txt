@@ -1,6 +1,6 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
 
-Date      :  Wed Mar 19 16:59:20 2025
+Date      :  Mon Mar 24 21:58:29 2025
 Project   :  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP
 Component :  testeISP
 Family    :  SmartFusion2
@@ -10,5 +10,6 @@ HDL source files for all Synthesis and Simulation tools:
     D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/work/testeISP/testeISP.v
 
 Stimulus files for all Simulation tools:
+    D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/work/testeISP/subsystem.bfm
     D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/work/testeISP/subsystem.bfm
 

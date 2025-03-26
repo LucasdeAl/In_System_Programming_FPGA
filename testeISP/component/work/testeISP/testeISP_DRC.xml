@@ -20,7 +20,21 @@
     <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
+    <detail>Floating output pin testeISP_sb_0:FAB_CCC_GL0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:FAB_CCC_GL0</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
     <detail>Floating output pin testeISP_sb_0:FAB_CCC_LOCK</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:FAB_CCC_LOCK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin testeISP_sb_0:MSS_READY</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:MSS_READY</crossprobe>
   </drc>
 </drcreport>

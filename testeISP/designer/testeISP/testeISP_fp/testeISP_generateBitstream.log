@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
+PDB file 'D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP.pdb' has been loaded successfully.
+DESIGN : testeISP;  CHECKSUM : 918E;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP.ppd'; file programs Fabric.
+Fabric component bitstream digest: bc23e582d013a1ffcc679f205bba3e052949db9dea000486c24fd625e19cbeba
+Entire bitstream digest: 0e1140da3d6d84f036daf7ef6fd1d8a150f6893d71aa136b2b45b8057519f4b5
+Finished: Wed Mar 26 17:59:19 2025 (Elapsed time 00:00:49)
+
+Project saved.
+Project closed.
