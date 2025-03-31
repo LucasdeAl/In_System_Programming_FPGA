@@ -12,12 +12,12 @@ Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Mon Mar 31 12:42:42 2025
+# Written on Mon Mar 31 15:54:43 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "testeISP"
-Constraint File(s):      "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
 
 
 
