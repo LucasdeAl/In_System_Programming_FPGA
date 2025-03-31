@@ -1,0 +1,49 @@
+Selecting top level module exemploISP
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\hdl\led_blink.v":20:7:20:15|Synthesizing module led_blink in library work.
+Running optimization stage 1 on led_blink .......
+@W: CL169 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\hdl\led_blink.v":57:0:57:5|Pruning unused register ring_counter[1:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":39:7:39:20|Synthesizing module RCOSC_1MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_1MHZ_FAB .......
+Finished optimization stage 1 on RCOSC_1MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":1:7:1:16|Synthesizing module RCOSC_1MHZ in library work.
+Running optimization stage 1 on RCOSC_1MHZ .......
+Finished optimization stage 1 on RCOSC_1MHZ (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":5:7:5:25|Synthesizing module OSC_C1_OSC_C1_0_OSC in library work.
+Running optimization stage 1 on OSC_C1_OSC_C1_0_OSC .......
+@W: CL318 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on OSC_C1_OSC_C1_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1.v":33:7:33:12|Synthesizing module OSC_C1 in library work.
+Running optimization stage 1 on OSC_C1 .......
+Finished optimization stage 1 on OSC_C1 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\exemploISP\exemploISP.v":9:7:9:16|Synthesizing module exemploISP in library work.
+Running optimization stage 1 on exemploISP .......
+Finished optimization stage 1 on exemploISP (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on exemploISP .......
+Finished optimization stage 2 on exemploISP (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on OSC_C1 .......
+Finished optimization stage 2 on OSC_C1 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on OSC_C1_OSC_C1_0_OSC .......
+@N: CL159 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v":14:7:14:9|Input XTL is unused.
+Finished optimization stage 2 on OSC_C1_OSC_C1_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on RCOSC_1MHZ .......
+Finished optimization stage 2 on RCOSC_1MHZ (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on RCOSC_1MHZ_FAB .......
+Finished optimization stage 2 on RCOSC_1MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on led_blink .......
+Finished optimization stage 2 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\synthesis\synwork\layer0.duruntime
+
+

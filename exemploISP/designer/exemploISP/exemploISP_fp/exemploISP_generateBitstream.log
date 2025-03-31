@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\designer\exemploISP\exemploISP_fp\exemploISP.pro'
+PDB file 'C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\designer\exemploISP\exemploISP.pdb' has been loaded successfully.
+DESIGN : exemploISP;  CHECKSUM : 208B;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\designer\exemploISP\exemploISP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\designer\exemploISP\exemploISP.ppd'; file programs Fabric.
+Fabric component bitstream digest: 6246a93d8acc202dceb5306782aad969e75edad4a7c49851ed8deaab9f3fb10f
+Entire bitstream digest: 47be2c8f332edf9e916423da9e759145d4452fd7064d0ff7c4fdbed7b93a01cd
+Finished: Mon Mar 31 15:36:03 2025 (Elapsed time 00:00:09)
+
+Project saved.
+Project closed.

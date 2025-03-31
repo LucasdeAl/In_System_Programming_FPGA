@@ -1,0 +1,65 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: exemploISP 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Mon Mar 31 15:26:37 2025 
+
+
+#
+# I/O constraints
+#
+
+set_io o_LED\[0\] -DIRECTION OUTPUT -pinname K1 -fixed no
+set_io o_LED\[1\] -DIRECTION OUTPUT -pinname L1 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ_FAB -fixed no 27 134
+set_location led_blink_0/reg_counter\[16\] -fixed no 293 79
+set_location led_blink_0/reg_counter\[15\] -fixed no 292 79
+set_location led_blink_0/reg_counter\[9\] -fixed no 286 79
+set_location led_blink_0/john_counter_RNIOBN55\[1\] -fixed no 13 3
+set_location led_blink_0/reg_counter\[7\] -fixed no 284 79
+set_location OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ -fixed no 26 134
+set_location led_blink_0/reg_counter\[8\] -fixed no 285 79
+set_location led_blink_0/reg_counter\[14\] -fixed no 291 79
+set_location OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ_FAB_CLKINT -fixed no 293 72
+set_location OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ_FAB_CLKINT/U0_RGB1 -fixed no 146 78
+set_location led_blink_0/reg_counter\[4\] -fixed no 281 79
+set_location led_blink_0/reg_counter_inferred_clock_RNIH1594\[20\] -fixed no 297 72
+set_location led_blink_0/reg_counter\[13\] -fixed no 290 79
+set_location led_blink_0/reg_counter\[6\] -fixed no 283 79
+set_location led_blink_0/reg_counter_inferred_clock_RNIH1594\[20\]/U0_RGB1 -fixed no 146 3
+set_location led_blink_0/john_counter\[0\] -fixed no 13 4
+set_location led_blink_0/reg_counter\[18\] -fixed no 295 79
+set_location led_blink_0/reg_counter\[19\] -fixed no 296 79
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 624 8
+set_location led_blink_0/reg_counter\[12\] -fixed no 289 79
+set_location led_blink_0/reg_counter\[0\] -fixed no 276 79
+set_location led_blink_0/john_counter\[1\] -fixed no 12 4
+set_location led_blink_0/reg_counter\[2\] -fixed no 279 79
+set_location led_blink_0/reg_counter\[3\] -fixed no 280 79
+set_location led_blink_0/reg_counter\[5\] -fixed no 282 79
+set_location led_blink_0/reg_counter\[1\] -fixed no 277 76
+set_location led_blink_0/john_counter_RNINAN55\[0\] -fixed no 12 3
+set_location led_blink_0/reg_counter\[10\] -fixed no 287 79
+set_location led_blink_0/reg_counter\[17\] -fixed no 294 79
+set_location led_blink_0/reg_counter_RNO\[0\] -fixed no 276 78
+set_location ip_interface_inst -fixed no 203 0
+set_location led_blink_0/reg_counter\[20\] -fixed no 296 76
+set_location led_blink_0/reg_counter\[11\] -fixed no 288 79
+set_location led_blink_0/un1_reg_counter_cry_1 -fixed no 277 78
+set_location led_blink_0/un1_reg_counter_s_1_44 -fixed no 276 75
+set_location OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ_FAB_CLKINT/U0_RGB1_RGB0 -fixed no 146 75
+set_location led_blink_0/un1_reg_counter_cry_1_FCINST1_CC_0 -fixed no 277 80
+set_location led_blink_0/un1_reg_counter_cry_1_FCINST1_CC_1 -fixed no 288 80
+set_location led_blink_0/un1_reg_counter_s_1_44_CC_0 -fixed no 276 77
+set_location led_blink_0/un1_reg_counter_s_1_44_CC_1 -fixed no 288 77

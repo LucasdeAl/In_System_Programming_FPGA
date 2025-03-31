@@ -2,7 +2,7 @@
 <device>
   <name>demo_top</name>
   <version>1.0</version>
-  <description>CMSIS description for demo_top.  Created by Microsemi SmartDesign on Fri Mar 31 15:26:53 2017</description>
+  <description>CMSIS description for demo_top.  Created by Microsemi SmartDesign on Tue Mar 21 11:53:03 2017</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
@@ -45,10 +45,6 @@
     <peripheral>
       <name>CACHE_BACKDOOR</name>
       <baseAddress>0x40400000</baseAddress>
-    </peripheral>
-    <peripheral>
-      <name>USB</name>
-      <baseAddress>0x40043000</baseAddress>
     </peripheral>
     <peripheral>
       <name>SYSREG</name>
@@ -3676,8 +3672,8 @@
       <baseAddress>0x40014000</baseAddress>
     </peripheral>
     <peripheral>
-      <name>GPIO</name>
-      <baseAddress>0x40013000</baseAddress>
+      <name>MMUART_1</name>
+      <baseAddress>0x40010000</baseAddress>
     </peripheral>
     <peripheral>
       <name>H2FINTERRUPT</name>
@@ -3686,10 +3682,6 @@
     <peripheral>
       <name>TIMER</name>
       <baseAddress>0x40004000</baseAddress>
-    </peripheral>
-    <peripheral>
-      <name>MMUART_0</name>
-      <baseAddress>0x40000000</baseAddress>
     </peripheral>
     <peripheral>
       <name>RECYCLED_ESRAM1</name>

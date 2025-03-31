@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="memorymap.xsl"?>
+<datasheet>
+  <header>exemploISP</header>
+  <project-settings>
+    <fam>SmartFusion2</fam>
+    <die>M2S025</die>
+    <package>256 VF</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/Users/Lucas/OneDrive/Documentos/nascerr_bootloader/Github/In_System_Programming_FPGA/exemploISP/component/work/exemploISP</location>
+    <state>GENERATED ( Mon Mar 31 15:34:20 2025 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <memorysystem>
+    <title>Memory Map for exemploISP</title>
+    <description>The SmartDesign exemploISPdoes not contain any Initiators under its hierarchy</description>
+  </memorysystem>
+</datasheet>

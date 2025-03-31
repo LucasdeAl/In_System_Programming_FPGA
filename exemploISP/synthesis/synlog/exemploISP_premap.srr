@@ -1,0 +1,114 @@
+# Mon Mar 31 15:26:19 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-V6FS948
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+Reading constraint file: C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\designer\exemploISP\synthesis.fdc
+@L: C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\synthesis\exemploISP_scck.rpt 
+See clock summary report "C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\synthesis\exemploISP_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\component\work\osc_c1\osc_c1_0\osc_c1_osc_c1_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\component\work\osc_c1\osc_c1_0\osc_c1_osc_c1_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\component\work\osc_c1\osc_c1_0\osc_c1_osc_c1_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) on net RCOSC_25_50MHZ_O2F (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\component\work\osc_c1\osc_c1_0\osc_c1_osc_c1_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\component\work\osc_c1\osc_c1_0\osc_c1_osc_c1_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C1_OSC_C1_0_OSC(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist exemploISP 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                      Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                      Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C1_OSC_C1_0_OSC|N_RCOSC_1MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     21   
+                                                                                                                                  
+0 -       led_blink|reg_counter_inferred_clock[20]                   100.0 MHz     10.000        inferred     (multiple)     2    
+==================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                           Clock     Source                                                Clock Pin                           Non-clock Pin     Non-clock Pin                                       
+Clock                                                      Load      Pin                                                   Seq Example                         Seq Example       Comb Example                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C1_OSC_C1_0_OSC|N_RCOSC_1MHZ_CLKOUT_inferred_clock     21        OSC_C1_0.OSC_C1_0.I_RCOSC_1MHZ.CLKOUT(RCOSC_1MHZ)     led_blink_0.reg_counter[20:0].C     -                 OSC_C1_0.OSC_C1_0.I_RCOSC_1MHZ_FAB.A(RCOSC_1MHZ_FAB)
+                                                                                                                                                                                                                                     
+led_blink|reg_counter_inferred_clock[20]                   2         led_blink_0.reg_counter[20:0].Q[20](dff)              led_blink_0.john_counter[1:0].C     -                 led_blink_0.un1_reg_counter[20:0].D0[20](add)       
+=====================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\hdl\led_blink.v":47:0:47:5|Found inferred clock OSC_C1_OSC_C1_0_OSC|N_RCOSC_1MHZ_CLKOUT_inferred_clock which controls 21 sequential elements including led_blink_0.reg_counter[20:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\onedrive\documentos\nascerr_bootloader\github\in_system_programming_fpga\exemploisp\hdl\led_blink.v":66:0:66:5|Found inferred clock led_blink|reg_counter_inferred_clock[20] which controls 2 sequential elements including led_blink_0.john_counter[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\synthesis\exemploISP.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 252MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 31 15:26:20 2025
+
+###########################################################]

@@ -1,0 +1,163 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Mon Mar 31 15:26:26 2025
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------------------------------------------------------------+
+| Topcell | exemploISP                                                                                                                 |
+| Format  | Verilog                                                                                                                    |
+| Source  | C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\synthesis\exemploISP.vm |
++---------+----------------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 44   | 27696 | 0.16       |
+| DFF                       | 23   | 27696 | 0.08       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 2    | 138   | 1.45       |
+| -- Single-ended I/O       | 2    | 138   | 1.45       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 0    | 6     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 1    | 1     | 100.00     |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 44   | 23  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 44   | 23  |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 20     | 1    |
+| 21     | 1    |
+| Total  | 2    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 0            | 0           | 0               |
+| Output I/O                    | 2            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  0    |  2     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                |
++--------+---------+---------------------------------------------------------------------+
+| 21     | INT_NET | Net   : OSC_C1_0_RCOSC_1MHZ_O2F                                     |
+|        |         | Driver: OSC_C1_0/OSC_C1_0/I_RCOSC_1MHZ_FAB_CLKINT/U0_RGB1           |
+|        |         | Source: NETLIST                                                     |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[20]                               |
+|        |         | Driver: led_blink_0/reg_counter_inferred_clock_RNIH1594[20]/U0_RGB1 |
+|        |         | Source: NETLIST                                                     |
++--------+---------+---------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------+
+| Fanout | Type    | Name                                         |
++--------+---------+----------------------------------------------+
+| 3      | INT_NET | Net   : led_blink_0/reg_counter_Z[0]         |
+|        |         | Driver: led_blink_0/reg_counter[0]           |
+| 2      | INT_NET | Net   : led_blink_0_john_counter_i[1]        |
+|        |         | Driver: led_blink_0/john_counter_RNIOBN55[1] |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[19]        |
+|        |         | Driver: led_blink_0/reg_counter[19]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[18]        |
+|        |         | Driver: led_blink_0/reg_counter[18]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[17]        |
+|        |         | Driver: led_blink_0/reg_counter[17]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[16]        |
+|        |         | Driver: led_blink_0/reg_counter[16]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[15]        |
+|        |         | Driver: led_blink_0/reg_counter[15]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[14]        |
+|        |         | Driver: led_blink_0/reg_counter[14]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[13]        |
+|        |         | Driver: led_blink_0/reg_counter[13]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[12]        |
+|        |         | Driver: led_blink_0/reg_counter[12]          |
++--------+---------+----------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------+
+| Fanout | Type    | Name                                         |
++--------+---------+----------------------------------------------+
+| 3      | INT_NET | Net   : led_blink_0/reg_counter_Z[0]         |
+|        |         | Driver: led_blink_0/reg_counter[0]           |
+| 2      | INT_NET | Net   : led_blink_0_john_counter_i[1]        |
+|        |         | Driver: led_blink_0/john_counter_RNIOBN55[1] |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[19]        |
+|        |         | Driver: led_blink_0/reg_counter[19]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[18]        |
+|        |         | Driver: led_blink_0/reg_counter[18]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[17]        |
+|        |         | Driver: led_blink_0/reg_counter[17]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[16]        |
+|        |         | Driver: led_blink_0/reg_counter[16]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[15]        |
+|        |         | Driver: led_blink_0/reg_counter[15]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[14]        |
+|        |         | Driver: led_blink_0/reg_counter[14]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[13]        |
+|        |         | Driver: led_blink_0/reg_counter[13]          |
+| 2      | INT_NET | Net   : led_blink_0/reg_counter_Z[12]        |
+|        |         | Driver: led_blink_0/reg_counter[12]          |
++--------+---------+----------------------------------------------+
+

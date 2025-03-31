@@ -1,6 +1,6 @@
 DESIGN=testeISP
-DESDIR=D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP
-TARGET_DIR=D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP
+DESDIR=C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP
+TARGET_DIR=C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP
 FAM=SmartFusion2
 DIE=PA4M2500
 PACKAGE=vf256

@@ -8,16 +8,16 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 17 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.1.0 
-Design: testeISP                        Started: Wed Mar 26 17:56:22 2025
+Design: testeISP                        Started: Mon Mar 31 12:46:28 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,22 +33,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: testeISP                        
-Finished: Wed Mar 26 17:56:32 2025
-Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:10
+Finished: Mon Mar 31 12:46:31 2025
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:03
 Total Memory Usage: 137.9 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISPStarted: Wed Mar 26 17:56:38 2025
+Design: C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISPStarted: Mon Mar 31 12:46:32 2025
 
 
 Router completed successfully.
 
-Design: D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP
-Finished: Wed Mar 26 17:56:58 2025
-Total CPU Time:     00:00:18            Total Elapsed Time: 00:00:20
-Total Memory Usage: 895.4 Mbytes
+Design: C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP
+Finished: Mon Mar 31 12:46:38 2025
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:06
+Total Memory Usage: 895.7 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage

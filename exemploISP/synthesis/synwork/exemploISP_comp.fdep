@@ -1,0 +1,40 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\synthesis\\synwork\\exemploISP_comp.srs|-top|exemploISP|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1725993872
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\component\\work\\OSC_C1\\OSC_C1_0\\OSC_C1_OSC_C1_0_OSC.v":1743443640
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\component\\work\\OSC_C1\\OSC_C1.v":1743443640
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\hdl\\led_blink.v":1743445568
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerr_bootloader\\Github\\In_System_Programming_FPGA\\exemploISP\\component\\work\\exemploISP\\exemploISP.v":1743445365
+0			"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+1			"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1_0\OSC_C1_OSC_C1_0_OSC.v" verilog
+2			"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\OSC_C1\OSC_C1.v" verilog
+3			"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\hdl\led_blink.v" verilog
+4			"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\exemploISP\exemploISP.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 1
+3 -1
+4 2 3
+#Dependency Lists(Users Of)
+0 1
+1 2
+2 4
+3 4
+4 -1
+#Design Unit to File Association
+module work exemploISP 4
+module work led_blink 3
+module work OSC_C1 2
+module work OSC_C1_OSC_C1_0_OSC 1
+module work XTLOSC_FAB 0
+module work RCOSC_25_50MHZ_FAB 0
+module work RCOSC_1MHZ_FAB 0
+module work XTLOSC 0
+module work RCOSC_25_50MHZ 0
+module work RCOSC_1MHZ 0

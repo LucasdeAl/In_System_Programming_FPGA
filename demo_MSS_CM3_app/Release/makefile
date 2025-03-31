@@ -8,7 +8,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include mss_usb/subdir.mk
 -include mss_sys_services/subdir.mk
 -include hal/CortexM3/GNU/subdir.mk
 -include hal/CortexM3/subdir.mk
@@ -16,9 +15,6 @@ RM := rm -rf
 -include drivers/mss_uart/subdir.mk
 -include drivers/mss_nvm/subdir.mk
 -include drivers/mss_hpdma/subdir.mk
--include drivers/mss_gpio/subdir.mk
--include FatFs/src/option/subdir.mk
--include FatFs/src/subdir.mk
 -include CMSIS/startup_gcc/subdir.mk
 -include CMSIS/subdir.mk
 -include subdir.mk
@@ -53,7 +49,7 @@ all: demo_MSS_CM3_app.elf secondary-outputs
 demo_MSS_CM3_app.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -T "C:\Users\Lucas\Downloads\m2s_dg0471_liberov11p8_df\sf2_isp_using_usb_interface_demo_df\libero\SoftConsole4.0\demo_MSS_CM3_app\production-smartfusion2-execute-in-place.ld" -Xlinker --gc-sections -Wl,-Map,"demo_MSS_CM3_app.map" --specs=nano.specs -o "demo_MSS_CM3_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -T "F:\11.8\sf2_isp_using_uart_interface_demo_df\libero\SoftConsole\demo_MSS_CM3_app\production-smartfusion2-execute-in-place.ld" -Xlinker --gc-sections -Wl,-Map,"demo_MSS_CM3_app.map" --specs=nano.specs -o "demo_MSS_CM3_app.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -77,5 +73,6 @@ clean:
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
 
 .PHONY: all clean dependents
+.SECONDARY:
 
 -include ../makefile.targets

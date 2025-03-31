@@ -1,6 +1,6 @@
 <project name="testeISP" version="1.2">
     <ProjectDirectory>
-        D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP_fp
+        C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S025T
     </LiberoTargetDevice>
     <LogFile>
-        D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP_fp\testeISP.log
+        C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.log
     </LogFile>
     <SerializationOption>
         Skip

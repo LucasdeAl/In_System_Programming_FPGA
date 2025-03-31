@@ -1,0 +1,15 @@
+----------------------------------------------------------------
+-Pin Report - Date: Mon Mar 31 15:26:39 2025 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: exemploISP
+-Family: SmartFusion2
+-Die: M2S025
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port     |Pin |Fixed |Function    |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+---------|----|------|------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+o_LED[0]  K1   Yes    MSIOD119NB5  Bank5     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+o_LED[1]  L1   Yes    MSIOD119PB5  Bank5     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

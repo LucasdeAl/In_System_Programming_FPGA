@@ -17,18 +17,14 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-CMSIS/startup_gcc \
-CMSIS \
-FatFs/src \
-FatFs/src/option \
-drivers/mss_gpio \
-drivers/mss_hpdma \
-drivers/mss_nvm \
-drivers/mss_uart \
-drivers_config/sys_config \
-hal/CortexM3/GNU \
-hal/CortexM3 \
-. \
 mss_sys_services \
-mss_usb \
+. \
+hal/CortexM3 \
+hal/CortexM3/GNU \
+drivers_config/sys_config \
+drivers/mss_uart \
+drivers/mss_nvm \
+drivers/mss_hpdma \
+CMSIS \
+CMSIS/startup_gcc \
 

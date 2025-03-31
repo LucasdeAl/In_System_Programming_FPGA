@@ -1,0 +1,2 @@
+@E: CG389 :"C:\Users\Lucas\OneDrive\Documentos\nascerr_bootloader\Github\In_System_Programming_FPGA\exemploISP\component\work\exemploISP\exemploISP.v":50:7:50:14|Reference to undefined module OSC_C0
+

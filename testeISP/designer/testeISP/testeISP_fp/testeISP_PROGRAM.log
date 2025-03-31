@@ -1,11 +1,11 @@
 Software Version: 2024.1.0.3
 Programmer 'S2011JOGRF' : JTAG TCK / SPI SCK frequency = 1 MHz
 programmer 'S2011JOGRF' : FlashPro5
-Opened 'D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
+Opened 'C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
 The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'M2S025T'.
 The 'enable_device' command succeeded.
-PPD file 'D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/designer/testeISP/testeISP.ppd' has been loaded successfully.
+PPD file 'C:/Users/Lucas/OneDrive/Documentos/nascerr bootloader/Github/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.ppd' has been loaded successfully.
 DESIGN : testeISP;  CHECKSUM : 918E;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
@@ -13,13 +13,11 @@ programmer 'S2011JOGRF' : Scan Chain...
 Programmer 'S2011JOGRF' : JTAG TCK / SPI SCK frequency = 1 MHz
 programmer 'S2011JOGRF' : Check Chain...
 programmer 'S2011JOGRF' : Scan and Check Chain PASSED.
+Warning: programmer 'S2011JOGRF' : device 'M2S025T' : Device authentication failure: Failed to validate device certificate.
 programmer 'S2011JOGRF' : device 'M2S025T' : Executing action PROGRAM
 Programmer 'S2011JOGRF' : JTAG TCK / SPI SCK frequency = 4 MHz
-programmer 'S2011JOGRF' : device 'M2S025T' : Family: SmartFusion2
-programmer 'S2011JOGRF' : device 'M2S025T' : Product:      M2S025
-programmer 'S2011JOGRF' : device 'M2S025T' : Cortex-M3 Enabled (M3_ALLOWED = 1)
 programmer 'S2011JOGRF' : device 'M2S025T' : Programming Interface Protocol: JTAG
-programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT ISC_ENABLE_RESULT[32] = 005f6924
+programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT ISC_ENABLE_RESULT[32] = 005e6b24
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT CRCERR[1] = 0
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT EDCERR[1] = 0
 programmer 'S2011JOGRF' : device 'M2S025T' : Programming FPGA Array...
@@ -27,10 +25,10 @@ programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT Fabric component digest[256]
 programmer 'S2011JOGRF' : device 'M2S025T' : ===================================================================================
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT DSN[128] = 26edac7d7763c4955d57cb1f74494cbf
 programmer 'S2011JOGRF' : device 'M2S025T' : ===================================================================================
-programmer 'S2011JOGRF' : device 'M2S025T' : Finished: Wed Mar 26 18:00:27 2025 (Elapsed time 00:00:34)
+programmer 'S2011JOGRF' : device 'M2S025T' : Finished: Mon Mar 31 12:48:57 2025 (Elapsed time 00:00:31)
 programmer 'S2011JOGRF' : device 'M2S025T' : Executing action PROGRAM PASSED.
 programmer 'S2011JOGRF' : Chain programming PASSED.
-Chain Programming Finished: Wed Mar 26 18:00:27 2025 (Elapsed time 00:00:34)
+Chain Programming Finished: Mon Mar 31 12:48:57 2025 (Elapsed time 00:00:31)
 
                         o - o - o - o - o - o
 

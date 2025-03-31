@@ -55,9 +55,7 @@ MEMORY
     *          debugging of your application will use the flash memory correctly.
     */
     
-    /* SOFTCONSOLE FLASH USE: microsemi-smartfusion2-envm */
-    rom (rx)  : ORIGIN = 0x00000000, LENGTH = 256k
-    
+   
     /* SmartFusion2 internal eSRAM */
     ram (rwx) : ORIGIN = 0x00000000, LENGTH = 60k
 }
@@ -169,7 +167,7 @@ SECTIONS
     *(.data .data.* .gnu.linkonce.d.*)
     . = ALIGN(0x10);
     _edata = .;
-  } >ram AT>ram
+  } >ram
 
   .bss : ALIGN(0x10)
   {
@@ -184,7 +182,7 @@ SECTIONS
     __end = _end;
     _ebss = .;
     PROVIDE(end = .);
-  } >ram AT>ram
+  } >ram
 
   .heap : ALIGN(0x10)
   {

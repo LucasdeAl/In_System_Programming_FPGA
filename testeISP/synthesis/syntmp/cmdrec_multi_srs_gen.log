@@ -1,7 +1,7 @@
-D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  testeISP  -multisrs  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_comp.srs  -osyn  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synwork\testeISP_mult.srs  -log  D:\Microchip\Libero_SoC_v2024.1\Designer\bin\testeISP\synthesis\synlog\testeISP_multi_srs_gen.srr 
-relcom:..\..\..\..\..\SynplifyPro\bin64\syn_nfilter.exe -link -top testeISP -multisrs ..\synwork\testeISP_comp.srs -osyn ..\synwork\testeISP_mult.srs -log ..\synlog\testeISP_multi_srs_gen.srr
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  testeISP  -multisrs  "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_comp.srs"  -osyn  "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_mult.srs"  -log  "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synlog\testeISP_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top testeISP -multisrs "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_comp.srs" -osyn "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_mult.srs" -log "C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synlog\testeISP_multi_srs_gen.srr"
 rc:0 success:1 runtime:0
-file:..\synwork\testeisp_comp.srs|io:i|time:1742864318|size:66897|exec:0|csum:A45FFD97946837A48A98B5EB883BC18D
-file:..\synwork\testeisp_mult.srs|io:o|time:1742864320|size:2888|exec:0|csum:
-file:..\synlog\testeisp_multi_srs_gen.srr|io:o|time:1742864320|size:1179|exec:0|csum:
-file:..\..\..\..\..\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0
+file:..\synwork\testeisp_comp.srs|io:i|time:1743435759|size:67184|exec:0|csum:1CBC7A2CB78EB4FAD2C2695BBE306AE1
+file:..\synwork\testeisp_mult.srs|io:o|time:1743435760|size:2939|exec:0|csum:
+file:..\synlog\testeisp_multi_srs_gen.srr|io:o|time:1743435760|size:1273|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0
