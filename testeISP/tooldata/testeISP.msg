@@ -186,3 +186,5 @@ Implementation;Synthesis||MT420||@W:Found inferred clock testeISP_sb_CCC_0_FCCC|
 Implementation;Synthesis||MT420||@W:Found inferred clock testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.||testeISP.srr(738);liberoaction://cross_probe/hdl/file/'<project>\synthesis\testeISP.srr'/linenumber/738||null;null
 Implementation;Place and Route;RootName:testeISP
 Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||testeISP_layout_log.log;liberoaction://open_report/file/testeISP_layout_log.log||(null);(null)
+Implementation;Generate Bitstream;RootName:testeISP
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details about 1 Info(s)||testeISP_generateBitstream.log;liberoaction://open_report/file/testeISP_generateBitstream.log||(null);(null)
