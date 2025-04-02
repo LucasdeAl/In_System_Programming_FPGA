@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Mar 24 21:56:15 2025
+// Created by SmartDesign Wed Apr  2 13:36:03 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -16,9 +16,6 @@ module testeISP_sb_MSS(
     MMUART_0_RXD_F2M,
     MMUART_1_RXD_F2M,
     MSS_RESET_N_F2M,
-    USB_ULPI_DIR,
-    USB_ULPI_NXT,
-    USB_ULPI_XCLK,
     // Outputs
     FIC_2_APB_M_PADDR,
     FIC_2_APB_M_PCLK,
@@ -30,10 +27,7 @@ module testeISP_sb_MSS(
     GPIO_3_M2F,
     MMUART_0_TXD_M2F,
     MMUART_1_TXD_M2F,
-    MSS_RESET_N_M2F,
-    USB_ULPI_STP,
-    // Inouts
-    USB_ULPI_DATA
+    MSS_RESET_N_M2F
 );
 
 //--------------------------------------------------------------------
@@ -47,9 +41,6 @@ input         MCCC_CLK_BASE_PLL_LOCK;
 input         MMUART_0_RXD_F2M;
 input         MMUART_1_RXD_F2M;
 input         MSS_RESET_N_F2M;
-input         USB_ULPI_DIR;
-input         USB_ULPI_NXT;
-input         USB_ULPI_XCLK;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
@@ -64,11 +55,6 @@ output        GPIO_3_M2F;
 output        MMUART_0_TXD_M2F;
 output        MMUART_1_TXD_M2F;
 output        MSS_RESET_N_M2F;
-output        USB_ULPI_STP;
-//--------------------------------------------------------------------
-// Inout
-//--------------------------------------------------------------------
-inout  [7:0]  USB_ULPI_DATA;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
@@ -89,42 +75,8 @@ wire          MMUART_0_RXD_F2M;
 wire          MMUART_0_TXD_M2F_net_0;
 wire          MMUART_1_RXD_F2M;
 wire          MMUART_1_TXD_M2F_net_0;
-wire          MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE;
-wire          MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT;
-wire          MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE;
-wire          MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OUT;
-wire          MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OE;
-wire          MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OUT;
-wire          MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OE;
-wire          MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OUT;
-wire          MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OE;
-wire          MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OUT;
-wire          MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OE;
-wire          MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OUT;
-wire          MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OE;
-wire          MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OUT;
-wire          MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OE;
-wire          MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OUT;
-wire          MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OE;
-wire          MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OUT;
 wire          MSS_RESET_N_F2M;
 wire          MSS_RESET_N_M2F_net_0;
-wire          USB_ULPI_DATA_0_PAD_Y;
-wire          USB_ULPI_DATA_1_PAD_Y;
-wire          USB_ULPI_DATA_2_PAD_Y;
-wire          USB_ULPI_DATA_3_PAD_Y;
-wire          USB_ULPI_DATA_4_PAD_Y;
-wire          USB_ULPI_DATA_5_PAD_Y;
-wire          USB_ULPI_DATA_6_PAD_Y;
-wire          USB_ULPI_DATA_7_PAD_Y;
-wire          USB_ULPI_DIR;
-wire          USB_ULPI_DIR_PAD_Y;
-wire          USB_ULPI_NXT;
-wire          USB_ULPI_NXT_PAD_Y;
-wire          USB_ULPI_STP_net_0;
-wire          USB_ULPI_XCLK;
-wire          USB_ULPI_XCLK_PAD_Y;
-wire          USB_ULPI_STP_net_1;
 wire          MSS_RESET_N_M2F_net_1;
 wire          MMUART_0_TXD_M2F_net_1;
 wire          MMUART_1_TXD_M2F_net_1;
@@ -215,8 +167,6 @@ assign MDDR_FABRIC_PWDATA_const_net_0  = 16'hFFFF;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign USB_ULPI_STP_net_1               = USB_ULPI_STP_net_0;
-assign USB_ULPI_STP                     = USB_ULPI_STP_net_1;
 assign MSS_RESET_N_M2F_net_1            = MSS_RESET_N_M2F_net_0;
 assign MSS_RESET_N_M2F                  = MSS_RESET_N_M2F_net_1;
 assign MMUART_0_TXD_M2F_net_1           = MMUART_0_TXD_M2F_net_0;
@@ -246,7 +196,7 @@ assign FIC_2_APB_M_PWDATA[31:0]         = FIC_2_APB_MASTER_0_PWDATA_net_0;
 MSS_025 #( 
         .ACT_UBITS         ( 56'hFFFFFFFFFFFFFF ),
         .DDR_CLK_FREQ      ( 100.0 ),
-        .INIT              ( 1438'h0000000000000030000000000000000000000C00000000000000000000000000000000000000000000000000000000000000000000000000000120481204812048120D8120D8120F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E094C0700003FFFFE4000000000001100000000F0F01C000001824F84010842108421000001FE34001FF8000000400000000020091007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
+        .INIT              ( 1438'h0000000000000030000000000000000000000C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E094C0700003FFFFE4000000000000100000000F0F01C000001825F84010842108421000001FE34001FF8000000400000000020091007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
         .MEMORYFILE        ( "ENVM_init.mem" ),
         .RTC_MAIN_XTL_FREQ ( 0.0 ),
         .RTC_MAIN_XTL_MODE ( "" ) )
@@ -439,21 +389,21 @@ MSS_ADLIB_INST(
         .MMUART1_RXD_USBC_DATA3_MGPIO26B_IN      ( GND_net ),
         .MMUART1_SCK_USBC_DATA4_MGPIO25B_IN      ( GND_net ),
         .MMUART1_TXD_USBC_DATA2_MGPIO24B_IN      ( GND_net ),
-        .RGMII_GTX_CLK_RMII_CLK_USBB_XCLK_IN     ( USB_ULPI_XCLK_PAD_Y ),
+        .RGMII_GTX_CLK_RMII_CLK_USBB_XCLK_IN     ( GND_net ),
         .RGMII_MDC_RMII_MDC_IN                   ( GND_net ),
-        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_IN      ( USB_ULPI_DATA_7_PAD_Y ),
+        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_IN      ( GND_net ),
         .RGMII_RX_CLK_IN                         ( GND_net ),
-        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_IN  ( USB_ULPI_DATA_2_PAD_Y ),
-        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_IN      ( USB_ULPI_DATA_0_PAD_Y ),
-        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_IN      ( USB_ULPI_DATA_1_PAD_Y ),
-        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_IN     ( USB_ULPI_DATA_3_PAD_Y ),
-        .RGMII_RXD3_USBB_DATA4_IN                ( USB_ULPI_DATA_4_PAD_Y ),
+        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_IN  ( GND_net ),
+        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_IN      ( GND_net ),
+        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_IN      ( GND_net ),
+        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_IN     ( GND_net ),
+        .RGMII_RXD3_USBB_DATA4_IN                ( GND_net ),
         .RGMII_TX_CLK_IN                         ( GND_net ),
-        .RGMII_TX_CTL_RMII_TX_EN_USBB_NXT_IN     ( USB_ULPI_NXT_PAD_Y ),
-        .RGMII_TXD0_RMII_TXD0_USBB_DIR_IN        ( USB_ULPI_DIR_PAD_Y ),
+        .RGMII_TX_CTL_RMII_TX_EN_USBB_NXT_IN     ( GND_net ),
+        .RGMII_TXD0_RMII_TXD0_USBB_DIR_IN        ( GND_net ),
         .RGMII_TXD1_RMII_TXD1_USBB_STP_IN        ( GND_net ),
-        .RGMII_TXD2_USBB_DATA5_IN                ( USB_ULPI_DATA_5_PAD_Y ),
-        .RGMII_TXD3_USBB_DATA6_IN                ( USB_ULPI_DATA_6_PAD_Y ),
+        .RGMII_TXD2_USBB_DATA5_IN                ( GND_net ),
+        .RGMII_TXD3_USBB_DATA6_IN                ( GND_net ),
         .SPI0_SCK_USBA_XCLK_IN                   ( GND_net ),
         .SPI0_SDI_USBA_DIR_MGPIO5A_IN            ( GND_net ),
         .SPI0_SDO_USBA_STP_MGPIO6A_IN            ( GND_net ),
@@ -674,19 +624,19 @@ MSS_ADLIB_INST(
         .MMUART1_TXD_USBC_DATA2_MGPIO24B_OUT     (  ),
         .RGMII_GTX_CLK_RMII_CLK_USBB_XCLK_OUT    (  ),
         .RGMII_MDC_RMII_MDC_OUT                  (  ),
-        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT     ( MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT ),
+        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT     (  ),
         .RGMII_RX_CLK_OUT                        (  ),
-        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OUT ( MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OUT ),
-        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_OUT     ( MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OUT ),
-        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_OUT     ( MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OUT ),
-        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OUT    ( MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OUT ),
-        .RGMII_RXD3_USBB_DATA4_OUT               ( MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OUT ),
+        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OUT (  ),
+        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_OUT     (  ),
+        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_OUT     (  ),
+        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OUT    (  ),
+        .RGMII_RXD3_USBB_DATA4_OUT               (  ),
         .RGMII_TX_CLK_OUT                        (  ),
         .RGMII_TX_CTL_RMII_TX_EN_USBB_NXT_OUT    (  ),
         .RGMII_TXD0_RMII_TXD0_USBB_DIR_OUT       (  ),
-        .RGMII_TXD1_RMII_TXD1_USBB_STP_OUT       ( MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OUT ),
-        .RGMII_TXD2_USBB_DATA5_OUT               ( MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OUT ),
-        .RGMII_TXD3_USBB_DATA6_OUT               ( MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OUT ),
+        .RGMII_TXD1_RMII_TXD1_USBB_STP_OUT       (  ),
+        .RGMII_TXD2_USBB_DATA5_OUT               (  ),
+        .RGMII_TXD3_USBB_DATA6_OUT               (  ),
         .SPI0_SCK_USBA_XCLK_OUT                  (  ),
         .SPI0_SDI_USBA_DIR_MGPIO5A_OUT           (  ),
         .SPI0_SDO_USBA_STP_MGPIO6A_OUT           (  ),
@@ -742,19 +692,19 @@ MSS_ADLIB_INST(
         .MMUART1_TXD_USBC_DATA2_MGPIO24B_OE      (  ),
         .RGMII_GTX_CLK_RMII_CLK_USBB_XCLK_OE     (  ),
         .RGMII_MDC_RMII_MDC_OE                   (  ),
-        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE      ( MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE ),
+        .RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE      (  ),
         .RGMII_RX_CLK_OE                         (  ),
-        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE  ( MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE ),
-        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_OE      ( MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OE ),
-        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_OE      ( MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OE ),
-        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OE     ( MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OE ),
-        .RGMII_RXD3_USBB_DATA4_OE                ( MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OE ),
+        .RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE  (  ),
+        .RGMII_RXD0_RMII_RXD0_USBB_DATA0_OE      (  ),
+        .RGMII_RXD1_RMII_RXD1_USBB_DATA1_OE      (  ),
+        .RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OE     (  ),
+        .RGMII_RXD3_USBB_DATA4_OE                (  ),
         .RGMII_TX_CLK_OE                         (  ),
         .RGMII_TX_CTL_RMII_TX_EN_USBB_NXT_OE     (  ),
         .RGMII_TXD0_RMII_TXD0_USBB_DIR_OE        (  ),
-        .RGMII_TXD1_RMII_TXD1_USBB_STP_OE        ( MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OE ),
-        .RGMII_TXD2_USBB_DATA5_OE                ( MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OE ),
-        .RGMII_TXD3_USBB_DATA6_OE                ( MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OE ),
+        .RGMII_TXD1_RMII_TXD1_USBB_STP_OE        (  ),
+        .RGMII_TXD2_USBB_DATA5_OE                (  ),
+        .RGMII_TXD3_USBB_DATA6_OE                (  ),
         .SPI0_SCK_USBA_XCLK_OE                   (  ),
         .SPI0_SDI_USBA_DIR_MGPIO5A_OE            (  ),
         .SPI0_SDO_USBA_STP_MGPIO6A_OE            (  ),
@@ -778,127 +728,6 @@ MSS_ADLIB_INST(
         .SPI1_SS6_MGPIO23A_OE                    (  ),
         .SPI1_SS7_MGPIO24A_OE                    (  ),
         .USBC_XCLK_OE                            (  ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_0_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_RXD0_RMII_RXD0_USBB_DATA0_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_0_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[0:0] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_1_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_RXD1_RMII_RXD1_USBB_DATA1_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_1_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[1:1] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_2_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_RX_CTL_RMII_CRS_DV_USBB_DATA2_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_2_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[2:2] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_3_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_RXD2_RMII_RX_ER_USBB_DATA3_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_3_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[3:3] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_4_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_RXD3_USBB_DATA4_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_4_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[4:4] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_5_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_TXD2_USBB_DATA5_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_5_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[5:5] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_6_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_TXD3_USBB_DATA6_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_6_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[6:6] ) 
-        );
-
-//--------BIBUF
-BIBUF USB_ULPI_DATA_7_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_MDIO_RMII_MDIO_USBB_DATA7_OE ),
-        // Outputs
-        .Y   ( USB_ULPI_DATA_7_PAD_Y ),
-        // Inouts
-        .PAD ( USB_ULPI_DATA[7:7] ) 
-        );
-
-//--------INBUF
-INBUF USB_ULPI_DIR_PAD(
-        // Inputs
-        .PAD ( USB_ULPI_DIR ),
-        // Outputs
-        .Y   ( USB_ULPI_DIR_PAD_Y ) 
-        );
-
-//--------INBUF
-INBUF USB_ULPI_NXT_PAD(
-        // Inputs
-        .PAD ( USB_ULPI_NXT ),
-        // Outputs
-        .Y   ( USB_ULPI_NXT_PAD_Y ) 
-        );
-
-//--------TRIBUFF
-TRIBUFF USB_ULPI_STP_PAD(
-        // Inputs
-        .D   ( MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OUT ),
-        .E   ( MSS_ADLIB_INST_RGMII_TXD1_RMII_TXD1_USBB_STP_OE ),
-        // Outputs
-        .PAD ( USB_ULPI_STP_net_0 ) 
-        );
-
-//--------INBUF
-INBUF USB_ULPI_XCLK_PAD(
-        // Inputs
-        .PAD ( USB_ULPI_XCLK ),
-        // Outputs
-        .Y   ( USB_ULPI_XCLK_PAD_Y ) 
         );
 
 

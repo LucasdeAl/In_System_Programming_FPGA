@@ -3632,41 +3632,6 @@
 </data>
 <separator/>
 <data>
-<name>MSS_USB</name>
-<table>
-<header>
- <cell>Name</cell>
- <cell>Subsystem</cell>
- <cell>Vendor</cell>
- <cell>Version</cell>
-</header>
-<row>
- <cell>SF2_MSS_USB</cell>
- <cell>MSS Peripherals</cell>
- <cell>Actel</cell>
- <cell>0.0.102</cell>
-</row>
-</table>
-<cdata>
-<name>Configuration</name>
-<table>
-<header>
- <cell>Parameter</cell>
- <cell>Value</cell>
-</header>
-<row>
- <cell>ULPI_D_INTERFACE_SUPPORTED</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>USB_CONFIG</cell>
- <cell>CONFIG_ULPI_D</cell>
-</row>
-</table>
-</cdata>
-</data>
-<separator/>
-<data>
 <name>Interrupt Configuration</name>
 <table>
 <header>
@@ -3687,31 +3652,6 @@
  <cell>Direction</cell>
  <cell>Description</cell>
 </header>
-<row>
- <cell>USB_ULPI_DIR</cell>
- <cell>IN</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>USB_ULPI_NXT</cell>
- <cell>IN</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>USB_ULPI_STP</cell>
- <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>USB_ULPI_XCLK</cell>
- <cell>IN</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>USB_ULPI_DATA[7:0]</cell>
- <cell>INOUT</cell>
- <cell>-</cell>
-</row>
 <row>
  <cell>POWER_ON_RESET_N</cell>
  <cell>OUT</cell>

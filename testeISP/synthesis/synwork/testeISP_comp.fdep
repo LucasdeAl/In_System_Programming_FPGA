@@ -5,15 +5,15 @@
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1743447176
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1743447176
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\CCC_0\\testeISP_sb_CCC_0_FCCC.v":1743447176
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1743447176
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\FABOSC_0\\testeISP_sb_FABOSC_0_OSC.v":1743447176
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS_syn.v":1743447207
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS.v":1743447207
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\testeISP_sb.v":1743447207
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP\\testeISP.v":1743447207
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1725993871
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1725993871
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\CCC_0\\testeISP_sb_CCC_0_FCCC.v":1743611765
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1725993872
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\FABOSC_0\\testeISP_sb_FABOSC_0_OSC.v":1743611766
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS_syn.v":1743611763
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS.v":1743611763
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\testeISP_sb.v":1743611766
+#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP\\testeISP.v":1743611879
 0			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
 1			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
 2			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v" verilog

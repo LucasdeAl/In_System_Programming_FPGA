@@ -8,14 +8,13 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF , Speed grade: STD 
 
-# Date generated: Mon Mar 31 15:54:49 2025 
+# Date generated: Wed Apr  2 13:40:19 2025 
 
 
 #
 # IO banks setting
 #
 
-set_iobank Bank2 -vcci 2.50 -fixed no
 
 #
 # Local clock constraints
@@ -31,18 +30,6 @@ set_iobank Bank2 -vcci 2.50 -fixed no
 # I/O constraints
 #
 
-set_io USB_ULPI_DATA\[0\] -DIRECTION INOUT -pinname L11 -fixed yes
-set_io USB_ULPI_DATA\[1\] -DIRECTION INOUT -pinname L12 -fixed yes
-set_io USB_ULPI_DATA\[2\] -DIRECTION INOUT -pinname K16 -fixed yes
-set_io USB_ULPI_DATA\[3\] -DIRECTION INOUT -pinname L15 -fixed yes
-set_io USB_ULPI_DATA\[4\] -DIRECTION INOUT -pinname L14 -fixed yes
-set_io USB_ULPI_DATA\[5\] -DIRECTION INOUT -pinname L13 -fixed yes
-set_io USB_ULPI_DATA\[6\] -DIRECTION INOUT -pinname K14 -fixed yes
-set_io USB_ULPI_DATA\[7\] -DIRECTION INOUT -pinname N15 -fixed yes
-set_io USB_ULPI_DIR -DIRECTION INPUT -pinname M16 -fixed yes
-set_io USB_ULPI_NXT -DIRECTION INPUT -pinname M13 -fixed yes
-set_io USB_ULPI_STP -DIRECTION OUTPUT -pinname N14 -fixed yes
-set_io USB_ULPI_XCLK -DIRECTION INPUT -pinname N16 -fixed yes
 
 #
 # Core cell constraints

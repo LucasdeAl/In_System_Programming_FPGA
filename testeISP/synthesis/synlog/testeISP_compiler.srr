@@ -59,7 +59,9 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I::"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v" (library work)
 @I::"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 Selecting top level module testeISP
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
@@ -72,7 +74,7 @@ Running optimization stage 1 on CLKINT .......
 Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
 Running optimization stage 1 on CCC .......
-Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v":5:7:5:28|Synthesizing module testeISP_sb_CCC_0_FCCC in library work.
 Running optimization stage 1 on testeISP_sb_CCC_0_FCCC .......
 Finished optimization stage 1 on testeISP_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
@@ -167,36 +169,21 @@ Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used curr
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
 Running optimization stage 1 on MSS_025 .......
 Finished optimization stage 1 on MSS_025 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
-Running optimization stage 1 on BIBUF .......
-Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
-Running optimization stage 1 on INBUF .......
-Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
-Running optimization stage 1 on TRIBUFF .......
-Finished optimization stage 1 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v":9:7:9:21|Synthesizing module testeISP_sb_MSS in library work.
 Running optimization stage 1 on testeISP_sb_MSS .......
-Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v":9:7:9:17|Synthesizing module testeISP_sb in library work.
 Running optimization stage 1 on testeISP_sb .......
-Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v":9:7:9:14|Synthesizing module testeISP in library work.
 Running optimization stage 1 on testeISP .......
-Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+Finished optimization stage 1 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP .......
 Finished optimization stage 2 on testeISP (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP_sb .......
 Finished optimization stage 2 on testeISP_sb (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on testeISP_sb_MSS .......
 Finished optimization stage 2 on testeISP_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-Running optimization stage 2 on TRIBUFF .......
-Finished optimization stage 2 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-Running optimization stage 2 on INBUF .......
-Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
-Running optimization stage 2 on BIBUF .......
-Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on MSS_025 .......
 Finished optimization stage 2 on MSS_025 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
 Running optimization stage 2 on SYSRESET .......
@@ -302,12 +289,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 93MB peak: 94MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar 31 15:54:40 2025
+# Wed Apr  2 13:40:12 2025
 
 ###########################################################]
 ###########################################################[
@@ -327,14 +314,16 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
-File C:\Users\Lucas\OneDrive\Documentos\nascerr bootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 89MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar 31 15:54:40 2025
+# Wed Apr  2 13:40:12 2025
 
 ###########################################################]
 
@@ -344,11 +333,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar 31 15:54:40 2025
+# Wed Apr  2 13:40:12 2025
 
 ###########################################################]

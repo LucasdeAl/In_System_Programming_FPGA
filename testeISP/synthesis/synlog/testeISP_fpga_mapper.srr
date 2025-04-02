@@ -1,4 +1,4 @@
-# Mon Mar 31 15:54:43 2025
+# Wed Apr  2 13:40:14 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -84,7 +84,7 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
 
-@W: BN114 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v":258:9:258:20|Removing instance testeISP_sb_0.SYSRESET_POR (in view: work.testeISP(verilog)) because it does not drive other instances.
+@W: BN114 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v":236:9:236:20|Removing instance testeISP_sb_0.SYSRESET_POR (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) because it does not drive other instances.
 @A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) because it does not drive other instances.
@@ -140,24 +140,24 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_state (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_select (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		100000.00ns		   9 /         0
+   1		0h:00m:01s		100000.00ns		   0 /         0
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 
 Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
@@ -184,7 +184,7 @@ Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Tim
 Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 256MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 256MB)
 
 @W: MT246 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.CCC_0.GL0_net.
@@ -192,7 +192,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Mar 31 15:54:45 2025
+# Timing report written on Wed Apr  2 13:40:16 2025
 #
 
 
@@ -249,10 +249,10 @@ No IO constraint found
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
 
 ---------------------------------------
 Resource Usage Report for testeISP 
@@ -270,12 +270,10 @@ SLE            0 uses
 
 DSP Blocks:    0 of 34 (0%)
 
-I/O ports: 18
-I/O primitives: 17
-BIBUF          8 uses
-INBUF          5 uses
+I/O ports: 6
+I/O primitives: 5
+INBUF          2 uses
 OUTBUF         3 uses
-TRIBUFF        1 use
 
 
 Global Clock Buffers: 1
@@ -296,6 +294,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 256MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Mar 31 15:54:45 2025
+# Wed Apr  2 13:40:16 2025
 
 ###########################################################]

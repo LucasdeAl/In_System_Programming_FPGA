@@ -56,68 +56,6 @@ set_io MMUART_1_TXD_M2F  \
 
 
 
-# 
-# Dedicated Peripheral I/O Settings
-# 
-
-set_io {USB_ULPI_DATA[0]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[1]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[2]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[3]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[4]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[5]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[6]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io {USB_ULPI_DATA[7]}  \
-    -FF_IO_AVAIL Yes       \
-    -DIRECTION INOUT
-
-
-set_io USB_ULPI_DIR   \
-    -FF_IO_AVAIL Yes  \
-    -DIRECTION INPUT
-
-
-set_io USB_ULPI_NXT   \
-    -FF_IO_AVAIL Yes  \
-    -DIRECTION INPUT
-
-
-set_io USB_ULPI_STP    \
-    -FF_IO_AVAIL Yes   \
-    -DIRECTION OUTPUT
-
-
-set_io USB_ULPI_XCLK  \
-    -FF_IO_AVAIL Yes  \
-    -DIRECTION INPUT
 
 
 

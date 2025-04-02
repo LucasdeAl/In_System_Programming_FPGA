@@ -26,7 +26,7 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <data>0</data>
 <data>1</data>
-<data>17</data>
+<data>5</data>
 <module>
 <data>testeISP_sb</data>
 <data>0</data>
@@ -37,7 +37,7 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <data>0</data>
 <data>1</data>
-<data>12</data>
+<data>0</data>
 <module>
 <data>testeISP_sb_CCC_0_FCCC</data>
 <data>0</data>
@@ -72,7 +72,7 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <data>0</data>
 <data>0</data>
-<data>12</data>
+<data>0</data>
 </module>
 </module>
 </module>

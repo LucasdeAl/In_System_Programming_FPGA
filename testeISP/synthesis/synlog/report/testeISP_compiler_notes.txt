@@ -12,9 +12,6 @@
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v":5:7:5:30|Synthesizing module testeISP_sb_FABOSC_0_OSC in library work.
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
-@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v":9:7:9:21|Synthesizing module testeISP_sb_MSS in library work.
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v":9:7:9:17|Synthesizing module testeISP_sb in library work.
 @N: CG364 :"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v":9:7:9:14|Synthesizing module testeISP in library work.

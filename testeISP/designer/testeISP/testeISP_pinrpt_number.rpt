@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Mon Mar 31 15:55:02 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Wed Apr  2 13:40:49 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2024.1
 -Version: 2024.1.0.3
@@ -168,9 +168,9 @@ K10                       VDD                                         Reserved
 K11                       VPPNVM                                      Reserved    
 K12                       MSIO13PB2/SPI_0_SDO/GPIO_6_A                Unassigned  
 K13                       VSS                                         Reserved    
-K14     USB_ULPI_DATA[6]  MSIO6PB2/USB_DATA6_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
+K14                       MSIO6PB2/USB_DATA6_B                        Unassigned  
 K15                       MSIO6NB2                                    Unassigned  
-K16     USB_ULPI_DATA[2]  MSIO4PB2/USB_DATA2_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
+K16                       MSIO4PB2/USB_DATA2_B                        Unassigned  
 L1                        MSIOD119PB5/SERDES_0_REFCLK1_P              Unassigned  
 L2                        SERDES_0_L01_REXT                           Reserved    
 L3                        SERDES_0_L01_VDDAPLL                        Reserved    
@@ -181,11 +181,11 @@ L7                        VDD                                         Reserved
 L8                        VSS                                         Reserved    
 L9                        VPP                                         Reserved    
 L10                       VSSNVM                                      Reserved    
-L11     USB_ULPI_DATA[0]  MSIO3PB2/USB_DATA0_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
-L12     USB_ULPI_DATA[1]  MSIO3NB2/USB_DATA1_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
-L13     USB_ULPI_DATA[5]  MSIO5NB2/USB_DATA5_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
-L14     USB_ULPI_DATA[4]  MSIO5PB2/USB_DATA4_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
-L15     USB_ULPI_DATA[3]  MSIO4NB2/USB_DATA3_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
+L11                       MSIO3PB2/USB_DATA0_B                        Unassigned  
+L12                       MSIO3NB2/USB_DATA1_B                        Unassigned  
+L13                       MSIO5NB2/USB_DATA5_B                        Unassigned  
+L14                       MSIO5PB2/USB_DATA4_B                        Unassigned  
+L15                       MSIO4NB2/USB_DATA3_B                        Unassigned  
 L16                       VSS                                         Reserved    
 M1                        VSS                                         Reserved    
 M2                        VSS                                         Reserved    
@@ -199,10 +199,10 @@ M9                        MSIO132PB4                                  Unassigned
 M10                       MSIO132NB4                                  Unassigned  
 M11                       DEVRST_N                                    Reserved    
 M12                       JTAGSEL                                     Reserved    
-M13     USB_ULPI_NXT      MSIO2NB2/USB_NXT_B                          Fixed       LVCMOS25  Input      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          ---   ---           ---                ---               
+M13                       MSIO2NB2/USB_NXT_B                          Unassigned  
 M14                       VDDI2                                       Reserved    
 M15                       MSIO0PB2                                    Unassigned  
-M16     USB_ULPI_DIR      MSIO1NB2/USB_DIR_B                          Fixed       LVCMOS25  Input      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          ---   ---           ---                ---               
+M16                       MSIO1NB2/USB_DIR_B                          Unassigned  
 N1                        SERDES_0_RXD0_P                             Reserved    
 N2                        VSS                                         Reserved    
 N3                        SERDES_0_RXD2_N                             Reserved    
@@ -216,9 +216,9 @@ N10                       MSIO133NB4                                  Unassigned
 N11                       JTAG_TMS/M3_TMS/M3_SWDIO                    Reserved    
 N12                       VDDI3                                       Reserved    
 N13                       JTAG_TRSTB/M3_TRSTB                         Reserved    
-N14     USB_ULPI_STP      MSIO2PB2/USB_STP_B                          Fixed       LVCMOS25  Output     TRISTATE                        None           Yes                                 ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-N15     USB_ULPI_DATA[7]  MSIO0NB2/USB_DATA7_B                        Fixed       LVCMOS25  Inout      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
-N16     USB_ULPI_XCLK     MSIO1PB2/USB_XCLK_B                         Fixed       LVCMOS25  Input      TRISTATE                        None           Yes                                 Off              ---         ---            Off             Off          ---   ---           ---                ---               
+N14                       MSIO2PB2/USB_STP_B                          Unassigned  
+N15                       MSIO0NB2/USB_DATA7_B                        Unassigned  
+N16                       MSIO1PB2/USB_XCLK_B                         Unassigned  
 P1                        SERDES_0_RXD0_N                             Reserved    
 P2                        VSS                                         Reserved    
 P3                        SERDES_0_RXD2_P                             Reserved    

@@ -11,13 +11,13 @@ Incremental              : OFF
 INFO: Reading User PDC file C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 17 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 5 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.1.0 
-Design: testeISP                        Started: Mon Mar 31 15:54:52 2025
+Design: testeISP                        Started: Wed Apr  2 13:40:39 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,20 +33,20 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: testeISP                        
-Finished: Mon Mar 31 15:54:54 2025
+Finished: Wed Apr  2 13:40:41 2025
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 137.9 Mbytes
+Total Memory Usage: 137.7 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISPStarted: Mon Mar 31 15:54:55 2025
+Design: C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISPStarted: Wed Apr  2 13:40:43 2025
 
 
 Router completed successfully.
 
 Design: C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP
-Finished: Mon Mar 31 15:55:00 2025
+Finished: Wed Apr  2 13:40:48 2025
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
 Total Memory Usage: 895.7 Mbytes
                         o - o - o - o - o - o
@@ -65,7 +65,7 @@ I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  17   | 100.00%    |
+| Locked |  5    | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

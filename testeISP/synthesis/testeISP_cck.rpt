@@ -12,7 +12,7 @@ Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Mon Mar 31 15:54:43 2025
+# Written on Wed Apr  2 13:40:13 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -54,26 +54,6 @@ p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
 p:MMUART_1_RXD_F2M
 p:MMUART_1_TXD_M2F
-p:USB_ULPI_DATA[0] (bidir end point)
-p:USB_ULPI_DATA[0] (bidir start point)
-p:USB_ULPI_DATA[1] (bidir end point)
-p:USB_ULPI_DATA[1] (bidir start point)
-p:USB_ULPI_DATA[2] (bidir end point)
-p:USB_ULPI_DATA[2] (bidir start point)
-p:USB_ULPI_DATA[3] (bidir end point)
-p:USB_ULPI_DATA[3] (bidir start point)
-p:USB_ULPI_DATA[4] (bidir end point)
-p:USB_ULPI_DATA[4] (bidir start point)
-p:USB_ULPI_DATA[5] (bidir end point)
-p:USB_ULPI_DATA[5] (bidir start point)
-p:USB_ULPI_DATA[6] (bidir end point)
-p:USB_ULPI_DATA[6] (bidir start point)
-p:USB_ULPI_DATA[7] (bidir end point)
-p:USB_ULPI_DATA[7] (bidir start point)
-p:USB_ULPI_DIR
-p:USB_ULPI_NXT
-p:USB_ULPI_STP
-p:USB_ULPI_XCLK
 
 
 Inapplicable constraints

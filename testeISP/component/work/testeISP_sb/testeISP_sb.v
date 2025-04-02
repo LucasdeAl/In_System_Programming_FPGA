@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Mar 24 21:56:19 2025
+// Created by SmartDesign Wed Apr  2 13:36:06 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -12,9 +12,6 @@ module testeISP_sb(
     FAB_RESET_N,
     MMUART_0_RXD_F2M,
     MMUART_1_RXD_F2M,
-    USB_ULPI_DIR,
-    USB_ULPI_NXT,
-    USB_ULPI_XCLK,
     // Outputs
     FAB_CCC_GL0,
     FAB_CCC_LOCK,
@@ -23,79 +20,62 @@ module testeISP_sb(
     MMUART_0_TXD_M2F,
     MMUART_1_TXD_M2F,
     MSS_READY,
-    POWER_ON_RESET_N,
-    USB_ULPI_STP,
-    // Inouts
-    USB_ULPI_DATA
+    POWER_ON_RESET_N
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input        DEVRST_N;
-input        FAB_RESET_N;
-input        MMUART_0_RXD_F2M;
-input        MMUART_1_RXD_F2M;
-input        USB_ULPI_DIR;
-input        USB_ULPI_NXT;
-input        USB_ULPI_XCLK;
+input  DEVRST_N;
+input  FAB_RESET_N;
+input  MMUART_0_RXD_F2M;
+input  MMUART_1_RXD_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output       FAB_CCC_GL0;
-output       FAB_CCC_LOCK;
-output       GPIO_3_M2F;
-output       INIT_DONE;
-output       MMUART_0_TXD_M2F;
-output       MMUART_1_TXD_M2F;
-output       MSS_READY;
-output       POWER_ON_RESET_N;
-output       USB_ULPI_STP;
-//--------------------------------------------------------------------
-// Inout
-//--------------------------------------------------------------------
-inout  [7:0] USB_ULPI_DATA;
+output FAB_CCC_GL0;
+output FAB_CCC_LOCK;
+output GPIO_3_M2F;
+output INIT_DONE;
+output MMUART_0_TXD_M2F;
+output MMUART_1_TXD_M2F;
+output MSS_READY;
+output POWER_ON_RESET_N;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire         CORERESETP_0_RESET_N_F2M;
-wire         DEVRST_N;
-wire         FAB_CCC_GL0_net_0;
-wire         FAB_CCC_LOCK_net_0;
-wire         FAB_RESET_N;
-wire         FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC;
-wire         FABOSC_0_RCOSC_25_50MHZ_O2F;
-wire         GPIO_3_M2F_net_0;
-wire         INIT_DONE_net_0;
-wire         MMUART_0_RXD_F2M;
-wire         MMUART_0_TXD_M2F_net_0;
-wire         MMUART_1_RXD_F2M;
-wire         MMUART_1_TXD_M2F_net_0;
-wire         MSS_READY_net_0;
-wire         POWER_ON_RESET_N_net_0;
-wire         testeISP_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
-wire         testeISP_sb_MSS_TMP_0_MSS_RESET_N_M2F;
-wire   [7:0] USB_ULPI_DATA;
-wire         USB_ULPI_DIR;
-wire         USB_ULPI_NXT;
-wire         USB_ULPI_STP_net_0;
-wire         USB_ULPI_XCLK;
-wire         USB_ULPI_STP_net_1;
-wire         POWER_ON_RESET_N_net_1;
-wire         INIT_DONE_net_1;
-wire         FAB_CCC_GL0_net_1;
-wire         FAB_CCC_LOCK_net_1;
-wire         MSS_READY_net_1;
-wire         MMUART_0_TXD_M2F_net_1;
-wire         MMUART_1_TXD_M2F_net_1;
-wire         GPIO_3_M2F_net_1;
+wire   CORERESETP_0_RESET_N_F2M;
+wire   DEVRST_N;
+wire   FAB_CCC_GL0_net_0;
+wire   FAB_CCC_LOCK_net_0;
+wire   FAB_RESET_N;
+wire   FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC;
+wire   FABOSC_0_RCOSC_25_50MHZ_O2F;
+wire   GPIO_3_M2F_net_0;
+wire   INIT_DONE_net_0;
+wire   MMUART_0_RXD_F2M;
+wire   MMUART_0_TXD_M2F_net_0;
+wire   MMUART_1_RXD_F2M;
+wire   MMUART_1_TXD_M2F_net_0;
+wire   MSS_READY_net_0;
+wire   POWER_ON_RESET_N_net_0;
+wire   testeISP_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
+wire   testeISP_sb_MSS_TMP_0_MSS_RESET_N_M2F;
+wire   POWER_ON_RESET_N_net_1;
+wire   INIT_DONE_net_1;
+wire   FAB_CCC_GL0_net_1;
+wire   FAB_CCC_LOCK_net_1;
+wire   MSS_READY_net_1;
+wire   MMUART_0_TXD_M2F_net_1;
+wire   MMUART_1_TXD_M2F_net_1;
+wire   GPIO_3_M2F_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
-wire         VCC_net;
-wire         GND_net;
-wire   [7:2] PADDR_const_net_0;
-wire   [7:0] PWDATA_const_net_0;
+wire   VCC_net;
+wire   GND_net;
+wire   [7:2]PADDR_const_net_0;
+wire   [7:0]PWDATA_const_net_0;
 wire   [31:0]SDIF0_PRDATA_const_net_0;
 wire   [31:0]SDIF1_PRDATA_const_net_0;
 wire   [31:0]SDIF2_PRDATA_const_net_0;
@@ -116,8 +96,6 @@ assign FIC_2_APB_M_PRDATA_const_net_0 = 32'h00000000;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign USB_ULPI_STP_net_1     = USB_ULPI_STP_net_0;
-assign USB_ULPI_STP           = USB_ULPI_STP_net_1;
 assign POWER_ON_RESET_N_net_1 = POWER_ON_RESET_N_net_0;
 assign POWER_ON_RESET_N       = POWER_ON_RESET_N_net_1;
 assign INIT_DONE_net_1        = INIT_DONE_net_0;
@@ -266,9 +244,6 @@ SYSRESET SYSRESET_POR(
 testeISP_sb_MSS testeISP_sb_MSS_0(
         // Inputs
         .MCCC_CLK_BASE          ( FAB_CCC_GL0_net_0 ),
-        .USB_ULPI_DIR           ( USB_ULPI_DIR ),
-        .USB_ULPI_NXT           ( USB_ULPI_NXT ),
-        .USB_ULPI_XCLK          ( USB_ULPI_XCLK ),
         .MCCC_CLK_BASE_PLL_LOCK ( FAB_CCC_LOCK_net_0 ),
         .MSS_RESET_N_F2M        ( CORERESETP_0_RESET_N_F2M ),
         .MMUART_0_RXD_F2M       ( MMUART_0_RXD_F2M ),
@@ -277,7 +252,6 @@ testeISP_sb_MSS testeISP_sb_MSS_0(
         .FIC_2_APB_M_PSLVERR    ( GND_net ), // tied to 1'b0 from definition
         .FIC_2_APB_M_PRDATA     ( FIC_2_APB_M_PRDATA_const_net_0 ), // tied to 32'h00000000 from definition
         // Outputs
-        .USB_ULPI_STP           ( USB_ULPI_STP_net_0 ),
         .MSS_RESET_N_M2F        ( testeISP_sb_MSS_TMP_0_MSS_RESET_N_M2F ),
         .MMUART_0_TXD_M2F       ( MMUART_0_TXD_M2F_net_0 ),
         .MMUART_1_TXD_M2F       ( MMUART_1_TXD_M2F_net_0 ),
@@ -288,9 +262,7 @@ testeISP_sb_MSS testeISP_sb_MSS_0(
         .FIC_2_APB_M_PENABLE    (  ),
         .FIC_2_APB_M_PSEL       (  ),
         .FIC_2_APB_M_PADDR      (  ),
-        .FIC_2_APB_M_PWDATA     (  ),
-        // Inouts
-        .USB_ULPI_DATA          ( USB_ULPI_DATA ) 
+        .FIC_2_APB_M_PWDATA     (  ) 
         );
 
 
