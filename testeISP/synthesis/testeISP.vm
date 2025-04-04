@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M"
 // Program "Synplify Pro", Mapper "map202309act, Build 044R"
-// Wed Apr  2 13:40:15 2025
+// Fri Apr  4 18:21:39 2025
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -11,17 +11,17 @@
 // file 2 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\umr_capim.v "
 // file 3 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_objects.v "
 // file 4 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_pipes.svh "
-// file 5 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
-// file 6 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
-// file 7 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
-// file 8 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
-// file 9 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
-// file 10 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
-// file 11 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
-// file 12 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
-// file 13 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
+// file 5 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
+// file 6 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
+// file 7 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
+// file 8 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
+// file 9 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
+// file 10 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
+// file 11 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
+// file 12 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
+// file 13 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
 // file 14 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\nlconst.dat "
-// file 15 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
+// file 15 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module testeISP_sb_CCC_0_FCCC (

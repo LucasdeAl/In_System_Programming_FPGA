@@ -1,22 +1,22 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
-#--  Project file C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\scratchproject.prs
+#--  Project file C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\In_System_Programming_FPGA\testeISP\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CCC_0/testeISP_sb_CCC_0_FCCC.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/FABOSC_0/testeISP_sb_FABOSC_0_OSC.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/testeISP_sb_MSS_syn.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/testeISP_sb_MSS.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/testeISP_sb.v"
-add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP/testeISP.v"
-add_file -fpga_constraint "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/designer/testeISP/synthesis.fdc"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CCC_0/testeISP_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/FABOSC_0/testeISP_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/testeISP_sb_MSS_syn.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/testeISP_sb_MSS.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/testeISP_sb.v"
+add_file -verilog "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/component/work/testeISP/testeISP.v"
+add_file -fpga_constraint "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/designer/testeISP/synthesis.fdc"
 
 
 #implementation: "synthesis"
-impl -add C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\synthesis -type fpga
+impl -add C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\In_System_Programming_FPGA\testeISP\synthesis -type fpga
 
 #
 #implementation attributes
@@ -104,5 +104,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/synthesis/testeISP.vm"
+project -result_file "C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/In_System_Programming_FPGA/testeISP/synthesis/testeISP.vm"
 impl -active "synthesis"
