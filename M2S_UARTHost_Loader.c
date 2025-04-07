@@ -240,8 +240,10 @@ int main(int argc, char *argv[])
 
 	printf("Sending the programming file size = %d\n", size);
 	ret[0] = SerialGetc(hCom);
+	printf("recebeu:  %c\n", ret[0]);
 	if (ret[0] == 'z')
 	{
+		printf("Entrou");
         _itoa(size,filesize,10);       
 		bWriteRC = WriteFile(hCom, filesize, 8, &iBytesWritten,NULL);
 	}

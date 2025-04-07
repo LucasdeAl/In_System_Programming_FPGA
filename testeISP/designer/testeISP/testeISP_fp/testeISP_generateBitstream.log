@@ -1,13 +1,13 @@
 Software Version: 2024.1.0.3
-Opened 'C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
-PDB file 'C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.pdb' has been loaded successfully.
+Opened 'C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
+PDB file 'C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.pdb' has been loaded successfully.
 DESIGN : testeISP;  CHECKSUM : 3DF4;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
-File/Folder 'C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.ppd'; file programs Fabric.
+File/Folder 'C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP.ppd'; file programs Fabric.
 Fabric component bitstream digest: 0a647d73a8531f02822f3f2f5564ffa3119bc93d3764bd04b2d7f4ba7ddf3f1d
 Entire bitstream digest: 08c344ece26ea32483cd39ea05130718e0d6e67658aa36bd415d258fd13b022a
-Finished: Sat Apr 05 14:38:21 2025 (Elapsed time 00:00:12)
+Finished: Mon Apr 07 16:42:35 2025 (Elapsed time 00:00:10)
 
 Project saved.
 Project closed.

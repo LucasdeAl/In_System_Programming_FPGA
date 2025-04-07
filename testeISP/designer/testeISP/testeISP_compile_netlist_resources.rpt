@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Sat Apr  5 14:34:52 2025
+Date: Mon Apr  7 16:41:29 2025
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+-----------------------------------------------------------------------------------------------------------------+
-| Topcell | testeISP                                                                                                        |
-| Format  | Verilog                                                                                                         |
-| Source  | C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\synthesis\testeISP.vm |
-+---------+-----------------------------------------------------------------------------------------------------------------+
++---------+-----------------------------------------------------------------------------------------------------------------------+
+| Topcell | testeISP                                                                                                              |
+| Format  | Verilog                                                                                                               |
+| Source  | C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\testeISP.vm |
++---------+-----------------------------------------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+

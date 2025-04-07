@@ -98,7 +98,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  uint8_t pData = 'a';
+  uint8_t pData = 'j';
   while (1)
   {
     /* USER CODE END WHILE */

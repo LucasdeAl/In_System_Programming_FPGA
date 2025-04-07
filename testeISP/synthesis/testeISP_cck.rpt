@@ -6,18 +6,18 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: V-2023.09M
-Install: D:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-RIO960C
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Sat Apr  5 14:34:43 2025
+# Written on Mon Apr  7 16:41:22 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "testeISP"
-Constraint File(s):      "C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
 
 
 

@@ -1,6 +1,6 @@
 DESIGN=testeISP
-DESDIR=C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP
-TARGET_DIR=C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP
+DESDIR=C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP
+TARGET_DIR=C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP
 FAM=SmartFusion2
 DIE=PA4M2500
 PACKAGE=vf256

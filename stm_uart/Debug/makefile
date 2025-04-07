@@ -60,8 +60,8 @@ all: main-build
 main-build: stm_uart.elf secondary-outputs
 
 # Tool invocations
-stm_uart.elf stm_uart.map: $(OBJS) $(USER_OBJS) C:\Users\Lucas\STM32CubeIDE\workspace_1.17.0\stm_uart\STM32L4S5QIIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "stm_uart.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Lucas\STM32CubeIDE\workspace_1.17.0\stm_uart\STM32L4S5QIIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+stm_uart.elf stm_uart.map: $(OBJS) $(USER_OBJS) C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\stm_uart\STM32L4S5QIIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "stm_uart.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\stm_uart\STM32L4S5QIIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
