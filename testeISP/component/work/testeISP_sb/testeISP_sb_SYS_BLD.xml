@@ -2055,11 +2055,11 @@
 </header>
 <row>
  <cell>APB0CLK_RATIO</cell>
- <cell>1</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell>APB1CLK_RATIO</cell>
- <cell>1</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell>FDDR_CLK_DIVISOR</cell>

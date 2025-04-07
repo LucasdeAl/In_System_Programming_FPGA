@@ -11,8 +11,8 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>D:/Microchip/Libero_SoC_v2024.1/Designer/bin/testeISP/component/work/testeISP</location>
-    <state>GENERATED ( Tue Mar 25 12:07:40 2025 )</state>
+    <location>C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/component/work/testeISP</location>
+    <state>GENERATED ( Mon Apr  7 14:02:41 2025 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -100,15 +100,6 @@
           <fullAddressSpace>0x4040_0000 - 0x4040_FFFF</fullAddressSpace>
           <range>0x0001_0000</range>
           <Size>64KB</Size>
-        </slave>
-        <slave>
-          <name>USB</name>
-          <fullPinName>
-          </fullPinName>
-          <remapAddress>0x4004_3000</remapAddress>
-          <fullAddressSpace>0x4004_3000 - 0x4004_3FFF</fullAddressSpace>
-          <range>0x0000_1000</range>
-          <Size>4KB</Size>
         </slave>
         <slave>
           <name>SYSREG</name>

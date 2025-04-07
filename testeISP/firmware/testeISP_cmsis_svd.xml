@@ -2,7 +2,7 @@
 <device>
   <name>testeISP</name>
   <version>1.0</version>
-  <description>CMSIS description for testeISP.  Created by Microsemi SmartDesign on Tue Mar 25 12:07:36 2025</description>
+  <description>CMSIS description for testeISP.  Created by Microsemi SmartDesign on Mon Apr  7 14:02:38 2025</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
@@ -37,10 +37,6 @@
     <peripheral>
       <name>CACHE_BACKDOOR</name>
       <baseAddress>0x40400000</baseAddress>
-    </peripheral>
-    <peripheral>
-      <name>USB</name>
-      <baseAddress>0x40043000</baseAddress>
     </peripheral>
     <peripheral>
       <name>SYSREG</name>

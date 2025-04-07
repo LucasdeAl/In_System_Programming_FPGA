@@ -83,7 +83,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\In_System_Programming_FPGA\testeISP\synthesis\testeISP.vm"}
+    -value {"C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\synthesis\testeISP.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -97,7 +97,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\In_System_Programming_FPGA\testeISP\designer\testeISP} \
+    -desdir {C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\designer\testeISP} \
     -design testeISP \
     -fam SmartFusion2 \
     -die PA4M2500 \
