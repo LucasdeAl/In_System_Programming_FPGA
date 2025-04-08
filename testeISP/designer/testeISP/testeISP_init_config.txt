@@ -1,6 +1,6 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Mon Apr  7 16:42:09 2025
+Date: Tue Apr  8 14:02:44 2025
 
 testeISP_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 +-------------------+--------------------+---------------+-------+
@@ -438,7 +438,7 @@ testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP
 | ESRAM_MAX_LAT           | SW_MAX_LAT_ESRAM1           | INIT[154:152]   | 3'b000       | INIT[1]   | 1             |
 | DDR_CONFIG              | SW_CC_DDRFWREMAP            | INIT[155:155]   | 1'h0         | INIT[2]   | 1             |
 | ENVM_CONFIG             | SW_ENVMREMAPSIZE            | INIT[160:156]   | 5'b10001     | INIT[3]   | 1             |
-| ENVM_CONFIG             | NV_FREQRNG                  | INIT[168:161]   | 8'h04        | INIT[3]   | 1             |
+| ENVM_CONFIG             | NV_FREQRNG                  | INIT[168:161]   | 8'h02        | INIT[3]   | 1             |
 | ENVM_CONFIG             | NV_DPD0                     | INIT[169:169]   | 1'h0         | INIT[3]   | 1             |
 | ENVM_CONFIG             | NV_DPD1                     | INIT[170:170]   | 1'h0         | INIT[3]   | 1             |
 | ENVM_CONFIG             | ENVM_PERSIST                | INIT[171:171]   | 1'h0         | INIT[3]   | 1             |
@@ -503,11 +503,11 @@ testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP
 | SOFTRESET               | HPDMA_SOFTRESET             | INIT[367:367]   | 1'h0         | INIT[35]  | 1             |
 | SOFTRESET               | FIC32_0_SOFTRESET           | INIT[368:368]   | 1'h0         | INIT[36]  | 1             |
 | SOFTRESET               | FIC32_1_SOFTRESET           | INIT[369:369]   | 1'h1         | INIT[37]  | 1             |
-| SOFTRESET               | MSS_GPIO_SOFTRESET          | INIT[370:370]   | 1'h0         | INIT[38]  | 1             |
-| SOFTRESET               | MSS_GPOUT_7_0_SOFT_RESET    | INIT[371:371]   | 1'h0         | INIT[39]  | 1             |
-| SOFTRESET               | MSS_GPOUT_15_8_SOFT_RESET   | INIT[372:372]   | 1'h0         | INIT[40]  | 1             |
-| SOFTRESET               | MSS_GPOUT_23_16_SOFT_RESET  | INIT[373:373]   | 1'h0         | INIT[41]  | 1             |
-| SOFTRESET               | MSS_GPOUT_31_24_SOFT_RESET  | INIT[374:374]   | 1'h0         | INIT[42]  | 1             |
+| SOFTRESET               | MSS_GPIO_SOFTRESET          | INIT[370:370]   | 1'h1         | INIT[38]  | 1             |
+| SOFTRESET               | MSS_GPOUT_7_0_SOFT_RESET    | INIT[371:371]   | 1'h1         | INIT[39]  | 1             |
+| SOFTRESET               | MSS_GPOUT_15_8_SOFT_RESET   | INIT[372:372]   | 1'h1         | INIT[40]  | 1             |
+| SOFTRESET               | MSS_GPOUT_23_16_SOFT_RESET  | INIT[373:373]   | 1'h1         | INIT[41]  | 1             |
+| SOFTRESET               | MSS_GPOUT_31_24_SOFT_RESET  | INIT[374:374]   | 1'h1         | INIT[42]  | 1             |
 | SOFTRESET               | MDDR_CTLR_SOFTRESET         | INIT[375:375]   | 1'h1         | INIT[43]  | 1             |
 | SOFTRESET               | MDDR_FIC64_SOFTRESET        | INIT[376:376]   | 1'h1         | INIT[44]  | 1             |
 | M3_CONFIG               | STCALIB250                  | INIT[402:377]   | 26'h2000000  | INIT[45]  | 1             |
@@ -522,10 +522,10 @@ testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP
 | LOOPBACK_CTRL           | MSS_SPILOOPBACK             | INIT[417:417]   | 1'h0         | INIT[47]  | 1             |
 | LOOPBACK_CTRL           | MSS_I2CLOOPBACK             | INIT[418:418]   | 1'h0         | INIT[47]  | 1             |
 | LOOPBACK_CTRL           | MSS_GPIOLOOPBACK            | INIT[419:419]   | 1'h0         | INIT[47]  | 1             |
-| GPIO_SYSRESET_SEL       | MSS_GPIO_7_0_SYSRESET_SEL   | INIT[420:420]   | 1'h1         | INIT[48]  | 1             |
-| GPIO_SYSRESET_SEL       | MSS_GPIO_15_8_SYSRESET_SEL  | INIT[421:421]   | 1'h1         | INIT[48]  | 1             |
-| GPIO_SYSRESET_SEL       | MSS_GPIO_23_16_SYSRESET_SEL | INIT[422:422]   | 1'h1         | INIT[48]  | 1             |
-| GPIO_SYSRESET_SEL       | MSS_GPIO_31_24_SYSRESET_SEL | INIT[423:423]   | 1'h1         | INIT[48]  | 1             |
+| GPIO_SYSRESET_SEL       | MSS_GPIO_7_0_SYSRESET_SEL   | INIT[420:420]   | 1'h0         | INIT[48]  | 1             |
+| GPIO_SYSRESET_SEL       | MSS_GPIO_15_8_SYSRESET_SEL  | INIT[421:421]   | 1'h0         | INIT[48]  | 1             |
+| GPIO_SYSRESET_SEL       | MSS_GPIO_23_16_SYSRESET_SEL | INIT[422:422]   | 1'h0         | INIT[48]  | 1             |
+| GPIO_SYSRESET_SEL       | MSS_GPIO_31_24_SYSRESET_SEL | INIT[423:423]   | 1'h0         | INIT[48]  | 1             |
 | GPIN_SRC_SEL            | MSS_GPINSOURCE              | INIT[455:424]   | 32'h00000000 | INIT[49]  | 1             |
 | MDDR_CONFIG             | MDDR_CONFIG_LOCAL           | INIT[456:456]   | 1'h1         | INIT[50]  | 1             |
 | MDDR_CONFIG             | SDR_MODE                    | INIT[457:457]   | 1'h0         | INIT[50]  | 1             |
@@ -570,7 +570,7 @@ testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP
 | MAC_CONFIG              | RGMII_TXC_DELAY_SEL         | INIT[545:542]   | 4'h0         | INIT[61]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVR               | INIT[551:546]   | 6'h00        | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVF               | INIT[561:552]   | 10'h007      | INIT[62]  | 1             |
-| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVQ               | INIT[564:562]   | 3'h3         | INIT[62]  | 1             |
+| MSSDDR_PLL_STATUS_LOW   | FACC_PLL_DIVQ               | INIT[564:562]   | 3'h4         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_RANGE              | INIT[568:565]   | 4'hA         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_LOCKWIN            | INIT[571:569]   | 3'h4         | INIT[62]  | 1             |
 | MSSDDR_PLL_STATUS_LOW   | FACC_PLL_LOCKCNT            | INIT[575:572]   | 4'h0         | INIT[62]  | 1             |
@@ -583,8 +583,8 @@ testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP
 | MSSDDR_PLL_STATUS_HIGH  | FACC_PLL_SSMD               | INIT[583:582]   | 2'h0         | INIT[63]  | 1             |
 | MSSDDR_PLL_STATUS_HIGH  | FACC_PLL_SSMF               | INIT[588:584]   | 5'h00        | INIT[63]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | DIVISOR_A                   | INIT[590:589]   | 2'h0         | INIT[64]  | 1             |
-| MSSDDR_FACC_CONFIG_1    | APB0_DIVISOR                | INIT[593:591]   | 3'h2         | INIT[65]  | 1             |
-| MSSDDR_FACC_CONFIG_1    | APB1_DIVISOR                | INIT[596:594]   | 3'h2         | INIT[66]  | 1             |
+| MSSDDR_FACC_CONFIG_1    | APB0_DIVISOR                | INIT[593:591]   | 3'h0         | INIT[65]  | 1             |
+| MSSDDR_FACC_CONFIG_1    | APB1_DIVISOR                | INIT[596:594]   | 3'h0         | INIT[66]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | DDR_CLK_EN                  | INIT[597:597]   | 1'h0         | INIT[67]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | FCLK_DIVISOR                | INIT[600:598]   | 3'h0         | INIT[68]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | FACC_GLMUX_SEL              | INIT[601:601]   | 1'h0         | INIT[69]  | 1             |

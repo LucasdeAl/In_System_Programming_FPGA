@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP} \
+    -desdir {C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP} \
     -design testeISP \
     -fam SmartFusion2 \
     -die PA4M2500 \

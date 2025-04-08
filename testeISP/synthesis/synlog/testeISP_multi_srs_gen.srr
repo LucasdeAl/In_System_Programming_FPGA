@@ -15,14 +15,13 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
-File D:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe changed - recompiling
-File C:\Users\Lucas\OneDrive\Documentos\nascerr documentos\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_comp.srs changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr  7 16:41:20 2025
+# Tue Apr  8 14:02:06 2025
 
 ###########################################################]

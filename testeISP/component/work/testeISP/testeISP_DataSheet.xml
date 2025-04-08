@@ -11,8 +11,8 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/component/work/testeISP</location>
-    <state>GENERATED ( Mon Apr  7 15:03:35 2025 )</state>
+    <location>C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP</location>
+    <state>GENERATED ( Tue Apr  8 13:59:14 2025 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -3743,15 +3743,6 @@
           </fullPinName>
           <remapAddress>0x4001_4000</remapAddress>
           <fullAddressSpace>0x4001_4000 - 0x4001_4FFF</fullAddressSpace>
-          <range>0x1000</range>
-          <Size>4KB</Size>
-        </slave>
-        <slave>
-          <name>GPIO</name>
-          <fullPinName>
-          </fullPinName>
-          <remapAddress>0x4001_3000</remapAddress>
-          <fullAddressSpace>0x4001_3000 - 0x4001_3FFF</fullAddressSpace>
           <range>0x1000</range>
           <Size>4KB</Size>
         </slave>

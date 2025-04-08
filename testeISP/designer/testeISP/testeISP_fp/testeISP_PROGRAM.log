@@ -1,12 +1,12 @@
 Software Version: 2024.1.0.3
 Programmer 'S2011JOGRF' : JTAG TCK / SPI SCK frequency = 1 MHz
 programmer 'S2011JOGRF' : FlashPro5
-Opened 'C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
+Opened 'C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP_fp\testeISP.pro'
 The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'M2S025T'.
 The 'enable_device' command succeeded.
-PPD file 'C:/Users/Lucas/OneDrive/Documentos/nascerrBootloader/Github/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.ppd' has been loaded successfully.
-DESIGN : testeISP;  CHECKSUM : 3DF4;  PDB_VERSION : 1.0
+PPD file 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.ppd' has been loaded successfully.
+DESIGN : testeISP;  CHECKSUM : 803C;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer 'S2011JOGRF' : Scan Chain...
@@ -19,18 +19,18 @@ programmer 'S2011JOGRF' : device 'M2S025T' : Family: SmartFusion2
 programmer 'S2011JOGRF' : device 'M2S025T' : Product:      M2S025
 programmer 'S2011JOGRF' : device 'M2S025T' : Cortex-M3 Enabled (M3_ALLOWED = 1)
 programmer 'S2011JOGRF' : device 'M2S025T' : Programming Interface Protocol: JTAG
-programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT ISC_ENABLE_RESULT[32] = 005f6b24
+programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT ISC_ENABLE_RESULT[32] = 00606b24
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT CRCERR[1] = 0
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT EDCERR[1] = 0
 programmer 'S2011JOGRF' : device 'M2S025T' : Programming FPGA Array...
-programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT Fabric component digest[256] = 0a647d73a8531f02822f3f2f5564ffa3119bc93d3764bd04b2d7f4ba7ddf3f1d
+programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT Fabric component digest[256] = aeda18462b9b4d6fd64aa601af373848c1809c0c143814bf52cc80bdcbe295a7
 programmer 'S2011JOGRF' : device 'M2S025T' : ===================================================================================
 programmer 'S2011JOGRF' : device 'M2S025T' : EXPORT DSN[128] = 47bcd928b70c3869bb734a2b5be12109
 programmer 'S2011JOGRF' : device 'M2S025T' : ===================================================================================
-programmer 'S2011JOGRF' : device 'M2S025T' : Finished: Mon Apr  7 16:43:17 2025 (Elapsed time 00:00:31)
+programmer 'S2011JOGRF' : device 'M2S025T' : Finished: Tue Apr  8 14:03:49 2025 (Elapsed time 00:00:31)
 programmer 'S2011JOGRF' : device 'M2S025T' : Executing action PROGRAM PASSED.
 programmer 'S2011JOGRF' : Chain programming PASSED.
-Chain Programming Finished: Mon Apr  7 16:43:17 2025 (Elapsed time 00:00:31)
+Chain Programming Finished: Tue Apr  8 14:03:49 2025 (Elapsed time 00:00:31)
 
                         o - o - o - o - o - o
 

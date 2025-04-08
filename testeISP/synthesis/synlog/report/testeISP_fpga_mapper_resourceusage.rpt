@@ -13,10 +13,10 @@ SLE            0 uses
 
 DSP Blocks:    0 of 34 (0%)
 
-I/O ports: 6
-I/O primitives: 5
+I/O ports: 5
+I/O primitives: 4
 INBUF          2 uses
-OUTBUF         3 uses
+OUTBUF         2 uses
 
 
 Global Clock Buffers: 1

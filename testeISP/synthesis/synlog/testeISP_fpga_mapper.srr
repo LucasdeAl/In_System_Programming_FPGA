@@ -1,4 +1,4 @@
-# Mon Apr  7 16:41:22 2025
+# Tue Apr  8 14:02:07 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -31,7 +31,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
@@ -39,16 +39,16 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
 
-@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
-@W: BN132 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -60,12 +60,12 @@ original code -> new code
    101 -> 0100000
    110 -> 1000000
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[6] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[6] (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 253MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -73,77 +73,77 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
 
-@W: BN114 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v":236:9:236:20|Removing instance testeISP_sb_0.SYSRESET_POR (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register testeISP_sb_0.CORERESETP_0.ddr_settled (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core (in view: work.testeISP(verilog)) because it does not drive other instances.
-@A: BN291 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif3_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[5] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[4] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[3] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[2] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[1] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[0] (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_state (in view: work.testeISP(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_select (in view: work.testeISP(verilog)) because it does not drive other instances.
+@W: BN114 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v":230:9:230:20|Removing instance testeISP_sb_0.SYSRESET_POR (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif1_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif0_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register testeISP_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_M2F_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.ddr_settled (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register testeISP_sb_0.CORERESETP_0.ddr_settled (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.release_sdif3_core (in view: work.testeISP(verilog)) because it does not drive other instances.
+@A: BN291 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Boundary register testeISP_sb_0.CORERESETP_0.release_sdif3_core (in view: work.testeISP(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.MSS_HPMS_READY_int (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[5] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[4] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[3] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[2] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[1] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.sm0_state[0] (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_state (in view: work.testeISP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_select (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -154,23 +154,23 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 206MB peak: 255MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 205MB peak: 255MB)
 
-Writing Analyst data base C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_m.srm
+Writing Analyst data base C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\synwork\testeISP_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 255MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -178,21 +178,21 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
 
-@W: MT246 :"c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.CCC_0.GL0_net.
 @W: MT420 |Found inferred clock testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net testeISP_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Apr  7 16:41:24 2025
+# Timing report written on Tue Apr  8 14:02:09 2025
 #
 
 
@@ -200,7 +200,7 @@ Top view:               testeISP
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc
+Constraint File(s):    C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -252,7 +252,7 @@ Timing exceptions that could not be applied
 Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
 
 ---------------------------------------
 Resource Usage Report for testeISP 
@@ -270,10 +270,10 @@ SLE            0 uses
 
 DSP Blocks:    0 of 34 (0%)
 
-I/O ports: 6
-I/O primitives: 5
+I/O ports: 5
+I/O primitives: 4
 INBUF          2 uses
-OUTBUF         3 uses
+OUTBUF         2 uses
 
 
 Global Clock Buffers: 1
@@ -291,9 +291,9 @@ Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 256MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 255MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Apr  7 16:41:25 2025
+# Tue Apr  8 14:02:10 2025
 
 ###########################################################]

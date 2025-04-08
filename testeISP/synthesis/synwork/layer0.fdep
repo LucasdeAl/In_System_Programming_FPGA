@@ -1,30 +1,30 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\synthesis\\synwork\\testeISP_comp.srs|-top|testeISP|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\synthesis\\synwork\\testeISP_comp.srs|-top|testeISP|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1744046608
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1744046608
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\CCC_0\\testeISP_sb_CCC_0_FCCC.v":1744046608
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1744046608
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\FABOSC_0\\testeISP_sb_FABOSC_0_OSC.v":1744046608
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS_syn.v":1744046719
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS.v":1744046719
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\testeISP_sb.v":1744046719
-#CUR:"C:\\Users\\Lucas\\OneDrive\\Documentos\\nascerrBootloader\\Github\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP\\testeISP.v":1744046719
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1725993871
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1725993871
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\CCC_0\\testeISP_sb_CCC_0_FCCC.v":1744131716
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1725993872
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\FABOSC_0\\testeISP_sb_FABOSC_0_OSC.v":1744131716
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS_syn.v":1744131713
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb_MSS\\testeISP_sb_MSS.v":1744131714
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP_sb\\testeISP_sb.v":1744131716
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\In_System_Programming_FPGA\\testeISP\\component\\work\\testeISP\\testeISP.v":1744131021
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
-1			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
-2			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v" verilog
-3			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
-4			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v" verilog
-5			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v" verilog
-6			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v" verilog
-7			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v" verilog
-8			"C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v" verilog
+0			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+1			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+2			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v" verilog
+3			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+4			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v" verilog
+5			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v" verilog
+6			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v" verilog
+7			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v" verilog
+8			"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 0

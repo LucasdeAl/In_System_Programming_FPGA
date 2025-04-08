@@ -1,6 +1,6 @@
 set_component testeISP_sb_CCC_0_FCCC
 # Microchip Technology Inc.
-# Date: 2025-Apr-05 14:34:25
+# Date: 2025-Apr-08 14:01:56
 #
 
 create_clock -period 20 [ get_pins { CCC_INST/RCOSC_25_50MHZ } ]

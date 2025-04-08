@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M"
 // Program "Synplify Pro", Mapper "map202309act, Build 044R"
-// Mon Apr  7 16:41:24 2025
+// Tue Apr  8 14:02:09 2025
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -11,17 +11,17 @@
 // file 2 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\umr_capim.v "
 // file 3 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_objects.v "
 // file 4 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_pipes.svh "
-// file 5 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
-// file 6 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
-// file 7 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
-// file 8 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
-// file 9 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
-// file 10 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
-// file 11 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
-// file 12 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
-// file 13 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
+// file 5 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
+// file 6 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
+// file 7 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
+// file 8 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
+// file 9 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
+// file 10 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
+// file 11 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
+// file 12 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
+// file 13 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
 // file 14 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\nlconst.dat "
-// file 15 "\c:\users\lucas\onedrive\documentos\nascerrbootloader\github\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
+// file 15 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module testeISP_sb_CCC_0_FCCC (
@@ -53,7 +53,7 @@ wire GL3 ;
 	.Y(GL0_INST_1z),
 	.A(GL0_net)
 );
-//@12:119
+//@12:113
 // @7:20
   CCC CCC_INST (
 	.Y0(Y0),
@@ -123,7 +123,7 @@ output FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire GND ;
 wire VCC ;
-//@12:223
+//@12:217
 // @9:26
   RCOSC_25_50MHZ I_RCOSC_25_50MHZ (
 	.CLKOUT(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
@@ -143,8 +143,7 @@ module testeISP_sb_MSS (
   MMUART_0_RXD_F2M_c,
   LOCK,
   MMUART_1_TXD_M2F_c,
-  MMUART_0_TXD_M2F_c,
-  GPIO_3_M2F_c
+  MMUART_0_TXD_M2F_c
 )
 ;
 input GL0_INST ;
@@ -153,14 +152,12 @@ input MMUART_0_RXD_F2M_c ;
 input LOCK ;
 output MMUART_1_TXD_M2F_c ;
 output MMUART_0_TXD_M2F_c ;
-output GPIO_3_M2F_c ;
 wire GL0_INST ;
 wire MMUART_1_RXD_F2M_c ;
 wire MMUART_0_RXD_F2M_c ;
 wire LOCK ;
 wire MMUART_1_TXD_M2F_c ;
 wire MMUART_0_TXD_M2F_c ;
-wire GPIO_3_M2F_c ;
 wire [7:0] EDAC_ERROR;
 wire [31:0] F_FM0_RDATA;
 wire [31:0] F_HM0_ADDR;
@@ -195,6 +192,7 @@ wire [2:0] DM_OE;
 wire [17:0] DRAM_DQ_OE;
 wire [2:0] DRAM_DQS_OE;
 wire CAN_RXBUS_MGPIO3A_H2F_A ;
+wire CAN_RXBUS_MGPIO3A_H2F_B ;
 wire CAN_TX_EBL_MGPIO4A_H2F_A ;
 wire CAN_TX_EBL_MGPIO4A_H2F_B ;
 wire CAN_TXBUS_MGPIO2A_H2F_A ;
@@ -460,10 +458,10 @@ wire SPI1_SS5_MGPIO18A_OE ;
 wire SPI1_SS6_MGPIO23A_OE ;
 wire SPI1_SS7_MGPIO24A_OE ;
 wire USBC_XCLK_OE ;
-// @11:203
+// @11:197
   MSS_025 MSS_ADLIB_INST (
 	.CAN_RXBUS_MGPIO3A_H2F_A(CAN_RXBUS_MGPIO3A_H2F_A),
-	.CAN_RXBUS_MGPIO3A_H2F_B(GPIO_3_M2F_c),
+	.CAN_RXBUS_MGPIO3A_H2F_B(CAN_RXBUS_MGPIO3A_H2F_B),
 	.CAN_TX_EBL_MGPIO4A_H2F_A(CAN_TX_EBL_MGPIO4A_H2F_A),
 	.CAN_TX_EBL_MGPIO4A_H2F_B(CAN_TX_EBL_MGPIO4A_H2F_B),
 	.CAN_TXBUS_MGPIO2A_H2F_A(CAN_TXBUS_MGPIO2A_H2F_A),
@@ -988,12 +986,12 @@ wire USBC_XCLK_OE ;
 	.SPI1_SS7_MGPIO24A_OE(SPI1_SS7_MGPIO24A_OE),
 	.USBC_XCLK_OE(USBC_XCLK_OE)
 );
-defparam MSS_ADLIB_INST.INIT=1438'h0000000000000030000000000000000000000C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00009000E094C0700003FFFFE4000000000000100000000F0F01C000001825F84010842108421000001FE34001FF8000000400000000020091007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+defparam MSS_ADLIB_INST.INIT=1438'h0000000000000030000000000000000000000C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E09500700003FFFFE400000000000010000000000F01C000001FE5F84010842108421000001FE34001FF8000000400000000020051007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
 defparam MSS_ADLIB_INST.ACT_UBITS=56'hFFFFFFFFFFFFFF;
 defparam MSS_ADLIB_INST.MEMORYFILE="ENVM_init.mem";
 defparam MSS_ADLIB_INST.RTC_MAIN_XTL_FREQ=0.0;
 defparam MSS_ADLIB_INST.RTC_MAIN_XTL_MODE="";
-defparam MSS_ADLIB_INST.DDR_CLK_FREQ=100.0;
+defparam MSS_ADLIB_INST.DDR_CLK_FREQ=50.0;
   GND GND_Z (
 	.Y(GND)
 );
@@ -1003,19 +1001,16 @@ defparam MSS_ADLIB_INST.DDR_CLK_FREQ=100.0;
 endmodule /* testeISP_sb_MSS */
 
 module testeISP_sb (
-  GPIO_3_M2F_c,
   MMUART_0_TXD_M2F_c,
   MMUART_1_TXD_M2F_c,
   MMUART_0_RXD_F2M_c,
   MMUART_1_RXD_F2M_c
 )
 ;
-output GPIO_3_M2F_c ;
 output MMUART_0_TXD_M2F_c ;
 output MMUART_1_TXD_M2F_c ;
 input MMUART_0_RXD_F2M_c ;
 input MMUART_1_RXD_F2M_c ;
-wire GPIO_3_M2F_c ;
 wire MMUART_0_TXD_M2F_c ;
 wire MMUART_1_TXD_M2F_c ;
 wire MMUART_0_RXD_F2M_c ;
@@ -1025,25 +1020,24 @@ wire LOCK ;
 wire GL0_INST ;
 wire GND ;
 wire VCC ;
-// @12:119
+// @12:113
   testeISP_sb_CCC_0_FCCC CCC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC),
 	.LOCK(LOCK),
 	.GL0_INST_1z(GL0_INST)
 );
-// @12:223
+// @12:217
   testeISP_sb_FABOSC_0_OSC FABOSC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
-// @12:244
+// @12:238
   testeISP_sb_MSS testeISP_sb_MSS_0 (
 	.GL0_INST(GL0_INST),
 	.MMUART_1_RXD_F2M_c(MMUART_1_RXD_F2M_c),
 	.MMUART_0_RXD_F2M_c(MMUART_0_RXD_F2M_c),
 	.LOCK(LOCK),
 	.MMUART_1_TXD_M2F_c(MMUART_1_TXD_M2F_c),
-	.MMUART_0_TXD_M2F_c(MMUART_0_TXD_M2F_c),
-	.GPIO_3_M2F_c(GPIO_3_M2F_c)
+	.MMUART_0_TXD_M2F_c(MMUART_0_TXD_M2F_c)
 );
   GND GND_Z (
 	.Y(GND)
@@ -1057,7 +1051,6 @@ module testeISP (
   DEVRST_N,
   MMUART_0_RXD_F2M,
   MMUART_1_RXD_F2M,
-  GPIO_3_M2F,
   MMUART_0_TXD_M2F,
   MMUART_1_TXD_M2F
 )
@@ -1065,50 +1058,41 @@ module testeISP (
 input DEVRST_N ;
 input MMUART_0_RXD_F2M ;
 input MMUART_1_RXD_F2M ;
-output GPIO_3_M2F ;
 output MMUART_0_TXD_M2F ;
 output MMUART_1_TXD_M2F ;
 wire DEVRST_N ;
 wire MMUART_0_RXD_F2M ;
 wire MMUART_1_RXD_F2M ;
-wire GPIO_3_M2F ;
 wire MMUART_0_TXD_M2F ;
 wire MMUART_1_TXD_M2F ;
 wire VCC ;
 wire GND ;
 wire MMUART_0_RXD_F2M_c ;
 wire MMUART_1_RXD_F2M_c ;
-wire GPIO_3_M2F_c ;
 wire MMUART_0_TXD_M2F_c ;
 wire MMUART_1_TXD_M2F_c ;
-// @13:24
+// @13:23
   INBUF MMUART_0_RXD_F2M_ibuf (
 	.Y(MMUART_0_RXD_F2M_c),
 	.PAD(MMUART_0_RXD_F2M)
 );
-// @13:25
+// @13:24
   INBUF MMUART_1_RXD_F2M_ibuf (
 	.Y(MMUART_1_RXD_F2M_c),
 	.PAD(MMUART_1_RXD_F2M)
 );
-// @13:29
-  OUTBUF GPIO_3_M2F_obuf (
-	.PAD(GPIO_3_M2F),
-	.D(GPIO_3_M2F_c)
-);
-// @13:30
+// @13:28
   OUTBUF MMUART_0_TXD_M2F_obuf (
 	.PAD(MMUART_0_TXD_M2F),
 	.D(MMUART_0_TXD_M2F_c)
 );
-// @13:31
+// @13:29
   OUTBUF MMUART_1_TXD_M2F_obuf (
 	.PAD(MMUART_1_TXD_M2F),
 	.D(MMUART_1_TXD_M2F_c)
 );
-// @13:65
+// @13:59
   testeISP_sb testeISP_sb_0 (
-	.GPIO_3_M2F_c(GPIO_3_M2F_c),
 	.MMUART_0_TXD_M2F_c(MMUART_0_TXD_M2F_c),
 	.MMUART_1_TXD_M2F_c(MMUART_1_TXD_M2F_c),
 	.MMUART_0_RXD_F2M_c(MMUART_0_RXD_F2M_c),

@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Mon Apr  7 16:42:09 2025
+<text>Date: Tue Apr  8 14:02:44 2025
 </text>
 <section><name>testeISP_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -2461,7 +2461,7 @@
  <cell>ENVM_CONFIG</cell>
  <cell>NV_FREQRNG</cell>
  <cell>INIT[168:161]</cell>
- <cell>8&apos;h04</cell>
+ <cell>8&apos;h02</cell>
  <cell>INIT[3]</cell>
  <cell>1</cell>
 </row>
@@ -2981,7 +2981,7 @@
  <cell>SOFTRESET</cell>
  <cell>MSS_GPIO_SOFTRESET</cell>
  <cell>INIT[370:370]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[38]</cell>
  <cell>1</cell>
 </row>
@@ -2989,7 +2989,7 @@
  <cell>SOFTRESET</cell>
  <cell>MSS_GPOUT_7_0_SOFT_RESET</cell>
  <cell>INIT[371:371]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[39]</cell>
  <cell>1</cell>
 </row>
@@ -2997,7 +2997,7 @@
  <cell>SOFTRESET</cell>
  <cell>MSS_GPOUT_15_8_SOFT_RESET</cell>
  <cell>INIT[372:372]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[40]</cell>
  <cell>1</cell>
 </row>
@@ -3005,7 +3005,7 @@
  <cell>SOFTRESET</cell>
  <cell>MSS_GPOUT_23_16_SOFT_RESET</cell>
  <cell>INIT[373:373]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[41]</cell>
  <cell>1</cell>
 </row>
@@ -3013,7 +3013,7 @@
  <cell>SOFTRESET</cell>
  <cell>MSS_GPOUT_31_24_SOFT_RESET</cell>
  <cell>INIT[374:374]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[42]</cell>
  <cell>1</cell>
 </row>
@@ -3133,7 +3133,7 @@
  <cell>GPIO_SYSRESET_SEL</cell>
  <cell>MSS_GPIO_7_0_SYSRESET_SEL</cell>
  <cell>INIT[420:420]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[48]</cell>
  <cell>1</cell>
 </row>
@@ -3141,7 +3141,7 @@
  <cell>GPIO_SYSRESET_SEL</cell>
  <cell>MSS_GPIO_15_8_SYSRESET_SEL</cell>
  <cell>INIT[421:421]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[48]</cell>
  <cell>1</cell>
 </row>
@@ -3149,7 +3149,7 @@
  <cell>GPIO_SYSRESET_SEL</cell>
  <cell>MSS_GPIO_23_16_SYSRESET_SEL</cell>
  <cell>INIT[422:422]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[48]</cell>
  <cell>1</cell>
 </row>
@@ -3157,7 +3157,7 @@
  <cell>GPIO_SYSRESET_SEL</cell>
  <cell>MSS_GPIO_31_24_SYSRESET_SEL</cell>
  <cell>INIT[423:423]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[48]</cell>
  <cell>1</cell>
 </row>
@@ -3517,7 +3517,7 @@
  <cell>MSSDDR_PLL_STATUS_LOW</cell>
  <cell>FACC_PLL_DIVQ</cell>
  <cell>INIT[564:562]</cell>
- <cell>3&apos;h3</cell>
+ <cell>3&apos;h4</cell>
  <cell>INIT[62]</cell>
  <cell>1</cell>
 </row>
@@ -3621,7 +3621,7 @@
  <cell>MSSDDR_FACC_CONFIG_1</cell>
  <cell>APB0_DIVISOR</cell>
  <cell>INIT[593:591]</cell>
- <cell>3&apos;h2</cell>
+ <cell>3&apos;h0</cell>
  <cell>INIT[65]</cell>
  <cell>1</cell>
 </row>
@@ -3629,7 +3629,7 @@
  <cell>MSSDDR_FACC_CONFIG_1</cell>
  <cell>APB1_DIVISOR</cell>
  <cell>INIT[596:594]</cell>
- <cell>3&apos;h2</cell>
+ <cell>3&apos;h0</cell>
  <cell>INIT[66]</cell>
  <cell>1</cell>
 </row>

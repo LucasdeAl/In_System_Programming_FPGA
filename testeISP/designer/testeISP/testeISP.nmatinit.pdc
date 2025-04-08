@@ -8,14 +8,13 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF , Speed grade: STD 
 
-# Date generated: Mon Apr  7 16:41:40 2025 
+# Date generated: Tue Apr  8 14:02:25 2025 
 
 
 #
 # I/O constraints
 #
 
-set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname K1 -fixed no
 set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname H13 -fixed no
 set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname H12 -fixed no
 set_io MMUART_1_RXD_F2M -DIRECTION INPUT -pinname H16 -fixed no

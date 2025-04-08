@@ -12,12 +12,12 @@ Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Mon Apr  7 16:41:22 2025
+# Written on Tue Apr  8 14:02:07 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "testeISP"
-Constraint File(s):      "C:\Users\Lucas\OneDrive\Documentos\nascerrBootloader\Github\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
 
 
 
@@ -49,7 +49,6 @@ Unconstrained Start/End Points
 ******************************
 
 p:DEVRST_N
-p:GPIO_3_M2F
 p:MMUART_0_RXD_F2M
 p:MMUART_0_TXD_M2F
 p:MMUART_1_RXD_F2M

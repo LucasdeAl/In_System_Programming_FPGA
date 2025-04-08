@@ -1,36 +1,36 @@
 {
 "Synplify Pro (R) Job Log" : {
-	"Date" : "14:34:47    05-Apr-2025",
-	"Working Directory" : "C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/synthesis",
-	"Install" : "D:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+	"Date" : "13:54:36    08-Apr-2025",
+	"Working Directory" : "C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
 },
 "synthesis" :{
    "Job Flow" : "Sequential",
-   "Start Time" : "14:34:37",
-   "Runtime" : "10s",
+   "Start Time" : "13:54:28",
+   "Runtime" : "08s",
    "Executable Run Time" : "07s",
    "synthesis" : {
       "Job Flow" : "Sequential",
-      "Start Time" : "14:34:37",
-      "Runtime" : "10s",
+      "Start Time" : "13:54:28",
+      "Runtime" : "08s",
       "Executable Run Time" : "07s",
       "compile" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "14:34:37",
+         "Start Time" : "13:54:28",
          "Runtime" : "06s",
-         "Executable Run Time" : "04s",
+         "Executable Run Time" : "05s",
          "compile_flow" : {
             "Job Flow" : "Sequential",
-            "Start Time" : "14:34:37",
-            "Runtime" : "05s",
+            "Start Time" : "13:54:28",
+            "Runtime" : "04s",
             "Executable Run Time" : "03s",
             "compiler" : {
                "executable" : "bin64/c_hdl.exe",
-               "Run Directory" : "C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/synthesis",
+               "Run Directory" : "C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/synthesis",
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "14:34:37",
+               "Run Start Time" : "13:54:28",
                "Run Time" : "04s",
                "Exe Run Time" : "03s",
                "Memory Usage" : "-",
@@ -38,12 +38,12 @@
             },
             "multi_srs_gen" : {
                "executable" : "bin64/syn_nfilter.exe",
-               "Run Directory" : "C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/synthesis",
+               "Run Directory" : "C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/synthesis",
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "14:34:41",
-               "Run Time" : "01s",
+               "Run Start Time" : "13:54:32",
+               "Run Time" : "00s",
                "Exe Run Time" : "00s",
                "Memory Usage" : "-",
                "Up-to-date (run skipped)" : "no"
@@ -51,31 +51,31 @@
          },
          "premap" : {
             "executable" : "bin64/m_generic.exe",
-            "Run Directory" : "C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/synthesis",
+            "Run Directory" : "C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/synthesis",
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "14:34:42",
-            "Run Time" : "01s",
-            "Exe Run Time" : "01s",
+            "Run Start Time" : "13:54:32",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
             "Memory Usage" : "-",
             "Up-to-date (run skipped)" : "no"
          }
       },
       "map" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "14:34:43",
-         "Runtime" : "04s",
-         "Executable Run Time" : "03s",
+         "Start Time" : "13:54:34",
+         "Runtime" : "02s",
+         "Executable Run Time" : "02s",
          "fpga_mapper" : {
             "executable" : "bin64/m_generic.exe",
-            "Run Directory" : "C:/Users/Lucas/OneDrive/Documentos/nascerr documentos/In_System_Programming_FPGA/testeISP/synthesis",
+            "Run Directory" : "C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/synthesis",
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "14:34:43",
-            "Run Time" : "04s",
-            "Exe Run Time" : "03s",
+            "Run Start Time" : "13:54:34",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
             "Memory Usage" : "-",
             "Up-to-date (run skipped)" : "no"
          }

@@ -25,11 +25,6 @@
 # User Locked I/O settings
 # 
 
-set_io GPIO_3_M2F      \
-    -pinname K1        \
-    -fixed yes         \
-    -DIRECTION OUTPUT
-
 
 set_io MMUART_0_RXD_F2M  \
     -pinname H13         \

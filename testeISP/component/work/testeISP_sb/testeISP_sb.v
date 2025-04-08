@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Apr  5 14:34:26 2025
+// Created by SmartDesign Tue Apr  8 14:01:56 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -15,7 +15,6 @@ module testeISP_sb(
     // Outputs
     FAB_CCC_GL0,
     FAB_CCC_LOCK,
-    GPIO_3_M2F,
     INIT_DONE,
     MMUART_0_TXD_M2F,
     MMUART_1_TXD_M2F,
@@ -35,7 +34,6 @@ input  MMUART_1_RXD_F2M;
 //--------------------------------------------------------------------
 output FAB_CCC_GL0;
 output FAB_CCC_LOCK;
-output GPIO_3_M2F;
 output INIT_DONE;
 output MMUART_0_TXD_M2F;
 output MMUART_1_TXD_M2F;
@@ -51,7 +49,6 @@ wire   FAB_CCC_LOCK_net_0;
 wire   FAB_RESET_N;
 wire   FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC;
 wire   FABOSC_0_RCOSC_25_50MHZ_O2F;
-wire   GPIO_3_M2F_net_0;
 wire   INIT_DONE_net_0;
 wire   MMUART_0_RXD_F2M;
 wire   MMUART_0_TXD_M2F_net_0;
@@ -68,7 +65,6 @@ wire   FAB_CCC_LOCK_net_1;
 wire   MSS_READY_net_1;
 wire   MMUART_0_TXD_M2F_net_1;
 wire   MMUART_1_TXD_M2F_net_1;
-wire   GPIO_3_M2F_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -110,8 +106,6 @@ assign MMUART_0_TXD_M2F_net_1 = MMUART_0_TXD_M2F_net_0;
 assign MMUART_0_TXD_M2F       = MMUART_0_TXD_M2F_net_1;
 assign MMUART_1_TXD_M2F_net_1 = MMUART_1_TXD_M2F_net_0;
 assign MMUART_1_TXD_M2F       = MMUART_1_TXD_M2F_net_1;
-assign GPIO_3_M2F_net_1       = GPIO_3_M2F_net_0;
-assign GPIO_3_M2F             = GPIO_3_M2F_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -255,7 +249,6 @@ testeISP_sb_MSS testeISP_sb_MSS_0(
         .MSS_RESET_N_M2F        ( testeISP_sb_MSS_TMP_0_MSS_RESET_N_M2F ),
         .MMUART_0_TXD_M2F       ( MMUART_0_TXD_M2F_net_0 ),
         .MMUART_1_TXD_M2F       ( MMUART_1_TXD_M2F_net_0 ),
-        .GPIO_3_M2F             ( GPIO_3_M2F_net_0 ),
         .FIC_2_APB_M_PRESET_N   ( testeISP_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N ),
         .FIC_2_APB_M_PCLK       (  ),
         .FIC_2_APB_M_PWRITE     (  ),

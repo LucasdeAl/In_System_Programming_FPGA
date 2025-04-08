@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Mon Apr  7 16:41:42 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Tue Apr  8 14:02:26 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2024.1
 -Version: 2024.1.0.3
@@ -155,7 +155,7 @@ J13                       MSIO12NB2/SPI_0_SDI/GPIO_5_A                Unassigned
 J14                       MSIO12PB2/SPI_0_CLK                         Unassigned  
 J15                       VDDI2                                       Reserved    
 J16     MMUART_1_TXD_M2F  MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-K1      GPIO_3_M2F        MSIOD119NB5/SERDES_0_REFCLK1_N              Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+K1                        MSIOD119NB5/SERDES_0_REFCLK1_N              Unassigned  
 K2                        VDDI5                                       Reserved    
 K3                        SERDES_0_L23_REXT                           Reserved    
 K4                        SERDES_0_PLL_VSSA                           Reserved    

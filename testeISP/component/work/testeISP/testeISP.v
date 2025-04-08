@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Apr  5 13:39:26 2025
+// Created by SmartDesign Tue Apr  8 13:50:21 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -12,7 +12,6 @@ module testeISP(
     MMUART_0_RXD_F2M,
     MMUART_1_RXD_F2M,
     // Outputs
-    GPIO_3_M2F,
     MMUART_0_TXD_M2F,
     MMUART_1_TXD_M2F
 );
@@ -26,19 +25,16 @@ input  MMUART_1_RXD_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output GPIO_3_M2F;
 output MMUART_0_TXD_M2F;
 output MMUART_1_TXD_M2F;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
 wire   DEVRST_N;
-wire   GPIO_3_M2F_net_0;
 wire   MMUART_0_RXD_F2M;
 wire   MMUART_0_TXD_M2F_net_0;
 wire   MMUART_1_RXD_F2M;
 wire   MMUART_1_TXD_M2F_net_0;
-wire   GPIO_3_M2F_net_1;
 wire   MMUART_1_TXD_M2F_net_1;
 wire   MMUART_0_TXD_M2F_net_1;
 //--------------------------------------------------------------------
@@ -52,8 +48,6 @@ assign VCC_net = 1'b1;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
-assign GPIO_3_M2F_net_1       = GPIO_3_M2F_net_0;
-assign GPIO_3_M2F             = GPIO_3_M2F_net_1;
 assign MMUART_1_TXD_M2F_net_1 = MMUART_1_TXD_M2F_net_0;
 assign MMUART_1_TXD_M2F       = MMUART_1_TXD_M2F_net_1;
 assign MMUART_0_TXD_M2F_net_1 = MMUART_0_TXD_M2F_net_0;
@@ -75,8 +69,7 @@ testeISP_sb testeISP_sb_0(
         .FAB_CCC_LOCK     (  ),
         .MSS_READY        (  ),
         .MMUART_0_TXD_M2F ( MMUART_0_TXD_M2F_net_0 ),
-        .MMUART_1_TXD_M2F ( MMUART_1_TXD_M2F_net_0 ),
-        .GPIO_3_M2F       ( GPIO_3_M2F_net_0 ) 
+        .MMUART_1_TXD_M2F ( MMUART_1_TXD_M2F_net_0 ) 
         );
 
 

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Mon Apr  7 16:41:42 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Tue Apr  8 14:02:26 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2024.1
 -Version: 2024.1.0.3
@@ -11,7 +11,6 @@
 
 Port             |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
 -----------------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
-GPIO_3_M2F        K1   Yes    MSIOD119NB5/SERDES_0_REFCLK1_N              Bank5     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
 MMUART_0_RXD_F2M  H13  Yes    MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Bank1     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
 MMUART_0_TXD_M2F  H12  Yes    MSIO27NB1/MMUART_1_TXD/GPIO_24_B            Bank1     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
 MMUART_1_RXD_F2M  H16  Yes    MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
