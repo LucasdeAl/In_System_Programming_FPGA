@@ -17,11 +17,17 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
 <data>100.0 MHz</data>
+<data>179.8 MHz</data>
+<data>4.440</data>
+</row>
+<row>
+<data>testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
+<data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>
 <row>
-<data>testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
+<data>System</data>
 <data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>

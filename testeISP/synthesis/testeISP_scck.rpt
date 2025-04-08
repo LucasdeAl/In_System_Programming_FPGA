@@ -12,7 +12,7 @@ Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Tue Apr  8 14:02:06 2025
+# Written on Tue Apr  8 15:28:42 2025
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\synthesis.fdc"
@@ -29,13 +29,15 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start                                                          Requested     Requested     Clock        Clock          Clock
-Level     Clock                                                          Frequency     Period        Type         Group          Load 
---------------------------------------------------------------------------------------------------------------------------------------
-0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     36   
-                                                                                                                                      
-0 -       testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
-======================================================================================================================================
+          Start                                                          Requested     Requested     Clock        Clock               Clock
+Level     Clock                                                          Frequency     Period        Type         Group               Load 
+-------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                         100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                                                           
+0 -       testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)          102  
+                                                                                                                                           
+0 -       testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          15   
+===========================================================================================================================================
 
 
 Clock Load Summary
@@ -44,7 +46,9 @@ Clock Load Summary
                                                                Clock     Source                                                             Clock Pin                                                   Non-clock Pin     Non-clock Pin                                                    
 Clock                                                          Load      Pin                                                                Seq Example                                                 Seq Example       Comb Example                                                     
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  36        testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+System                                                         0         -                                                                  -                                                           -                 -                                                                
+                                                                                                                                                                                                                                                                                           
+testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  102       testeISP_sb_0.CCC_0.CCC_INST.GL0(CCC)                              testeISP_sb_0.testeISP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 testeISP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
                                                                                                                                                                                                                                                                                            
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     testeISP_sb_0.CORERESETP_0.release_sdif0_core.C             -                 testeISP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
 ===========================================================================================================================================================================================================================================================================================

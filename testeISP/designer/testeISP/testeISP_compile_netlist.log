@@ -1,17 +1,21 @@
-Warning: CMPG4-007: Top level port DEVRST_N is not connected to any IO pad
 
 ===============================================================================.
 
 Info: Global design data: 
-      Total globals:                       1 
+      Total globals:                       2 
       Globals that cannot be demoted:      1 
-      Globals considered for demotion:     0 
+      Globals considered for demotion:     1 
 
 
 Info: List of globals that cannot be demoted: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    1      0      0      'testeISP_sb_0/CCC_0/GL0_INST' 
+    67     0      0      'testeISP_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      64     0      'testeISP_sb_0/SYSRESET_POR_RNIKS781' 
 
 Info: Demotion information: 
 Info: CMPG4-302: Added 0 row global instances.

@@ -17,7 +17,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2024.1.0 
-Design: testeISP                        Started: Tue Apr  8 14:02:16 2025
+Design: testeISP                        Started: Tue Apr  8 15:29:00 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,32 +33,32 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: testeISP                        
-Finished: Tue Apr  8 14:02:18 2025
+Finished: Tue Apr  8 15:29:02 2025
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 137.7 Mbytes
+Total Memory Usage: 138.3 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISPStarted: Tue Apr  8 14:02:20 2025
+Design: C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISPStarted: Tue Apr  8 15:29:04 2025
 
 
 Router completed successfully.
 
 Design: C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\designer\testeISP\testeISP
-Finished: Tue Apr  8 14:02:25 2025
+Finished: Tue Apr  8 15:29:09 2025
 Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
-Total Memory Usage: 896.0 Mbytes
+Total Memory Usage: 895.7 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 0    | 27696 | 0.00       |
-| DFF           | 0    | 27696 | 0.00       |
+| 4LUT          | 121  | 27696 | 0.44       |
+| DFF           | 100  | 27696 | 0.36       |
 | I/O Register  | 0    | 414   | 0.00       |
-| Logic Element | 0    | 27696 | 0.00       |
+| Logic Element | 129  | 27696 | 0.47       |
 +---------------+------+-------+------------+
 
 I/O Placement

@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "V-2023.09M"
 // Program "Synplify Pro", Mapper "map202309act, Build 044R"
-// Tue Apr  8 14:02:09 2025
+// Tue Apr  8 15:28:46 2025
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -11,31 +11,38 @@
 // file 2 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\umr_capim.v "
 // file 3 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_objects.v "
 // file 4 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_pipes.svh "
-// file 5 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
-// file 6 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
-// file 7 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
-// file 8 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
-// file 9 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
-// file 10 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
-// file 11 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
-// file 12 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
-// file 13 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
-// file 14 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\nlconst.dat "
-// file 15 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
+// file 5 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\hdl\ram_interface.v "
+// file 6 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\sgcore\tamper\2.1.300\tamper_comps.v "
+// file 7 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\tamper_c0\tamper_c0_0\tamper_c0_tamper_c0_0_tamper.v "
+// file 8 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\tamper_c0\tamper_c0.v "
+// file 9 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\tpsram_c0\tpsram_c0_0\tpsram_c0_tpsram_c0_0_tpsram.v "
+// file 10 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\tpsram_c0\tpsram_c0.v "
+// file 11 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\dev_restart_after_isp_blk\dev_restart_after_isp_blk.v "
+// file 12 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v "
+// file 13 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v "
+// file 14 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\ccc_0\testeisp_sb_ccc_0_fccc.v "
+// file 15 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\sgcore\osc\2.0.101\osc_comps.v "
+// file 16 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v "
+// file 17 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss_syn.v "
+// file 18 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb_mss\testeisp_sb_mss.v "
+// file 19 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\testeisp_sb.v "
+// file 20 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp\testeisp.v "
+// file 21 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\nlconst.dat "
+// file 22 "\c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\designer\testeisp\synthesis.fdc "
 
 `timescale 100 ps/100 ps
 module testeISP_sb_CCC_0_FCCC (
   FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC,
   LOCK,
-  GL0_INST_1z
+  testeISP_sb_0_FAB_CCC_GL0
 )
 ;
 input FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 output LOCK ;
-output GL0_INST_1z ;
+output testeISP_sb_0_FAB_CCC_GL0 ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire LOCK ;
-wire GL0_INST_1z ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
 wire [7:0] PRDATA;
 wire GL0_net ;
 wire Y0 ;
@@ -48,13 +55,13 @@ wire GND ;
 wire GL1 ;
 wire GL2 ;
 wire GL3 ;
-// @7:18
+// @14:18
   CLKINT GL0_INST (
-	.Y(GL0_INST_1z),
+	.Y(testeISP_sb_0_FAB_CCC_GL0),
 	.A(GL0_net)
 );
-//@12:113
-// @7:20
+//@19:113
+// @14:20
   CCC CCC_INST (
 	.Y0(Y0),
 	.Y1(Y1),
@@ -123,8 +130,8 @@ output FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire GND ;
 wire VCC ;
-//@12:217
-// @9:26
+//@19:217
+// @16:26
   RCOSC_25_50MHZ I_RCOSC_25_50MHZ (
 	.CLKOUT(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
@@ -138,7 +145,7 @@ defparam I_RCOSC_25_50MHZ.FREQUENCY=50.0;
 endmodule /* testeISP_sb_FABOSC_0_OSC */
 
 module testeISP_sb_MSS (
-  GL0_INST,
+  testeISP_sb_0_FAB_CCC_GL0,
   MMUART_1_RXD_F2M_c,
   MMUART_0_RXD_F2M_c,
   LOCK,
@@ -146,13 +153,13 @@ module testeISP_sb_MSS (
   MMUART_0_TXD_M2F_c
 )
 ;
-input GL0_INST ;
+input testeISP_sb_0_FAB_CCC_GL0 ;
 input MMUART_1_RXD_F2M_c ;
 input MMUART_0_RXD_F2M_c ;
 input LOCK ;
 output MMUART_1_TXD_M2F_c ;
 output MMUART_0_TXD_M2F_c ;
-wire GL0_INST ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
 wire MMUART_1_RXD_F2M_c ;
 wire MMUART_0_RXD_F2M_c ;
 wire LOCK ;
@@ -458,7 +465,7 @@ wire SPI1_SS5_MGPIO18A_OE ;
 wire SPI1_SS6_MGPIO23A_OE ;
 wire SPI1_SS7_MGPIO24A_OE ;
 wire USBC_XCLK_OE ;
-// @11:197
+// @18:197
   MSS_025 MSS_ADLIB_INST (
 	.CAN_RXBUS_MGPIO3A_H2F_A(CAN_RXBUS_MGPIO3A_H2F_A),
 	.CAN_RXBUS_MGPIO3A_H2F_B(CAN_RXBUS_MGPIO3A_H2F_B),
@@ -738,7 +745,7 @@ wire USBC_XCLK_OE ;
 	.USER_MSS_GPIO_RESET_N(VCC),
 	.USER_MSS_RESET_N(VCC),
 	.XCLK_FAB(VCC),
-	.CLK_BASE(GL0_INST),
+	.CLK_BASE(testeISP_sb_0_FAB_CCC_GL0),
 	.CLK_MDDR_APB(VCC),
 	.F_ARADDR_HADDR1({VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC, VCC}),
 	.F_ARBURST_HTRANS1({GND, GND}),
@@ -1004,35 +1011,53 @@ module testeISP_sb (
   MMUART_0_TXD_M2F_c,
   MMUART_1_TXD_M2F_c,
   MMUART_0_RXD_F2M_c,
-  MMUART_1_RXD_F2M_c
+  MMUART_1_RXD_F2M_c,
+  testeISP_sb_0_FAB_CCC_GL0,
+  DEVRST_N,
+  POWER_ON_RESET_N
 )
 ;
 output MMUART_0_TXD_M2F_c ;
 output MMUART_1_TXD_M2F_c ;
 input MMUART_0_RXD_F2M_c ;
 input MMUART_1_RXD_F2M_c ;
+output testeISP_sb_0_FAB_CCC_GL0 ;
+input DEVRST_N ;
+output POWER_ON_RESET_N ;
 wire MMUART_0_TXD_M2F_c ;
 wire MMUART_1_TXD_M2F_c ;
 wire MMUART_0_RXD_F2M_c ;
 wire MMUART_1_RXD_F2M_c ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
+wire DEVRST_N ;
+wire POWER_ON_RESET_N ;
+wire SYSRESET_POR_Z ;
 wire FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ;
 wire LOCK ;
-wire GL0_INST ;
 wire GND ;
 wire VCC ;
-// @12:113
+  CLKINT SYSRESET_POR_RNIKS781 (
+	.Y(POWER_ON_RESET_N),
+	.A(SYSRESET_POR_Z)
+);
+// @19:230
+  SYSRESET SYSRESET_POR (
+	.POWER_ON_RESET_N(SYSRESET_POR_Z),
+	.DEVRST_N(DEVRST_N)
+);
+// @19:113
   testeISP_sb_CCC_0_FCCC CCC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC),
 	.LOCK(LOCK),
-	.GL0_INST_1z(GL0_INST)
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0)
 );
-// @12:217
+// @19:217
   testeISP_sb_FABOSC_0_OSC FABOSC_0 (
 	.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC(FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC)
 );
-// @12:238
+// @19:238
   testeISP_sb_MSS testeISP_sb_MSS_0 (
-	.GL0_INST(GL0_INST),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0),
 	.MMUART_1_RXD_F2M_c(MMUART_1_RXD_F2M_c),
 	.MMUART_0_RXD_F2M_c(MMUART_0_RXD_F2M_c),
 	.LOCK(LOCK),
@@ -1046,6 +1071,1931 @@ wire VCC ;
 	.Y(VCC)
 );
 endmodule /* testeISP_sb */
+
+module TAMPER_C0_TAMPER_C0_0_TAMPER (
+  Ram_intferface_0_o_reset_n
+)
+;
+input Ram_intferface_0_o_reset_n ;
+wire Ram_intferface_0_o_reset_n ;
+wire [3:0] DETECT_CATEGORY;
+wire JTAG_ACTIVE ;
+wire LOCK_TAMPER_DETECT ;
+wire MESH_SHORT_ERROR ;
+wire CLK_ERROR ;
+wire DETECT_ATTEMPT ;
+wire DETECT_FAIL ;
+wire DIGEST_ERROR ;
+wire POWERUP_DIGEST_ERROR ;
+wire SC_ROM_DIGEST_ERROR ;
+wire TAMPER_CHANGE_STROBE ;
+wire VCC ;
+wire GND ;
+// @7:31
+  TAMPER TAMPER_INST (
+	.JTAG_ACTIVE(JTAG_ACTIVE),
+	.LOCK_TAMPER_DETECT(LOCK_TAMPER_DETECT),
+	.MESH_SHORT_ERROR(MESH_SHORT_ERROR),
+	.CLK_ERROR(CLK_ERROR),
+	.DETECT_CATEGORY(DETECT_CATEGORY[3:0]),
+	.DETECT_ATTEMPT(DETECT_ATTEMPT),
+	.DETECT_FAIL(DETECT_FAIL),
+	.DIGEST_ERROR(DIGEST_ERROR),
+	.POWERUP_DIGEST_ERROR(POWERUP_DIGEST_ERROR),
+	.SC_ROM_DIGEST_ERROR(SC_ROM_DIGEST_ERROR),
+	.TAMPER_CHANGE_STROBE(TAMPER_CHANGE_STROBE),
+	.LOCKDOWN_ALL_N(VCC),
+	.DISABLE_ALL_IOS_N(VCC),
+	.RESET_N(Ram_intferface_0_o_reset_n),
+	.ZEROIZE_N(VCC)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* TAMPER_C0_TAMPER_C0_0_TAMPER */
+
+module TAMPER_C0 (
+  Ram_intferface_0_o_reset_n
+)
+;
+input Ram_intferface_0_o_reset_n ;
+wire Ram_intferface_0_o_reset_n ;
+wire GND ;
+wire VCC ;
+// @8:117
+  TAMPER_C0_TAMPER_C0_0_TAMPER TAMPER_C0_0 (
+	.Ram_intferface_0_o_reset_n(Ram_intferface_0_o_reset_n)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* TAMPER_C0 */
+
+module TPSRAM_C0_TPSRAM_C0_0_TPSRAM (
+  Ram_intferface_0_o_TPSRAM_WADDR_sv,
+  Ram_intferface_0_o_TPSRAM_WD,
+  Ram_intferface_0_o_TPSRAM_RADDR_sv,
+  TPSRAM_C0_0_RD,
+  Ram_intferface_0_o_TPSRAM_WEN,
+  Ram_intferface_0_o_TPSRAM_REN,
+  testeISP_sb_0_FAB_CCC_GL0
+)
+;
+input [5:0] Ram_intferface_0_o_TPSRAM_WADDR_sv ;
+input [7:0] Ram_intferface_0_o_TPSRAM_WD ;
+input [5:0] Ram_intferface_0_o_TPSRAM_RADDR_sv ;
+output [7:0] TPSRAM_C0_0_RD ;
+input Ram_intferface_0_o_TPSRAM_WEN ;
+input Ram_intferface_0_o_TPSRAM_REN ;
+input testeISP_sb_0_FAB_CCC_GL0 ;
+wire Ram_intferface_0_o_TPSRAM_WEN ;
+wire Ram_intferface_0_o_TPSRAM_REN ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
+wire [17:8] TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_A_DOUT;
+wire [17:0] TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_B_DOUT;
+wire TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_BUSY ;
+wire VCC ;
+wire GND ;
+// @9:29
+  RAM1K18 TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0 (
+	.A_DOUT({TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_A_DOUT[17:8], TPSRAM_C0_0_RD[7:0]}),
+	.B_DOUT(TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_B_DOUT[17:0]),
+	.BUSY(TPSRAM_C0_TPSRAM_C0_0_TPSRAM_R0C0_BUSY),
+	.A_CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.A_DOUT_CLK(VCC),
+	.A_ARST_N(VCC),
+	.A_DOUT_EN(VCC),
+	.A_BLK({Ram_intferface_0_o_TPSRAM_REN, VCC, VCC}),
+	.A_DOUT_ARST_N(VCC),
+	.A_DOUT_SRST_N(VCC),
+	.A_DIN({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND}),
+	.A_ADDR({GND, GND, GND, GND, GND, Ram_intferface_0_o_TPSRAM_RADDR_sv[5:0], GND, GND, GND}),
+	.A_WEN({GND, GND}),
+	.B_CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.B_DOUT_CLK(VCC),
+	.B_ARST_N(VCC),
+	.B_DOUT_EN(VCC),
+	.B_BLK({Ram_intferface_0_o_TPSRAM_WEN, VCC, VCC}),
+	.B_DOUT_ARST_N(GND),
+	.B_DOUT_SRST_N(VCC),
+	.B_DIN({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, Ram_intferface_0_o_TPSRAM_WD[7:0]}),
+	.B_ADDR({GND, GND, GND, GND, GND, Ram_intferface_0_o_TPSRAM_WADDR_sv[5:0], GND, GND, GND}),
+	.B_WEN({GND, VCC}),
+	.A_EN(VCC),
+	.A_DOUT_LAT(VCC),
+	.A_WIDTH({GND, VCC, VCC}),
+	.A_WMODE(GND),
+	.B_EN(VCC),
+	.B_DOUT_LAT(VCC),
+	.B_WIDTH({GND, VCC, VCC}),
+	.B_WMODE(GND),
+	.SII_LOCK(GND)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* TPSRAM_C0_TPSRAM_C0_0_TPSRAM */
+
+module TPSRAM_C0 (
+  TPSRAM_C0_0_RD,
+  Ram_intferface_0_o_TPSRAM_RADDR_sv,
+  Ram_intferface_0_o_TPSRAM_WD,
+  Ram_intferface_0_o_TPSRAM_WADDR_sv,
+  testeISP_sb_0_FAB_CCC_GL0,
+  Ram_intferface_0_o_TPSRAM_REN,
+  Ram_intferface_0_o_TPSRAM_WEN
+)
+;
+output [7:0] TPSRAM_C0_0_RD ;
+input [5:0] Ram_intferface_0_o_TPSRAM_RADDR_sv ;
+input [7:0] Ram_intferface_0_o_TPSRAM_WD ;
+input [5:0] Ram_intferface_0_o_TPSRAM_WADDR_sv ;
+input testeISP_sb_0_FAB_CCC_GL0 ;
+input Ram_intferface_0_o_TPSRAM_REN ;
+input Ram_intferface_0_o_TPSRAM_WEN ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
+wire Ram_intferface_0_o_TPSRAM_REN ;
+wire Ram_intferface_0_o_TPSRAM_WEN ;
+wire GND ;
+wire VCC ;
+// @10:106
+  TPSRAM_C0_TPSRAM_C0_0_TPSRAM TPSRAM_C0_0 (
+	.Ram_intferface_0_o_TPSRAM_WADDR_sv(Ram_intferface_0_o_TPSRAM_WADDR_sv[5:0]),
+	.Ram_intferface_0_o_TPSRAM_WD(Ram_intferface_0_o_TPSRAM_WD[7:0]),
+	.Ram_intferface_0_o_TPSRAM_RADDR_sv(Ram_intferface_0_o_TPSRAM_RADDR_sv[5:0]),
+	.TPSRAM_C0_0_RD(TPSRAM_C0_0_RD[7:0]),
+	.Ram_intferface_0_o_TPSRAM_WEN(Ram_intferface_0_o_TPSRAM_WEN),
+	.Ram_intferface_0_o_TPSRAM_REN(Ram_intferface_0_o_TPSRAM_REN),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* TPSRAM_C0 */
+
+module Ram_intferface (
+  TPSRAM_C0_0_RD,
+  Ram_intferface_0_o_TPSRAM_RADDR_sv,
+  Ram_intferface_0_o_TPSRAM_WADDR_sv,
+  Ram_intferface_0_o_TPSRAM_WD,
+  Ram_intferface_0_o_reset_n,
+  Ram_intferface_0_o_TPSRAM_REN,
+  Ram_intferface_0_o_TPSRAM_WEN,
+  testeISP_sb_0_FAB_CCC_GL0,
+  POWER_ON_RESET_N
+)
+;
+input [7:0] TPSRAM_C0_0_RD ;
+output [5:0] Ram_intferface_0_o_TPSRAM_RADDR_sv ;
+output [5:0] Ram_intferface_0_o_TPSRAM_WADDR_sv ;
+output [7:0] Ram_intferface_0_o_TPSRAM_WD ;
+output Ram_intferface_0_o_reset_n ;
+output Ram_intferface_0_o_TPSRAM_REN ;
+output Ram_intferface_0_o_TPSRAM_WEN ;
+input testeISP_sb_0_FAB_CCC_GL0 ;
+input POWER_ON_RESET_N ;
+wire Ram_intferface_0_o_reset_n ;
+wire Ram_intferface_0_o_TPSRAM_REN ;
+wire Ram_intferface_0_o_TPSRAM_WEN ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
+wire POWER_ON_RESET_N ;
+wire [15:0] counter_Z;
+wire [15:15] counter_s_Z;
+wire [14:0] counter_s;
+wire [7:0] expected_data_Z;
+wire [7:7] expected_data_s_Z;
+wire [6:0] expected_data_s;
+wire [7:0] next_data_Z;
+wire [7:7] next_data_s_Z;
+wire [6:0] next_data_s;
+wire [5:1] next_addr_Z;
+wire [5:0] o_TPSRAM_RADDR_sv_6_Z;
+wire [1:0] state_tpsram_access_6;
+wire [5:0] next_addr_6_Z;
+wire [14:0] counter_cry_Z;
+wire [14:0] counter_cry_Y;
+wire [15:15] counter_s_FCO;
+wire [15:15] counter_s_Y;
+wire [6:0] expected_data_cry_Z;
+wire [6:0] expected_data_cry_Y;
+wire [7:7] expected_data_s_FCO;
+wire [7:7] expected_data_s_Y;
+wire [6:0] next_data_cry_Z;
+wire [6:0] next_data_cry_Y;
+wire [7:7] next_data_s_FCO;
+wire [7:7] next_data_s_Y;
+wire [1:1] state_tpsram_access_6_0_a2_0_13_Z;
+wire [1:1] state_tpsram_access_6_0_a2_0_12_Z;
+wire [1:1] state_tpsram_access_6_0_a2_0_11_Z;
+wire [1:1] state_tpsram_access_6_0_a2_0_10_Z;
+wire [1:1] state_tpsram_access_6_0_a2_0_14_Z;
+wire VCC ;
+wire N_41_i ;
+wire GND ;
+wire expected_datae ;
+wire N_6_i ;
+wire N_133_i ;
+wire N_62_i ;
+wire N_145_i ;
+wire N_17 ;
+wire state_tpsram_access30_i ;
+wire N_45 ;
+wire N_13_i ;
+wire N_343_i ;
+wire N_20_i ;
+wire expected_data ;
+wire N_56_i ;
+wire N_65_i ;
+wire next_data ;
+wire counter ;
+wire un1_state_tpsram_access27_i ;
+wire counter_s_68_FCO ;
+wire counter_s_68_S ;
+wire counter_s_68_Y ;
+wire expected_data_s_69_FCO ;
+wire expected_data_s_69_S ;
+wire expected_data_s_69_Y ;
+wire next_data_s_70_FCO ;
+wire next_data_s_70_S ;
+wire next_data_s_70_Y ;
+wire N_67 ;
+wire state_tpsram_access_6_m5s4_1_0_Z ;
+wire N_51 ;
+wire un1_state_tpsram_access26_6_0_Z ;
+wire N_82 ;
+wire un9_next_addr_c2 ;
+wire N_80 ;
+wire un1_i_TPSRAM_RD_sv_NE_3_Z ;
+wire un1_i_TPSRAM_RD_sv_NE_2_Z ;
+wire un1_i_TPSRAM_RD_sv_NE_1_Z ;
+wire un1_i_TPSRAM_RD_sv_NE_0_Z ;
+wire un1_state_tpsram_access26_5_i_o2_3_Z ;
+wire un9_next_addr_c4 ;
+wire tpsram_test_complete7 ;
+wire N_72 ;
+wire N_73 ;
+// @5:61
+  SLE \counter[15]  (
+	.Q(counter_Z[15]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s_Z[15]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[14]  (
+	.Q(counter_Z[14]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[14]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[13]  (
+	.Q(counter_Z[13]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[13]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[12]  (
+	.Q(counter_Z[12]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[12]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[11]  (
+	.Q(counter_Z[11]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[11]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[10]  (
+	.Q(counter_Z[10]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[10]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[9]  (
+	.Q(counter_Z[9]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[9]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[8]  (
+	.Q(counter_Z[8]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[8]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[7]  (
+	.Q(counter_Z[7]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[7]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[6]  (
+	.Q(counter_Z[6]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[6]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[5]  (
+	.Q(counter_Z[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[5]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[4]  (
+	.Q(counter_Z[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[4]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[3]  (
+	.Q(counter_Z[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[3]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[2]  (
+	.Q(counter_Z[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[2]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[1]  (
+	.Q(counter_Z[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[1]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \counter[0]  (
+	.Q(counter_Z[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(counter_s[0]),
+	.EN(N_41_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[7]  (
+	.Q(expected_data_Z[7]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s_Z[7]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[6]  (
+	.Q(expected_data_Z[6]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[6]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[5]  (
+	.Q(expected_data_Z[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[5]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[4]  (
+	.Q(expected_data_Z[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[4]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[3]  (
+	.Q(expected_data_Z[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[3]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[2]  (
+	.Q(expected_data_Z[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[2]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[1]  (
+	.Q(expected_data_Z[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[1]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \expected_data[0]  (
+	.Q(expected_data_Z[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(expected_data_s[0]),
+	.EN(expected_datae),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[7]  (
+	.Q(next_data_Z[7]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s_Z[7]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[6]  (
+	.Q(next_data_Z[6]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[6]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[5]  (
+	.Q(next_data_Z[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[5]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[4]  (
+	.Q(next_data_Z[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[4]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[3]  (
+	.Q(next_data_Z[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[3]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[2]  (
+	.Q(next_data_Z[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[2]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[1]  (
+	.Q(next_data_Z[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[1]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_data[0]  (
+	.Q(next_data_Z[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_s[0]),
+	.EN(N_6_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE o_TPSRAM_WEN (
+	.Q(Ram_intferface_0_o_TPSRAM_WEN),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(N_133_i),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE o_TPSRAM_REN (
+	.Q(Ram_intferface_0_o_TPSRAM_REN),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(N_145_i),
+	.EN(N_17),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE o_reset_n (
+	.Q(Ram_intferface_0_o_reset_n),
+	.ADn(GND),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(state_tpsram_access30_i),
+	.EN(N_45),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[3]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_Z[3]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[2]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_Z[2]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[1]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_Z[1]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[0]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(N_343_i),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[7]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[7]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[7]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[6]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[6]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[6]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[5]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[5]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[4]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[4]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[3]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[3]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[2]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[2]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[1]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[1]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WD[0]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WD[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_data_Z[0]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[3]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[3]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[2]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[2]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[1]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[1]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[0]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[0]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[0]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \state_tpsram_access[2]  (
+	.Q(expected_data),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(N_56_i),
+	.EN(N_65_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \state_tpsram_access[1]  (
+	.Q(next_data),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(state_tpsram_access_6[1]),
+	.EN(N_65_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \state_tpsram_access[0]  (
+	.Q(counter),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(state_tpsram_access_6[0]),
+	.EN(N_65_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[5]  (
+	.Q(next_addr_Z[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[5]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[4]  (
+	.Q(next_addr_Z[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[4]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[3]  (
+	.Q(next_addr_Z[3]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[3]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[2]  (
+	.Q(next_addr_Z[2]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[2]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[1]  (
+	.Q(next_addr_Z[1]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[1]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \next_addr[0]  (
+	.Q(N_343_i),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_6_Z[0]),
+	.EN(un1_state_tpsram_access27_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[5]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_Z[5]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_WADDR_sv[4]  (
+	.Q(Ram_intferface_0_o_TPSRAM_WADDR_sv[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(next_addr_Z[4]),
+	.EN(N_62_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(N_13_i)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[5]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[5]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[5]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  SLE \o_TPSRAM_RADDR_sv[4]  (
+	.Q(Ram_intferface_0_o_TPSRAM_RADDR_sv[4]),
+	.ADn(VCC),
+	.ALn(POWER_ON_RESET_N),
+	.CLK(testeISP_sb_0_FAB_CCC_GL0),
+	.D(o_TPSRAM_RADDR_sv_6_Z[4]),
+	.EN(N_20_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:61
+  ARI1 counter_s_68 (
+	.FCO(counter_s_68_FCO),
+	.S(counter_s_68_S),
+	.Y(counter_s_68_Y),
+	.B(counter),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam counter_s_68.INIT=20'h4AA00;
+// @5:61
+  ARI1 \counter_cry[0]  (
+	.FCO(counter_cry_Z[0]),
+	.S(counter_s[0]),
+	.Y(counter_cry_Y[0]),
+	.B(counter),
+	.C(counter_Z[0]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_s_68_FCO)
+);
+defparam \counter_cry[0] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[1]  (
+	.FCO(counter_cry_Z[1]),
+	.S(counter_s[1]),
+	.Y(counter_cry_Y[1]),
+	.B(counter),
+	.C(counter_Z[1]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[0])
+);
+defparam \counter_cry[1] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[2]  (
+	.FCO(counter_cry_Z[2]),
+	.S(counter_s[2]),
+	.Y(counter_cry_Y[2]),
+	.B(counter),
+	.C(counter_Z[2]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[1])
+);
+defparam \counter_cry[2] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[3]  (
+	.FCO(counter_cry_Z[3]),
+	.S(counter_s[3]),
+	.Y(counter_cry_Y[3]),
+	.B(counter),
+	.C(counter_Z[3]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[2])
+);
+defparam \counter_cry[3] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[4]  (
+	.FCO(counter_cry_Z[4]),
+	.S(counter_s[4]),
+	.Y(counter_cry_Y[4]),
+	.B(counter),
+	.C(counter_Z[4]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[3])
+);
+defparam \counter_cry[4] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[5]  (
+	.FCO(counter_cry_Z[5]),
+	.S(counter_s[5]),
+	.Y(counter_cry_Y[5]),
+	.B(counter),
+	.C(counter_Z[5]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[4])
+);
+defparam \counter_cry[5] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[6]  (
+	.FCO(counter_cry_Z[6]),
+	.S(counter_s[6]),
+	.Y(counter_cry_Y[6]),
+	.B(counter),
+	.C(counter_Z[6]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[5])
+);
+defparam \counter_cry[6] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[7]  (
+	.FCO(counter_cry_Z[7]),
+	.S(counter_s[7]),
+	.Y(counter_cry_Y[7]),
+	.B(counter),
+	.C(counter_Z[7]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[6])
+);
+defparam \counter_cry[7] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[8]  (
+	.FCO(counter_cry_Z[8]),
+	.S(counter_s[8]),
+	.Y(counter_cry_Y[8]),
+	.B(counter),
+	.C(counter_Z[8]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[7])
+);
+defparam \counter_cry[8] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[9]  (
+	.FCO(counter_cry_Z[9]),
+	.S(counter_s[9]),
+	.Y(counter_cry_Y[9]),
+	.B(counter),
+	.C(counter_Z[9]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[8])
+);
+defparam \counter_cry[9] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[10]  (
+	.FCO(counter_cry_Z[10]),
+	.S(counter_s[10]),
+	.Y(counter_cry_Y[10]),
+	.B(counter),
+	.C(counter_Z[10]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[9])
+);
+defparam \counter_cry[10] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[11]  (
+	.FCO(counter_cry_Z[11]),
+	.S(counter_s[11]),
+	.Y(counter_cry_Y[11]),
+	.B(counter),
+	.C(counter_Z[11]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[10])
+);
+defparam \counter_cry[11] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[12]  (
+	.FCO(counter_cry_Z[12]),
+	.S(counter_s[12]),
+	.Y(counter_cry_Y[12]),
+	.B(counter),
+	.C(counter_Z[12]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[11])
+);
+defparam \counter_cry[12] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[13]  (
+	.FCO(counter_cry_Z[13]),
+	.S(counter_s[13]),
+	.Y(counter_cry_Y[13]),
+	.B(counter),
+	.C(counter_Z[13]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[12])
+);
+defparam \counter_cry[13] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_s[15]  (
+	.FCO(counter_s_FCO[15]),
+	.S(counter_s_Z[15]),
+	.Y(counter_s_Y[15]),
+	.B(counter),
+	.C(counter_Z[15]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[14])
+);
+defparam \counter_s[15] .INIT=20'h48800;
+// @5:61
+  ARI1 \counter_cry[14]  (
+	.FCO(counter_cry_Z[14]),
+	.S(counter_s[14]),
+	.Y(counter_cry_Y[14]),
+	.B(counter),
+	.C(counter_Z[14]),
+	.D(GND),
+	.A(VCC),
+	.FCI(counter_cry_Z[13])
+);
+defparam \counter_cry[14] .INIT=20'h48800;
+// @5:61
+  ARI1 expected_data_s_69 (
+	.FCO(expected_data_s_69_FCO),
+	.S(expected_data_s_69_S),
+	.Y(expected_data_s_69_Y),
+	.B(expected_data),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam expected_data_s_69.INIT=20'h4AA00;
+// @5:61
+  ARI1 \expected_data_cry[0]  (
+	.FCO(expected_data_cry_Z[0]),
+	.S(expected_data_s[0]),
+	.Y(expected_data_cry_Y[0]),
+	.B(expected_data),
+	.C(expected_data_Z[0]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_s_69_FCO)
+);
+defparam \expected_data_cry[0] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[1]  (
+	.FCO(expected_data_cry_Z[1]),
+	.S(expected_data_s[1]),
+	.Y(expected_data_cry_Y[1]),
+	.B(expected_data),
+	.C(expected_data_Z[1]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[0])
+);
+defparam \expected_data_cry[1] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[2]  (
+	.FCO(expected_data_cry_Z[2]),
+	.S(expected_data_s[2]),
+	.Y(expected_data_cry_Y[2]),
+	.B(expected_data),
+	.C(expected_data_Z[2]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[1])
+);
+defparam \expected_data_cry[2] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[3]  (
+	.FCO(expected_data_cry_Z[3]),
+	.S(expected_data_s[3]),
+	.Y(expected_data_cry_Y[3]),
+	.B(expected_data),
+	.C(expected_data_Z[3]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[2])
+);
+defparam \expected_data_cry[3] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[4]  (
+	.FCO(expected_data_cry_Z[4]),
+	.S(expected_data_s[4]),
+	.Y(expected_data_cry_Y[4]),
+	.B(expected_data),
+	.C(expected_data_Z[4]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[3])
+);
+defparam \expected_data_cry[4] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[5]  (
+	.FCO(expected_data_cry_Z[5]),
+	.S(expected_data_s[5]),
+	.Y(expected_data_cry_Y[5]),
+	.B(expected_data),
+	.C(expected_data_Z[5]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[4])
+);
+defparam \expected_data_cry[5] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_s[7]  (
+	.FCO(expected_data_s_FCO[7]),
+	.S(expected_data_s_Z[7]),
+	.Y(expected_data_s_Y[7]),
+	.B(expected_data),
+	.C(expected_data_Z[7]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[6])
+);
+defparam \expected_data_s[7] .INIT=20'h48800;
+// @5:61
+  ARI1 \expected_data_cry[6]  (
+	.FCO(expected_data_cry_Z[6]),
+	.S(expected_data_s[6]),
+	.Y(expected_data_cry_Y[6]),
+	.B(expected_data),
+	.C(expected_data_Z[6]),
+	.D(GND),
+	.A(VCC),
+	.FCI(expected_data_cry_Z[5])
+);
+defparam \expected_data_cry[6] .INIT=20'h48800;
+// @5:61
+  ARI1 next_data_s_70 (
+	.FCO(next_data_s_70_FCO),
+	.S(next_data_s_70_S),
+	.Y(next_data_s_70_Y),
+	.B(next_data),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam next_data_s_70.INIT=20'h4AA00;
+// @5:61
+  ARI1 \next_data_cry[0]  (
+	.FCO(next_data_cry_Z[0]),
+	.S(next_data_s[0]),
+	.Y(next_data_cry_Y[0]),
+	.B(next_data),
+	.C(next_data_Z[0]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_s_70_FCO)
+);
+defparam \next_data_cry[0] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[1]  (
+	.FCO(next_data_cry_Z[1]),
+	.S(next_data_s[1]),
+	.Y(next_data_cry_Y[1]),
+	.B(next_data),
+	.C(next_data_Z[1]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[0])
+);
+defparam \next_data_cry[1] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[2]  (
+	.FCO(next_data_cry_Z[2]),
+	.S(next_data_s[2]),
+	.Y(next_data_cry_Y[2]),
+	.B(next_data),
+	.C(next_data_Z[2]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[1])
+);
+defparam \next_data_cry[2] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[3]  (
+	.FCO(next_data_cry_Z[3]),
+	.S(next_data_s[3]),
+	.Y(next_data_cry_Y[3]),
+	.B(next_data),
+	.C(next_data_Z[3]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[2])
+);
+defparam \next_data_cry[3] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[4]  (
+	.FCO(next_data_cry_Z[4]),
+	.S(next_data_s[4]),
+	.Y(next_data_cry_Y[4]),
+	.B(next_data),
+	.C(next_data_Z[4]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[3])
+);
+defparam \next_data_cry[4] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[5]  (
+	.FCO(next_data_cry_Z[5]),
+	.S(next_data_s[5]),
+	.Y(next_data_cry_Y[5]),
+	.B(next_data),
+	.C(next_data_Z[5]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[4])
+);
+defparam \next_data_cry[5] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_s[7]  (
+	.FCO(next_data_s_FCO[7]),
+	.S(next_data_s_Z[7]),
+	.Y(next_data_s_Y[7]),
+	.B(next_data),
+	.C(next_data_Z[7]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[6])
+);
+defparam \next_data_s[7] .INIT=20'h48800;
+// @5:61
+  ARI1 \next_data_cry[6]  (
+	.FCO(next_data_cry_Z[6]),
+	.S(next_data_s[6]),
+	.Y(next_data_cry_Y[6]),
+	.B(next_data),
+	.C(next_data_Z[6]),
+	.D(GND),
+	.A(VCC),
+	.FCI(next_data_cry_Z[5])
+);
+defparam \next_data_cry[6] .INIT=20'h48800;
+// @5:80
+  CFG4 state_tpsram_access_6_m5s4_1_0 (
+	.A(expected_data),
+	.B(next_data),
+	.C(counter),
+	.D(N_67),
+	.Y(state_tpsram_access_6_m5s4_1_0_Z)
+);
+defparam state_tpsram_access_6_m5s4_1_0.INIT=16'hFF01;
+// @5:80
+  CFG4 un1_state_tpsram_access26_6_0 (
+	.A(expected_data),
+	.B(next_data),
+	.C(counter),
+	.D(N_51),
+	.Y(un1_state_tpsram_access26_6_0_Z)
+);
+defparam un1_state_tpsram_access26_6_0.INIT=16'h010F;
+// @5:80
+  CFG3 state_tpsram_access_6_m5s4_1_0_a2 (
+	.A(expected_data),
+	.B(next_data),
+	.C(counter),
+	.Y(N_13_i)
+);
+defparam state_tpsram_access_6_m5s4_1_0_a2.INIT=8'hFE;
+// @5:80
+  CFG2 \state_tpsram_access_6_0_a2_0_8[1]  (
+	.A(next_data),
+	.B(expected_data),
+	.Y(N_82)
+);
+defparam \state_tpsram_access_6_0_a2_0_8[1] .INIT=4'h1;
+// @5:117
+  CFG2 un9_next_addr_ac0_1 (
+	.A(N_343_i),
+	.B(next_addr_Z[1]),
+	.Y(un9_next_addr_c2)
+);
+defparam un9_next_addr_ac0_1.INIT=4'h8;
+// @5:80
+  CFG2 \o_TPSRAM_RADDR_sv_6[0]  (
+	.A(state_tpsram_access_6_m5s4_1_0_Z),
+	.B(N_343_i),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[0])
+);
+defparam \o_TPSRAM_RADDR_sv_6[0] .INIT=4'h1;
+// @5:80
+  CFG2 \next_addr_6[0]  (
+	.A(un1_state_tpsram_access26_6_0_Z),
+	.B(N_343_i),
+	.Y(next_addr_6_Z[0])
+);
+defparam \next_addr_6[0] .INIT=4'h1;
+// @5:80
+  CFG2 un1_state_tpsram_access_10_i_a2 (
+	.A(counter),
+	.B(next_data),
+	.Y(N_80)
+);
+defparam un1_state_tpsram_access_10_i_a2.INIT=4'h1;
+// @5:128
+  CFG4 un1_i_TPSRAM_RD_sv_NE_3 (
+	.A(expected_data_Z[3]),
+	.B(expected_data_Z[2]),
+	.C(TPSRAM_C0_0_RD[3]),
+	.D(TPSRAM_C0_0_RD[2]),
+	.Y(un1_i_TPSRAM_RD_sv_NE_3_Z)
+);
+defparam un1_i_TPSRAM_RD_sv_NE_3.INIT=16'h7BDE;
+// @5:128
+  CFG4 un1_i_TPSRAM_RD_sv_NE_2 (
+	.A(expected_data_Z[1]),
+	.B(expected_data_Z[0]),
+	.C(TPSRAM_C0_0_RD[1]),
+	.D(TPSRAM_C0_0_RD[0]),
+	.Y(un1_i_TPSRAM_RD_sv_NE_2_Z)
+);
+defparam un1_i_TPSRAM_RD_sv_NE_2.INIT=16'h7BDE;
+// @5:128
+  CFG4 un1_i_TPSRAM_RD_sv_NE_1 (
+	.A(expected_data_Z[7]),
+	.B(expected_data_Z[6]),
+	.C(TPSRAM_C0_0_RD[7]),
+	.D(TPSRAM_C0_0_RD[6]),
+	.Y(un1_i_TPSRAM_RD_sv_NE_1_Z)
+);
+defparam un1_i_TPSRAM_RD_sv_NE_1.INIT=16'h7BDE;
+// @5:128
+  CFG4 un1_i_TPSRAM_RD_sv_NE_0 (
+	.A(expected_data_Z[5]),
+	.B(expected_data_Z[4]),
+	.C(TPSRAM_C0_0_RD[5]),
+	.D(TPSRAM_C0_0_RD[4]),
+	.Y(un1_i_TPSRAM_RD_sv_NE_0_Z)
+);
+defparam un1_i_TPSRAM_RD_sv_NE_0.INIT=16'h7BDE;
+// @5:80
+  CFG3 \state_tpsram_access_6_0_a2_0_13[1]  (
+	.A(counter_Z[12]),
+	.B(N_82),
+	.C(counter_Z[15]),
+	.Y(state_tpsram_access_6_0_a2_0_13_Z[1])
+);
+defparam \state_tpsram_access_6_0_a2_0_13[1] .INIT=8'h04;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2_0_12[1]  (
+	.A(counter_Z[11]),
+	.B(counter_Z[10]),
+	.C(counter_Z[9]),
+	.D(counter_Z[6]),
+	.Y(state_tpsram_access_6_0_a2_0_12_Z[1])
+);
+defparam \state_tpsram_access_6_0_a2_0_12[1] .INIT=16'h0001;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2_0_11[1]  (
+	.A(counter_Z[4]),
+	.B(counter_Z[2]),
+	.C(counter_Z[1]),
+	.D(counter_Z[0]),
+	.Y(state_tpsram_access_6_0_a2_0_11_Z[1])
+);
+defparam \state_tpsram_access_6_0_a2_0_11[1] .INIT=16'h0001;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2_0_10[1]  (
+	.A(counter_Z[14]),
+	.B(counter_Z[13]),
+	.C(counter_Z[8]),
+	.D(counter_Z[7]),
+	.Y(state_tpsram_access_6_0_a2_0_10_Z[1])
+);
+defparam \state_tpsram_access_6_0_a2_0_10[1] .INIT=16'h8000;
+// @5:80
+  CFG4 un1_state_tpsram_access26_5_i_o2_3 (
+	.A(next_addr_Z[4]),
+	.B(next_addr_Z[2]),
+	.C(next_addr_Z[5]),
+	.D(next_addr_Z[1]),
+	.Y(un1_state_tpsram_access26_5_i_o2_3_Z)
+);
+defparam un1_state_tpsram_access26_5_i_o2_3.INIT=16'hFEFF;
+// @5:80
+  CFG2 \state_tpsram_access_RNIGRPGE[2]  (
+	.A(counter),
+	.B(expected_data),
+	.Y(N_62_i)
+);
+defparam \state_tpsram_access_RNIGRPGE[2] .INIT=4'h1;
+// @5:80
+  CFG3 \o_TPSRAM_RADDR_sv_6[1]  (
+	.A(N_343_i),
+	.B(state_tpsram_access_6_m5s4_1_0_Z),
+	.C(next_addr_Z[1]),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[1])
+);
+defparam \o_TPSRAM_RADDR_sv_6[1] .INIT=8'h12;
+// @5:80
+  CFG3 \next_addr_6[1]  (
+	.A(N_343_i),
+	.B(un1_state_tpsram_access26_6_0_Z),
+	.C(next_addr_Z[1]),
+	.Y(next_addr_6_Z[1])
+);
+defparam \next_addr_6[1] .INIT=8'h12;
+// @5:61
+  CFG2 o_reset_n_RNO (
+	.A(next_data),
+	.B(expected_data),
+	.Y(state_tpsram_access30_i)
+);
+defparam o_reset_n_RNO.INIT=4'hB;
+// @5:61
+  CFG2 \state_tpsram_access_RNIHSPGE[2]  (
+	.A(next_data),
+	.B(expected_data),
+	.Y(N_65_i)
+);
+defparam \state_tpsram_access_RNIHSPGE[2] .INIT=4'h7;
+// @5:61
+  CFG3 \state_tpsram_access_RNI8P6PL[2]  (
+	.A(next_data),
+	.B(counter),
+	.C(expected_data),
+	.Y(un1_state_tpsram_access27_i)
+);
+defparam \state_tpsram_access_RNI8P6PL[2] .INIT=8'h1B;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2_0_14[1]  (
+	.A(state_tpsram_access_6_0_a2_0_10_Z[1]),
+	.B(counter),
+	.C(counter_Z[5]),
+	.D(counter_Z[3]),
+	.Y(state_tpsram_access_6_0_a2_0_14_Z[1])
+);
+defparam \state_tpsram_access_6_0_a2_0_14[1] .INIT=16'h8000;
+// @5:80
+  CFG3 un1_state_tpsram_access26_5_i_o2 (
+	.A(un1_state_tpsram_access26_5_i_o2_3_Z),
+	.B(next_addr_Z[3]),
+	.C(N_343_i),
+	.Y(N_51)
+);
+defparam un1_state_tpsram_access26_5_i_o2.INIT=8'hEF;
+// @5:117
+  CFG3 un9_next_addr_ac0_5 (
+	.A(next_addr_Z[2]),
+	.B(un9_next_addr_c2),
+	.C(next_addr_Z[3]),
+	.Y(un9_next_addr_c4)
+);
+defparam un9_next_addr_ac0_5.INIT=8'h80;
+// @5:80
+  CFG3 \o_TPSRAM_RADDR_sv_6[2]  (
+	.A(un9_next_addr_c2),
+	.B(state_tpsram_access_6_m5s4_1_0_Z),
+	.C(next_addr_Z[2]),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[2])
+);
+defparam \o_TPSRAM_RADDR_sv_6[2] .INIT=8'h12;
+// @5:80
+  CFG3 \next_addr_6[2]  (
+	.A(un9_next_addr_c2),
+	.B(un1_state_tpsram_access26_6_0_Z),
+	.C(next_addr_Z[2]),
+	.Y(next_addr_6_Z[2])
+);
+defparam \next_addr_6[2] .INIT=8'h12;
+// @5:61
+  CFG3 \state_tpsram_access_RNO[2]  (
+	.A(counter),
+	.B(N_82),
+	.C(next_data),
+	.Y(N_56_i)
+);
+defparam \state_tpsram_access_RNO[2] .INIT=8'h23;
+// @5:128
+  CFG4 un1_i_TPSRAM_RD_sv_NE (
+	.A(un1_i_TPSRAM_RD_sv_NE_3_Z),
+	.B(un1_i_TPSRAM_RD_sv_NE_2_Z),
+	.C(un1_i_TPSRAM_RD_sv_NE_1_Z),
+	.D(un1_i_TPSRAM_RD_sv_NE_0_Z),
+	.Y(tpsram_test_complete7)
+);
+defparam un1_i_TPSRAM_RD_sv_NE.INIT=16'hFFFE;
+// @5:61
+  CFG3 \state_tpsram_access_RNI8P6PL_0[2]  (
+	.A(next_data),
+	.B(counter),
+	.C(expected_data),
+	.Y(N_41_i)
+);
+defparam \state_tpsram_access_RNI8P6PL_0[2] .INIT=8'h06;
+// @5:80
+  CFG3 state_tpsram_access_6_m5s4_1_0_a2_0 (
+	.A(counter),
+	.B(N_51),
+	.C(expected_data),
+	.Y(N_67)
+);
+defparam state_tpsram_access_6_m5s4_1_0_a2_0.INIT=8'h01;
+// @5:80
+  CFG4 \o_TPSRAM_RADDR_sv_6[3]  (
+	.A(un9_next_addr_c2),
+	.B(state_tpsram_access_6_m5s4_1_0_Z),
+	.C(next_addr_Z[3]),
+	.D(next_addr_Z[2]),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[3])
+);
+defparam \o_TPSRAM_RADDR_sv_6[3] .INIT=16'h1230;
+// @5:80
+  CFG4 \next_addr_6[3]  (
+	.A(un9_next_addr_c2),
+	.B(un1_state_tpsram_access26_6_0_Z),
+	.C(next_addr_Z[3]),
+	.D(next_addr_Z[2]),
+	.Y(next_addr_6_Z[3])
+);
+defparam \next_addr_6[3] .INIT=16'h1230;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2_0[1]  (
+	.A(state_tpsram_access_6_0_a2_0_12_Z[1]),
+	.B(state_tpsram_access_6_0_a2_0_11_Z[1]),
+	.C(state_tpsram_access_6_0_a2_0_14_Z[1]),
+	.D(state_tpsram_access_6_0_a2_0_13_Z[1]),
+	.Y(N_72)
+);
+defparam \state_tpsram_access_6_0_a2_0[1] .INIT=16'h8000;
+// @5:80
+  CFG2 un1_state_tpsram_access_10_i_0 (
+	.A(N_67),
+	.B(N_80),
+	.Y(N_17)
+);
+defparam un1_state_tpsram_access_10_i_0.INIT=4'hE;
+// @5:80
+  CFG3 \o_TPSRAM_RADDR_sv_6[4]  (
+	.A(un9_next_addr_c4),
+	.B(state_tpsram_access_6_m5s4_1_0_Z),
+	.C(next_addr_Z[4]),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[4])
+);
+defparam \o_TPSRAM_RADDR_sv_6[4] .INIT=8'h12;
+// @5:80
+  CFG3 \next_addr_6[4]  (
+	.A(un9_next_addr_c4),
+	.B(un1_state_tpsram_access26_6_0_Z),
+	.C(next_addr_Z[4]),
+	.Y(next_addr_6_Z[4])
+);
+defparam \next_addr_6[4] .INIT=8'h12;
+// @5:61
+  CFG2 o_TPSRAM_WEN_RNO (
+	.A(N_51),
+	.B(next_data),
+	.Y(N_133_i)
+);
+defparam o_TPSRAM_WEN_RNO.INIT=4'h8;
+// @5:61
+  CFG4 un1_state_tpsram_access26_5_i_o2_RNIEH8GN_0 (
+	.A(counter),
+	.B(N_51),
+	.C(expected_data),
+	.D(next_data),
+	.Y(N_6_i)
+);
+defparam un1_state_tpsram_access26_5_i_o2_RNIEH8GN_0.INIT=16'h0405;
+// @5:80
+  CFG3 \state_tpsram_access_6_0[1]  (
+	.A(counter),
+	.B(N_72),
+	.C(next_data),
+	.Y(state_tpsram_access_6[1])
+);
+defparam \state_tpsram_access_6_0[1] .INIT=8'hDC;
+// @5:80
+  CFG4 \o_TPSRAM_RADDR_sv_6[5]  (
+	.A(un9_next_addr_c4),
+	.B(state_tpsram_access_6_m5s4_1_0_Z),
+	.C(next_addr_Z[5]),
+	.D(next_addr_Z[4]),
+	.Y(o_TPSRAM_RADDR_sv_6_Z[5])
+);
+defparam \o_TPSRAM_RADDR_sv_6[5] .INIT=16'h1230;
+// @5:80
+  CFG4 \next_addr_6[5]  (
+	.A(un9_next_addr_c4),
+	.B(un1_state_tpsram_access26_6_0_Z),
+	.C(next_addr_Z[5]),
+	.D(next_addr_Z[4]),
+	.Y(next_addr_6_Z[5])
+);
+defparam \next_addr_6[5] .INIT=16'h1230;
+// @5:80
+  CFG4 \state_tpsram_access_6_0_a2[0]  (
+	.A(expected_data),
+	.B(counter),
+	.C(N_51),
+	.D(tpsram_test_complete7),
+	.Y(N_73)
+);
+defparam \state_tpsram_access_6_0_a2[0] .INIT=16'hAA8A;
+// @5:61
+  CFG3 o_TPSRAM_REN_RNO (
+	.A(N_51),
+	.B(next_data),
+	.C(N_82),
+	.Y(N_145_i)
+);
+defparam o_TPSRAM_REN_RNO.INIT=8'h0E;
+  CFG4 un1_state_tpsram_access_10_i_a2_RNI9402O (
+	.A(N_67),
+	.B(tpsram_test_complete7),
+	.C(expected_data),
+	.D(N_80),
+	.Y(expected_datae)
+);
+defparam un1_state_tpsram_access_10_i_a2_RNI9402O.INIT=16'hBFAA;
+// @5:80
+  CFG4 un1_state_tpsram_access26_3_i_0 (
+	.A(next_data),
+	.B(expected_data),
+	.C(tpsram_test_complete7),
+	.D(N_80),
+	.Y(N_45)
+);
+defparam un1_state_tpsram_access26_3_i_0.INIT=16'hFB88;
+// @5:61
+  CFG4 un1_state_tpsram_access26_5_i_o2_RNIEH8GN (
+	.A(counter),
+	.B(N_51),
+	.C(expected_data),
+	.D(next_data),
+	.Y(N_20_i)
+);
+defparam un1_state_tpsram_access26_5_i_o2_RNIEH8GN.INIT=16'h0B45;
+// @5:80
+  CFG4 \state_tpsram_access_6_0[0]  (
+	.A(N_72),
+	.B(N_82),
+	.C(N_73),
+	.D(N_67),
+	.Y(state_tpsram_access_6[0])
+);
+defparam \state_tpsram_access_6_0[0] .INIT=16'hFFF4;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* Ram_intferface */
+
+module Dev_Restart_after_ISP_blk (
+  POWER_ON_RESET_N,
+  testeISP_sb_0_FAB_CCC_GL0
+)
+;
+input POWER_ON_RESET_N ;
+input testeISP_sb_0_FAB_CCC_GL0 ;
+wire POWER_ON_RESET_N ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
+wire [7:0] TPSRAM_C0_0_RD;
+wire [5:0] Ram_intferface_0_o_TPSRAM_RADDR_sv;
+wire [7:0] Ram_intferface_0_o_TPSRAM_WD;
+wire [5:0] Ram_intferface_0_o_TPSRAM_WADDR_sv;
+wire Ram_intferface_0_o_reset_n ;
+wire Ram_intferface_0_o_TPSRAM_REN ;
+wire Ram_intferface_0_o_TPSRAM_WEN ;
+wire GND ;
+wire VCC ;
+// @11:51
+  TAMPER_C0 TAMPER_C0_0 (
+	.Ram_intferface_0_o_reset_n(Ram_intferface_0_o_reset_n)
+);
+// @11:67
+  TPSRAM_C0 TPSRAM_C0_0 (
+	.TPSRAM_C0_0_RD(TPSRAM_C0_0_RD[7:0]),
+	.Ram_intferface_0_o_TPSRAM_RADDR_sv(Ram_intferface_0_o_TPSRAM_RADDR_sv[5:0]),
+	.Ram_intferface_0_o_TPSRAM_WD(Ram_intferface_0_o_TPSRAM_WD[7:0]),
+	.Ram_intferface_0_o_TPSRAM_WADDR_sv(Ram_intferface_0_o_TPSRAM_WADDR_sv[5:0]),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0),
+	.Ram_intferface_0_o_TPSRAM_REN(Ram_intferface_0_o_TPSRAM_REN),
+	.Ram_intferface_0_o_TPSRAM_WEN(Ram_intferface_0_o_TPSRAM_WEN)
+);
+  Ram_intferface Ram_intferface_0 (
+	.TPSRAM_C0_0_RD(TPSRAM_C0_0_RD[7:0]),
+	.Ram_intferface_0_o_TPSRAM_RADDR_sv(Ram_intferface_0_o_TPSRAM_RADDR_sv[5:0]),
+	.Ram_intferface_0_o_TPSRAM_WADDR_sv(Ram_intferface_0_o_TPSRAM_WADDR_sv[5:0]),
+	.Ram_intferface_0_o_TPSRAM_WD(Ram_intferface_0_o_TPSRAM_WD[7:0]),
+	.Ram_intferface_0_o_reset_n(Ram_intferface_0_o_reset_n),
+	.Ram_intferface_0_o_TPSRAM_REN(Ram_intferface_0_o_TPSRAM_REN),
+	.Ram_intferface_0_o_TPSRAM_WEN(Ram_intferface_0_o_TPSRAM_WEN),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0),
+	.POWER_ON_RESET_N(POWER_ON_RESET_N)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* Dev_Restart_after_ISP_blk */
 
 module testeISP (
   DEVRST_N,
@@ -1065,38 +3015,47 @@ wire MMUART_0_RXD_F2M ;
 wire MMUART_1_RXD_F2M ;
 wire MMUART_0_TXD_M2F ;
 wire MMUART_1_TXD_M2F ;
+wire testeISP_sb_0_FAB_CCC_GL0 ;
 wire VCC ;
 wire GND ;
+wire testeISP_sb_0_POWER_ON_RESET_N ;
 wire MMUART_0_RXD_F2M_c ;
 wire MMUART_1_RXD_F2M_c ;
 wire MMUART_0_TXD_M2F_c ;
 wire MMUART_1_TXD_M2F_c ;
-// @13:23
+// @20:23
   INBUF MMUART_0_RXD_F2M_ibuf (
 	.Y(MMUART_0_RXD_F2M_c),
 	.PAD(MMUART_0_RXD_F2M)
 );
-// @13:24
+// @20:24
   INBUF MMUART_1_RXD_F2M_ibuf (
 	.Y(MMUART_1_RXD_F2M_c),
 	.PAD(MMUART_1_RXD_F2M)
 );
-// @13:28
+// @20:28
   OUTBUF MMUART_0_TXD_M2F_obuf (
 	.PAD(MMUART_0_TXD_M2F),
 	.D(MMUART_0_TXD_M2F_c)
 );
-// @13:29
+// @20:29
   OUTBUF MMUART_1_TXD_M2F_obuf (
 	.PAD(MMUART_1_TXD_M2F),
 	.D(MMUART_1_TXD_M2F_c)
 );
-// @13:59
+// @20:68
   testeISP_sb testeISP_sb_0 (
 	.MMUART_0_TXD_M2F_c(MMUART_0_TXD_M2F_c),
 	.MMUART_1_TXD_M2F_c(MMUART_1_TXD_M2F_c),
 	.MMUART_0_RXD_F2M_c(MMUART_0_RXD_F2M_c),
-	.MMUART_1_RXD_F2M_c(MMUART_1_RXD_F2M_c)
+	.MMUART_1_RXD_F2M_c(MMUART_1_RXD_F2M_c),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0),
+	.DEVRST_N(DEVRST_N),
+	.POWER_ON_RESET_N(testeISP_sb_0_POWER_ON_RESET_N)
+);
+  Dev_Restart_after_ISP_blk Dev_Restart_after_ISP_blk_0 (
+	.POWER_ON_RESET_N(testeISP_sb_0_POWER_ON_RESET_N),
+	.testeISP_sb_0_FAB_CCC_GL0(testeISP_sb_0_FAB_CCC_GL0)
 );
   GND GND_Z (
 	.Y(GND)

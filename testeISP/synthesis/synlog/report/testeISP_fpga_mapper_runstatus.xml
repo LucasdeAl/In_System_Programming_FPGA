@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>57</data>
+<data>61</data>
 <report_link name="more">
 <data>C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\synlog\report\testeISP_fpga_mapper_notes.txt</data>
 </report_link>
@@ -37,10 +37,10 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:02s</data>
 </info>
 <info name="Peak Memory">
-<data>255MB</data>
+<data>258MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1744131730</data>
+<data type="timestamp">1744136926</data>
 </info>
 </job_info>
 </job_run_status>

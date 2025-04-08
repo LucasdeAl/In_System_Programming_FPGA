@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Apr  8 13:50:21 2025
+// Created by SmartDesign Tue Apr  8 15:28:31 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -35,6 +35,8 @@ wire   MMUART_0_RXD_F2M;
 wire   MMUART_0_TXD_M2F_net_0;
 wire   MMUART_1_RXD_F2M;
 wire   MMUART_1_TXD_M2F_net_0;
+wire   testeISP_sb_0_FAB_CCC_GL0;
+wire   testeISP_sb_0_POWER_ON_RESET_N;
 wire   MMUART_1_TXD_M2F_net_1;
 wire   MMUART_0_TXD_M2F_net_1;
 //--------------------------------------------------------------------
@@ -55,6 +57,13 @@ assign MMUART_0_TXD_M2F       = MMUART_0_TXD_M2F_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
+//--------Dev_Restart_after_ISP_blk
+Dev_Restart_after_ISP_blk Dev_Restart_after_ISP_blk_0(
+        // Inputs
+        .CLK    ( testeISP_sb_0_FAB_CCC_GL0 ),
+        .RESETn ( testeISP_sb_0_POWER_ON_RESET_N ) 
+        );
+
 //--------testeISP_sb
 testeISP_sb testeISP_sb_0(
         // Inputs
@@ -63,9 +72,9 @@ testeISP_sb testeISP_sb_0(
         .MMUART_0_RXD_F2M ( MMUART_0_RXD_F2M ),
         .MMUART_1_RXD_F2M ( MMUART_1_RXD_F2M ),
         // Outputs
-        .POWER_ON_RESET_N (  ),
+        .POWER_ON_RESET_N ( testeISP_sb_0_POWER_ON_RESET_N ),
         .INIT_DONE        (  ),
-        .FAB_CCC_GL0      (  ),
+        .FAB_CCC_GL0      ( testeISP_sb_0_FAB_CCC_GL0 ),
         .FAB_CCC_LOCK     (  ),
         .MSS_READY        (  ),
         .MMUART_0_TXD_M2F ( MMUART_0_TXD_M2F_net_0 ),

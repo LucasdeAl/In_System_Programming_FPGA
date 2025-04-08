@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF , Speed grade: STD 
 
-# Date generated: Tue Apr  8 14:02:14 2025 
+# Date generated: Tue Apr  8 15:28:49 2025 
 
 
 #
@@ -30,6 +30,7 @@
 # I/O constraints
 #
 
+set_io DEVRST_N -DIRECTION INPUT -pinname M11
 
 #
 # Core cell constraints

@@ -1,16 +1,22 @@
-@P:  Worst Slack : NA
-@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : NA
+@P:  Worst Slack : 4.440
+@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 179.8 MHz
 @P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : NA
+@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 5.560
 @P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
-@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : NA
+@P:  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 4.440
 @P:  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
 @P:  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
 @P:  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
 @P:  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
 @P: testeISP Part : m2s025tvf400std
-@P: testeISP Register bits  : 0 
+@P: testeISP Register bits  : 64 
 @P: testeISP DSP Blocks  : 0
 @P: testeISP I/O primitives : 4
+@P: testeISP RAM1K18 :  1
 @P:  CPU Time : 0h:00m:02s

@@ -114,6 +114,30 @@ END_USE_CONSTRAINT
 USE_FOR_ANY_TOOL="FALSE"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\Actel\SgCore\TAMPER\2.1.300\TAMPER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744134279"
+SIZE="689"
+PARENT="<project>\component\work\TAMPER_C0\TAMPER_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v,hdl"
+STATE="utd"
+TIME="1744134279"
+SIZE="886"
+PARENT="<project>\component\Actel\SgCore\TAMPER\2.1.300\TAMPER.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\TPSRAM\1.0.102\TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744136364"
+SIZE="243"
+PARENT="<project>\component\work\TPSRAM_C0\TPSRAM_C0.cxf"
+ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
 STATE="utd"
 TIME="1744131714"
@@ -203,20 +227,50 @@ STATE="utd"
 TIME="1744131551"
 SIZE="1902"
 ENDFILE
+VALUE "<project>\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744136533"
+SIZE="1521"
+ENDFILE
 VALUE "<project>\component\work\ISPtest\ISPtest.cxf,actgen_cxf"
 STATE="utd"
 TIME="1744129932"
 SIZE="623"
 ENDFILE
+VALUE "<project>\component\work\TAMPER_C0\TAMPER_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744134279"
+SIZE="3956"
+ENDFILE
+VALUE "<project>\component\work\TAMPER_C0\TAMPER_C0.v,hdl"
+STATE="utd"
+TIME="1744134279"
+SIZE="5355"
+PARENT="<project>\component\work\TAMPER_C0\TAMPER_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744134279"
+SIZE="479"
+PARENT="<project>\component\work\TAMPER_C0\TAMPER_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v,hdl"
+STATE="utd"
+TIME="1744134279"
+SIZE="1305"
+PARENT="<project>\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\work\testeISP\testeISP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131554"
-SIZE="2379"
+TIME="1744136880"
+SIZE="2480"
 ENDFILE
 VALUE "<project>\component\work\testeISP\testeISP.v,hdl"
 STATE="utd"
-TIME="1744131021"
-SIZE="2763"
+TIME="1744136879"
+SIZE="3120"
 PARENT="<project>\component\work\testeISP\testeISP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -294,6 +348,31 @@ END_USE_CONSTRAINT
 USE_FOR_ANY_TOOL="FALSE"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\work\TPSRAM_C0\TPSRAM_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744136364"
+SIZE="4594"
+ENDFILE
+VALUE "<project>\component\work\TPSRAM_C0\TPSRAM_C0.v,hdl"
+STATE="utd"
+TIME="1744136364"
+SIZE="3458"
+PARENT="<project>\component\work\TPSRAM_C0\TPSRAM_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744136364"
+SIZE="754"
+PARENT="<project>\component\work\TPSRAM_C0\TPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v,hdl"
+STATE="utd"
+TIME="1744136364"
+SIZE="2008"
+PARENT="<project>\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
 TIME="1744131062"
@@ -304,6 +383,11 @@ VALUE "<project>\hdl\led_blink.v,hdl"
 STATE="utd"
 TIME="1744129932"
 SIZE="2080"
+ENDFILE
+VALUE "<project>\hdl\Ram_interface.v,hdl"
+STATE="utd"
+TIME="1744134527"
+SIZE="4318"
 ENDFILE
 VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
 STATE="utd"
@@ -366,10 +450,7 @@ LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
 LIST "testeISP::work"
-FILE "<project>\component\work\testeISP\testeISP.v,hdl"
-LIST Other_Association
-VALUE "<project>\simulation\subsystem.bfm,sim"
-ENDLIST
+FILE "<project>\component\work\testeISP\testeISP.cxf,actgen_cxf"
 LIST PNRConstraints
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 ENDLIST
@@ -465,9 +546,6 @@ ENDLIST
 LIST AssociatedStimulus
 ENDLIST
 LIST Other_Association
-LIST testeISP
-VALUE "<project>\simulation\subsystem.bfm,sim"
-ENDLIST
 LIST testeISP_sb
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
@@ -657,12 +735,13 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:testeISP_PROGRAM.log
+ReportsCurrentItem;synthesis:synplify.log
+SmartDesign;Dev_Restart_after_ISP_blk;0
+SmartDesign;testeISP;0
 Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
 HDL;constraint\io\user.pdc;0
-SmartDesign;testeISP;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;testeISP
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
@@ -675,6 +754,11 @@ SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
 SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
 SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
+LIST "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf","TRUE","FALSE"
+SUBBLOCK "Ram_intferface::work","hdl\Ram_interface.v","FALSE","FALSE"
+SUBBLOCK "TAMPER_C0::work","component\work\TAMPER_C0\TAMPER_C0.v","TRUE","FALSE"
+SUBBLOCK "TPSRAM_C0::work","component\work\TPSRAM_C0\TPSRAM_C0.v","TRUE","FALSE"
+ENDLIST
 LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v","FALSE","FALSE"
 SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
 ENDLIST
@@ -683,6 +767,8 @@ ENDLIST
 LIST "ISPtest::work","component\work\ISPtest\ISPtest.cxf","TRUE","FALSE"
 ENDLIST
 LIST "led_blink::work","hdl\led_blink.v","FALSE","FALSE"
+ENDLIST
+LIST "Ram_intferface::work","hdl\Ram_interface.v","FALSE","FALSE"
 ENDLIST
 LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
 ENDLIST
@@ -704,7 +790,16 @@ LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
-LIST "testeISP::work","component\work\testeISP\testeISP.v","TRUE","FALSE"
+LIST "TAMPER::work","component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "TAMPER_C0::work","component\work\TAMPER_C0\TAMPER_C0.v","TRUE","FALSE"
+SUBBLOCK "TAMPER_C0_TAMPER_C0_0_TAMPER::work","component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v","FALSE","FALSE"
+ENDLIST
+LIST "TAMPER_C0_TAMPER_C0_0_TAMPER::work","component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v","FALSE","FALSE"
+SUBBLOCK "TAMPER::work","component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP::work","component\work\testeISP\testeISP.cxf","TRUE","FALSE"
+SUBBLOCK "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf","TRUE","FALSE"
 SUBBLOCK "testeISP_sb::work","component\work\testeISP_sb\testeISP_sb.v","TRUE","FALSE"
 ENDLIST
 LIST "testeISP_sb::work","component\work\testeISP_sb\testeISP_sb.v","TRUE","FALSE"
@@ -721,6 +816,11 @@ SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
 ENDLIST
 LIST "testeISP_sb_MSS::work","component\work\testeISP_sb_MSS\testeISP_sb_MSS.v","TRUE","FALSE"
 SUBBLOCK "MSS_025::work","component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "TPSRAM_C0::work","component\work\TPSRAM_C0\TPSRAM_C0.v","TRUE","FALSE"
+SUBBLOCK "TPSRAM_C0_TPSRAM_C0_0_TPSRAM::work","component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "TPSRAM_C0_TPSRAM_C0_0_TPSRAM::work","component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v","FALSE","FALSE"
 ENDLIST
 LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
 ENDLIST

@@ -12,7 +12,7 @@ Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Tue Apr  8 14:02:07 2025
+# Written on Tue Apr  8 15:28:43 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -36,6 +36,7 @@ Clock Relationships
 
 Starting                                                       Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  System                                                         |     10.000           |     No paths         |     No paths         |     No paths                         
 testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     10.000           |     No paths         |     No paths         |     No paths                         
 testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
 testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     testeISP_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         

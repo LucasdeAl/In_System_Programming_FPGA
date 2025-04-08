@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Tue Apr  8 14:02:26 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Tue Apr  8 15:29:10 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2024.1
 -Version: 2024.1.0.3
@@ -197,7 +197,7 @@ M7                        MSIO125PB4/GB3/CCC_SW0_CLKI3                Special
 M8                        MSIO129NB4                                  Unassigned  
 M9                        MSIO132PB4                                  Unassigned  
 M10                       MSIO132NB4                                  Unassigned  
-M11                       DEVRST_N                                    Reserved    
+M11     DEVRST_N          DEVRST_N                                    Dedicated   
 M12                       JTAGSEL                                     Reserved    
 M13                       MSIO2NB2/USB_NXT_B                          Unassigned  
 M14                       VDDI2                                       Reserved    

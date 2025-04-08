@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Tue Apr  8 14:02:14 2025
+Date: Tue Apr  8 15:28:49 2025
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,16 +37,16 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 0    | 27696 | 0.00       |
-| DFF                       | 0    | 27696 | 0.00       |
+| 4LUT                      | 121  | 27696 | 0.44       |
+| DFF                       | 100  | 27696 | 0.36       |
 | I/O Register              | 0    | 414   | 0.00       |
 | User I/O                  | 4    | 138   | 2.90       |
 | -- Single-ended I/O       | 4    | 138   | 2.90       |
 | -- Differential I/O Pairs | 0    | 65    | 0.00       |
 | RAM64x18                  | 0    | 34    | 0.00       |
-| RAM1K18                   | 0    | 31    | 0.00       |
+| RAM1K18                   | 1    | 31    | 3.23       |
 | MACC                      | 0    | 34    | 0.00       |
-| Chip Globals              | 1    | 16    | 6.25       |
+| Chip Globals              | 2    | 16    | 12.50      |
 | CCC                       | 1    | 6     | 16.67      |
 | RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
 | RCOSC_1MHZ                | 0    | 1     | 0.00       |
@@ -60,11 +60,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 0    | 0   |
+| Fabric Logic             | 85   | 64  |
 | RAM64x18 Interface Logic | 0    | 0   |
-| RAM1K18 Interface Logic  | 0    | 0   |
+| RAM1K18 Interface Logic  | 36   | 36  |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 0    | 0   |
+| Total Used               | 121  | 100 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -88,6 +88,14 @@ MSS Resource Usage
 
 * These resources are always marked as used when you are using the MSS
 
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 9      | 2    |
+| 17     | 1    |
+| Total  | 3    |
++--------+------+
+
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
@@ -107,13 +115,16 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources
-+--------+---------+----------------------------------------------+
-| Fanout | Type    | Name                                         |
-+--------+---------+----------------------------------------------+
-| 1      | INT_NET | Net   : testeISP_sb_0/GL0_INST               |
-|        |         | Driver: testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1 |
-|        |         | Source: NETLIST                              |
-+--------+---------+----------------------------------------------+
++--------+---------+-----------------------------------------------------+
+| Fanout | Type    | Name                                                |
++--------+---------+-----------------------------------------------------+
+| 67     | INT_NET | Net   : testeISP_sb_0_FAB_CCC_GL0                   |
+|        |         | Driver: testeISP_sb_0/CCC_0/GL0_INST/U0_RGB1        |
+|        |         | Source: NETLIST                                     |
+| 64     | INT_NET | Net   : testeISP_sb_0_POWER_ON_RESET_N              |
+|        |         | Driver: testeISP_sb_0/SYSRESET_POR_RNIKS781/U0_RGB1 |
+|        |         | Source: NETLIST                                     |
++--------+---------+-----------------------------------------------------+
 
 Nets assigned to row global resources
 +--------+------+------+
@@ -122,42 +133,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+--------------------------------------------------------+
-| Fanout | Type    | Name                                                   |
-+--------+---------+--------------------------------------------------------+
-| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                             |
-|        |         | Driver: MMUART_0_RXD_F2M_ibuf                          |
-| 1      | INT_NET | Net   : MMUART_1_RXD_F2M_c                             |
-|        |         | Driver: MMUART_1_RXD_F2M_ibuf                          |
-| 1      | INT_NET | Net   : MMUART_0_TXD_M2F_c                             |
-|        |         | Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : MMUART_1_TXD_M2F_c                             |
-|        |         | Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : testeISP_sb_0/LOCK                             |
-|        |         | Driver: testeISP_sb_0/CCC_0/CCC_INST                   |
-| 1      | INT_NET | Net   : testeISP_sb_0/CCC_0/GL0_INST/U0_YWn            |
-|        |         | Driver: testeISP_sb_0/CCC_0/GL0_INST                   |
-| 1      | INT_NET | Net   : ff_to_start_net                                |
-|        |         | Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP         |
-+--------+---------+--------------------------------------------------------+
++--------+---------+--------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                             |
++--------+---------+--------------------------------------------------------------------------------------------------+
+| 31     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter                                     |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[0]                      |
+| 25     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data                                   |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[1]                      |
+| 24     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data                               |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[2]                      |
+| 16     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_41_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNI8P6PL_0[2]           |
+| 15     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_62_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNIGRPGE[2]             |
+| 14     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_13_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_6_m5s4_1_0_a2           |
+| 8      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_datae                              |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_10_i_a2_RNI9402O    |
+| 8      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_6_i                                       |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access26_5_i_o2_RNIEH8GN_0 |
+| 7      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_Z[2]                              |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr[2]                                |
+| 7      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_343_i                                     |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr[0]                                |
++--------+---------+--------------------------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+--------------------------------------------------------+
-| Fanout | Type    | Name                                                   |
-+--------+---------+--------------------------------------------------------+
-| 1      | INT_NET | Net   : MMUART_0_RXD_F2M_c                             |
-|        |         | Driver: MMUART_0_RXD_F2M_ibuf                          |
-| 1      | INT_NET | Net   : MMUART_1_RXD_F2M_c                             |
-|        |         | Driver: MMUART_1_RXD_F2M_ibuf                          |
-| 1      | INT_NET | Net   : MMUART_0_TXD_M2F_c                             |
-|        |         | Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : MMUART_1_TXD_M2F_c                             |
-|        |         | Driver: testeISP_sb_0/testeISP_sb_MSS_0/MSS_ADLIB_INST |
-| 1      | INT_NET | Net   : testeISP_sb_0/LOCK                             |
-|        |         | Driver: testeISP_sb_0/CCC_0/CCC_INST                   |
-| 1      | INT_NET | Net   : testeISP_sb_0/CCC_0/GL0_INST/U0_YWn            |
-|        |         | Driver: testeISP_sb_0/CCC_0/GL0_INST                   |
-| 1      | INT_NET | Net   : ff_to_start_net                                |
-|        |         | Driver: flash_freeze_inst/INST_FLASH_FREEZE_IP         |
-+--------+---------+--------------------------------------------------------+
++--------+---------+--------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                             |
++--------+---------+--------------------------------------------------------------------------------------------------+
+| 31     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/counter                                     |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[0]                      |
+| 25     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_data                                   |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[1]                      |
+| 24     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_data                               |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access[2]                      |
+| 16     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_41_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNI8P6PL_0[2]           |
+| 15     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_62_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_RNIGRPGE[2]             |
+| 14     | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_13_i                                      |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/state_tpsram_access_6_m5s4_1_0_a2           |
+| 8      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/expected_datae                              |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access_10_i_a2_RNI9402O    |
+| 8      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_6_i                                       |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/un1_state_tpsram_access26_5_i_o2_RNIEH8GN_0 |
+| 7      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr_Z[2]                              |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr[2]                                |
+| 7      | INT_NET | Net   : Dev_Restart_after_ISP_blk_0/Ram_intferface_0/N_343_i                                     |
+|        |         | Driver: Dev_Restart_after_ISP_blk_0/Ram_intferface_0/next_addr[0]                                |
++--------+---------+--------------------------------------------------------------------------------------------------+
 

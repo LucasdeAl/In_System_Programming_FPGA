@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Tue Apr  8 14:02:18 2025
+<text>Date: Tue Apr  8 15:29:02 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,7 +20,14 @@
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>testeISP_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
- <cell>1</cell>
+ <cell>67</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>GB[3] </cell>
+ <cell>(293, 72)</cell>
+ <cell>testeISP_sb_0/SYSRESET_POR_RNIKS781/U0_YWn_GEast</cell>
+ <cell>64</cell>
 </row>
 </table>
 <text></text>
@@ -31,7 +38,27 @@
 </section>
 <section>
 <name>Fabric to GB Connections</name>
-<text>(none)</text>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Dev_Restart_after_ISP_blk_0/TAMPER_C0_0/TAMPER_C0_0/TAMPER_INST/INST_SYSRESET_FF_TAMPER_RSTATUS_IP:POWER_ON_RESET_N</cell>
+ <cell>(624, 8)</cell>
+ <cell>GB[3] </cell>
+ <cell>testeISP_sb_0/SYSRESET_POR_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
 </section>
 <section>
 <name>CCC to GB Connections</name>
@@ -107,10 +134,90 @@
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>testeISP_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
+ <cell>67</cell>
  <cell>1</cell>
+ <cell>(446, 3)</cell>
+ <cell>16</cell>
+</row>
+<row>
  <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(446, 6)</cell>
+ <cell>22</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(446, 9)</cell>
+ <cell>20</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(446, 12)</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
  <cell>(446, 144)</cell>
  <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>GB[3] </cell>
+ <cell>(293, 72)</cell>
+ <cell>testeISP_sb_0/SYSRESET_POR_RNIKS781/U0_YWn_GEast</cell>
+ <cell>64</cell>
+ <cell>1</cell>
+ <cell>(447, 3)</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(447, 6)</cell>
+ <cell>22</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(447, 9)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(447, 12)</cell>
+ <cell>8</cell>
 </row>
 </table>
 <text></text>
