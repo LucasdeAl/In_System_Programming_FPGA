@@ -1,0 +1,17 @@
+@P:  Worst Slack : 4.440
+@P:  mss_based_isp|MCCC_CLK_BASE - Estimated Frequency : 179.8 MHz
+@P:  mss_based_isp|MCCC_CLK_BASE - Requested Frequency : 100.0 MHz
+@P:  mss_based_isp|MCCC_CLK_BASE - Estimated Period : 5.560
+@P:  mss_based_isp|MCCC_CLK_BASE - Requested Period : 10.000
+@P:  mss_based_isp|MCCC_CLK_BASE - Slack : 4.440
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: mss_based_isp Part : m2s025vf400std
+@P: mss_based_isp Register bits  : 64 
+@P: mss_based_isp DSP Blocks  : 0
+@P: mss_based_isp I/O primitives : 3
+@P: mss_based_isp RAM1K18 :  1
+@P:  CPU Time : 0h:00m:02s

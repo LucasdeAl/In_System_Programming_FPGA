@@ -68,25 +68,30 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I::"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v" (library work)
 @I::"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v changed - recompiling
 Selecting top level module testeISP
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":17:7:17:20|Synthesizing module Ram_intferface in library work.
 Running optimization stage 1 on Ram_intferface .......
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_test_complete. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_pass. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v":1:7:1:12|Synthesizing module TAMPER in library work.
 Running optimization stage 1 on TAMPER .......
-Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v":5:7:5:34|Synthesizing module TAMPER_C0_TAMPER_C0_0_TAMPER in library work.
 Running optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER .......
-Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0.v":31:7:31:15|Synthesizing module TAMPER_C0 in library work.
 Running optimization stage 1 on TAMPER_C0 .......
-Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
 Running optimization stage 1 on RAM1K18 .......
 Finished optimization stage 1 on RAM1K18 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
@@ -339,12 +344,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 95MB peak: 98MB)
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 96MB peak: 98MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:40 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]
 ###########################################################[
@@ -366,12 +371,12 @@ Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan
 @N|Running in 64-bit mode
 File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:41 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]
 
@@ -381,11 +386,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 22MB peak: 23MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:41 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]

@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'C:\Users\Lucas\Documents\Nascerr\mss_based_isp\designer\mss_based_isp\mss_based_isp_fp\mss_based_isp.pro'
+PDB file 'C:\Users\Lucas\Documents\Nascerr\mss_based_isp\designer\mss_based_isp\mss_based_isp.pdb' has been loaded successfully.
+DESIGN : mss_based_isp;  CHECKSUM : 3F2D;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\Lucas\Documents\Nascerr\mss_based_isp\designer\mss_based_isp\mss_based_isp.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Lucas\Documents\Nascerr\mss_based_isp\designer\mss_based_isp\mss_based_isp.ppd'; file programs Fabric.
+Fabric component bitstream digest: 7fcbcbac1aa39a9348e9c1e817754f7ec184c10b969407a537904892336c7510
+Entire bitstream digest: ffab07882c669aefcfa220b6a36fdaa5d0d682eacbf9f6a8981353b7f593ac8e
+Finished: Thu Apr 10 10:05:01 2025 (Elapsed time 00:00:09)
+
+Project saved.
+Project closed.

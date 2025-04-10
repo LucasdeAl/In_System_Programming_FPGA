@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\lucas\documents\nascerr\mss_based_isp\hdl\ram_interface.v":61:0:61:5|Found inferred clock mss_based_isp|MCCC_CLK_BASE which controls 67 sequential elements including Dev_Restart_after_ISP_blk_0.Ram_intferface_0.next_data[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

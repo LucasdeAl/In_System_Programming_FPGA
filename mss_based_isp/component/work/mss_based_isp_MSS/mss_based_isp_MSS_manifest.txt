@@ -1,0 +1,26 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Wed Apr  9 17:35:10 2025
+Project   :  C:\Users\Lucas\Documents\Nascerr\mss_based_isp
+Component :  mss_based_isp_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/mss_based_isp_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/mss_based_isp_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/mss_based_isp_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/CM3_compile_bfm.tcl
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/user.bfm
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/test.bfm
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp_MSS/sys_config_mss_clocks.h
+

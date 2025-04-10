@@ -1,0 +1,6 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Chip Globals,MSS,10/100/1000 Ethernet,HS USB,Multi-Mode UART
+Dev_Restart_after_ISP_blk_0/Ram_intferface_0/Primitives,84,64,0,0,0,0,0,0,0,0,0
+Dev_Restart_after_ISP_blk_0/TPSRAM_C0_0/TPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0,0,0,0
+Primitives/Primitives,1,0,0,0,1,0,1,0,0,0,0
+mss_based_isp_MSS_0/Primitives,0,0,0,0,2,0,1,1,0,0,0

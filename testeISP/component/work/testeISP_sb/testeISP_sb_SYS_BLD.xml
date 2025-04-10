@@ -2095,7 +2095,7 @@
 </row>
 <row>
  <cell>GL0_OUT_0_FREQ</cell>
- <cell>100.00</cell>
+ <cell>50</cell>
 </row>
 <row>
  <cell>GL1_IS_USED</cell>
@@ -3079,7 +3079,7 @@
 </data>
 <separator/>
 <data>
-<name>MM_UART_0</name>
+<name>CoreUARTapb_0</name>
 <table>
 <header>
  <cell>Name</cell>
@@ -3088,10 +3088,10 @@
  <cell>Version</cell>
 </header>
 <row>
- <cell>SF2_MSS_UART</cell>
- <cell>MSS Peripherals</cell>
+ <cell>CoreUARTapb</cell>
+ <cell>MSS FIC_0 - MSS Master Subsystem</cell>
  <cell>Actel</cell>
- <cell>0.0.101</cell>
+ <cell>5.2.2</cell>
 </row>
 </table>
 <cdata>
@@ -3102,71 +3102,56 @@
  <cell>Value</cell>
 </header>
 <row>
- <cell>MODE</cell>
- <cell>MODE_ASYNC</cell>
+ <cell>BAUD_VAL_FRCTN</cell>
+ <cell>0</cell>
 </row>
 <row>
- <cell>MODE_DUPLEX</cell>
- <cell>MODE_FULL</cell>
-</row>
-<row>
- <cell>MODEM_MUX</cell>
- <cell>MUX_FABRIC</cell>
-</row>
-<row>
- <cell>TX_RX_MUX</cell>
- <cell>MUX_FABRIC</cell>
-</row>
-<row>
- <cell>USE_MODEM</cell>
+ <cell>BAUD_VAL_FRCTN_EN</cell>
  <cell>false</cell>
 </row>
-</table>
-</cdata>
-</data>
-<separator/>
-<data>
-<name>MM_UART_1</name>
-<table>
-<header>
- <cell>Name</cell>
- <cell>Subsystem</cell>
- <cell>Vendor</cell>
- <cell>Version</cell>
-</header>
 <row>
- <cell>SF2_MSS_UART</cell>
- <cell>MSS Peripherals</cell>
- <cell>Actel</cell>
- <cell>0.0.101</cell>
-</row>
-</table>
-<cdata>
-<name>Configuration</name>
-<table>
-<header>
- <cell>Parameter</cell>
- <cell>Value</cell>
-</header>
-<row>
- <cell>MODE</cell>
- <cell>MODE_ASYNC</cell>
+ <cell>BAUD_VALUE</cell>
+ <cell>1</cell>
 </row>
 <row>
- <cell>MODE_DUPLEX</cell>
- <cell>MODE_FULL</cell>
+ <cell>FAMILY</cell>
+ <cell>19</cell>
 </row>
 <row>
- <cell>MODEM_MUX</cell>
- <cell>MUX_IO</cell>
+ <cell>FIXEDMODE</cell>
+ <cell>0</cell>
 </row>
 <row>
- <cell>TX_RX_MUX</cell>
- <cell>MUX_FABRIC</cell>
+ <cell>HDL_license</cell>
+ <cell>U</cell>
 </row>
 <row>
- <cell>USE_MODEM</cell>
- <cell>false</cell>
+ <cell>PRG_BIT8</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>PRG_PARITY</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RX_FIFO</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RX_LEGACY_MODE</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>testbench</cell>
+ <cell>User</cell>
+</row>
+<row>
+ <cell>TX_FIFO</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>USE_SOFT_FIFO</cell>
+ <cell>0</cell>
 </row>
 </table>
 </cdata>
@@ -3180,6 +3165,11 @@
  <cell>Instance Name</cell>
  <cell>Instance Pins</cell>
 </header>
+<row>
+ <cell>testeISP_sb_MSS_0:MSS_INT_F2M[0]</cell>
+ <cell>CoreUARTapb_0_0</cell>
+ <cell>TXRDY, RXRDY, PARITY_ERR, OVERFLOW, FRAMING_ERR</cell>
+</row>
 </table>
 </data>
 <separator/>
@@ -3229,23 +3219,13 @@
  <cell>-</cell>
 </row>
 <row>
- <cell>MMUART_0_TXD_M2F</cell>
- <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>MMUART_0_RXD_F2M</cell>
+ <cell>RX</cell>
  <cell>IN</cell>
  <cell>-</cell>
 </row>
 <row>
- <cell>MMUART_1_TXD_M2F</cell>
+ <cell>TX</cell>
  <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>MMUART_1_RXD_F2M</cell>
- <cell>IN</cell>
  <cell>-</cell>
 </row>
 </table>

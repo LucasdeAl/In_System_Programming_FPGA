@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Apr 10 10:02:58 2025 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: mss_based_isp
+-Family: SmartFusion2
+-Die: M2S025
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port          |Pin |Fixed |Function                         |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+--------------|----|------|---------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+MCCC_CLK_BASE  G1   Yes    MSIO97PB7/GB2/CCC_NW0_CLKI1       Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_1_RXD   H13  Yes    MSIO28NB1/MMUART_1_RXD/GPIO_26_B  Bank1     LVCMOS25   Input                           TRISTATE                        None                                Yes                                 Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_1_TXD   H12  Yes    MSIO27NB1/MMUART_1_TXD/GPIO_24_B  Bank1     LVCMOS25   Output                          TRISTATE                        None                                Yes                                 ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

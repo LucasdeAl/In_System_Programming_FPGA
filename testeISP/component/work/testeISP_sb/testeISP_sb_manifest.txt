@@ -1,6 +1,6 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
 
-Date      :  Tue Apr  8 14:01:57 2025
+Date      :  Wed Apr  9 17:10:36 2025
 Project   :  C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP
 Component :  testeISP_sb
 Family    :  SmartFusion2
@@ -10,8 +10,17 @@ HDL source files for all Synthesis and Simulation tools:
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/testeISP_sb.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/testeISP_sb.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CCC_0/testeISP_sb_CCC_0_FCCC.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_iaddr_reg.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/Rx_async.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/Tx_async.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/CoreUART.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/CoreUARTapb.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/core/fifo_256x8_smartfusion2.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/FABOSC_0/testeISP_sb_FABOSC_0_OSC.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/testeISP_sb.v
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/testeISP_sb_MSS.v
@@ -28,10 +37,27 @@ Stimulus files for all Simulation tools:
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/subsystem.bfm
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/subsystem.bfm
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/subsystem.bfm
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/mti/scripts/wave_vlog_amba.do
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/CM3_compile_bfm.tcl
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/user.bfm
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/test.bfm
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/coreparameters.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb/CoreUARTapb_0_0/rtl/vlog/test/user/testbench.v
 
 Firmware files for all Software IDE tools:
     C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/testeISP_sb_MSS/sys_config_mss_clocks.h

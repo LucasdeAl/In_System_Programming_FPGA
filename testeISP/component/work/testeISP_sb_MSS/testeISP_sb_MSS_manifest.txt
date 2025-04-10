@@ -1,6 +1,6 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
 
-Date      :  Tue Apr  8 14:01:54 2025
+Date      :  Wed Apr  9 17:10:32 2025
 Project   :  C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP
 Component :  testeISP_sb_MSS
 Family    :  SmartFusion2

@@ -1,6 +1,6 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. testeISP, 64, 49, 35, 0, 0, 1, 0, 2, 4
+. testeISP, 64, 49, 35, 0, 0, 1, 0, 2, 2
 .	. Dev_Restart_after_ISP_blk, 64, 49, 35, 0, 0, 1, 0, 0, 0
 .	.	. Ram_intferface, 64, 49, 35, 0, 0, 0, 0, 0, 0
 .	.	. TAMPER_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0

@@ -3,38 +3,17 @@
 <drcreport>
   <header>testeISP</header>
   <drc>
-    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin testeISP_sb_0:POWER_ON_RESET_N</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:POWER_ON_RESET_N</crossprobe>
+    <detail>Floating output pin testeISP:MMUART_0_RXD_F2M</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP:MMUART_0_RXD_F2M</crossprobe>
   </drc>
   <drc>
-    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin testeISP_sb_0:INIT_DONE</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:INIT_DONE</crossprobe>
-  </drc>
-  <drc>
-    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin testeISP_sb_0:FAB_CCC_GL0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:FAB_CCC_GL0</crossprobe>
-  </drc>
-  <drc>
-    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin testeISP_sb_0:FAB_CCC_LOCK</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:FAB_CCC_LOCK</crossprobe>
-  </drc>
-  <drc>
-    <status>D:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin testeISP_sb_0:MSS_READY</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP_sb_0:MSS_READY</crossprobe>
+    <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port testeISP:MMUART_0_TXD_M2F</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/testeISP/pins/testeISP:MMUART_0_TXD_M2F</crossprobe>
   </drc>
 </drcreport>

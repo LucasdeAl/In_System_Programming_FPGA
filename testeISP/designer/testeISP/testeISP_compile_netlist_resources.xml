@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Tue Apr  8 15:28:49 2025
+<text>Date: Wed Apr  9 16:55:30 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -124,15 +124,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>4</cell>
+ <cell>2</cell>
  <cell>138</cell>
- <cell>2.90</cell>
+ <cell>1.45</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>4</cell>
+ <cell>2</cell>
  <cell>138</cell>
- <cell>2.90</cell>
+ <cell>1.45</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -284,7 +284,7 @@
 </row>
 <row>
  <cell>UART</cell>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>2</cell>
 </row>
 <row>
@@ -346,13 +346,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -389,8 +389,8 @@
  <cell>LVCMOS25</cell>
  <cell> 2.50v</cell>
  <cell> N/A</cell>
- <cell> 2</cell>
- <cell> 2</cell>
+ <cell> 1</cell>
+ <cell> 1</cell>
  <cell> 0</cell>
 </row>
 </table>

@@ -55,12 +55,115 @@ VALUE="Impl6",NUM=6
 VALUE="Impl7",NUM=7
 CURREV=7
 ENDLIST
+LIST LIBRARIES
+COREAPB3_LIB
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744229434"
+SIZE="2736"
+PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="1284"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1739390372"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="4636"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="9073"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="25129"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="36275"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="122456"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v,hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="29701"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v,hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="4465"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v,hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="5708"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1739390372"
+SIZE="23651"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229434"
 SIZE="584"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
@@ -78,15 +181,107 @@ SIZE="8822"
 PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744229434"
+SIZE="1810"
+PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="8058"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="11180"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="2461"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="48750"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="4635"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="9072"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="25127"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="36273"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="4698"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1740407821"
+SIZE="122453"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.2.2\CoreUARTapb.cxf"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.7.100\COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744148987"
+SIZE="573"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
 VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229434"
 SIZE="241"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229435"
 SIZE="684"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
@@ -140,87 +335,158 @@ PARENT="<project>\component\work\TPSRAM_C0\TPSRAM_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131714"
+TIME="1744229432"
 SIZE="526"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="253"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="252"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="254"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="253"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="254"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="254"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="254"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="255"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="254"
-PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
-STATE="utd"
-TIME="1744131712"
-SIZE="256"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="255"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="258"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131712"
+TIME="1744229430"
 SIZE="256"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744148987"
+SIZE="4796"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="5358"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="466"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744148987"
+SIZE="1891"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
+STATE="utd"
+TIME="1744148987"
+SIZE="1458"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Clock_gen.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="13254"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\CoreUART.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="14296"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="7492"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Rx_async.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="21163"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Tx_async.v,hdl"
+STATE="utd"
+TIME="1744148987"
+SIZE="8864"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+STATE="utd"
+TIME="1744148986"
+SIZE="39126"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
@@ -229,8 +495,15 @@ SIZE="1902"
 ENDFILE
 VALUE "<project>\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744136533"
-SIZE="1521"
+TIME="1744136907"
+SIZE="1842"
+ENDFILE
+VALUE "<project>\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v,hdl"
+STATE="utd"
+TIME="1744136907"
+SIZE="2766"
+PARENT="<project>\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\ISPtest\ISPtest.cxf,actgen_cxf"
 STATE="utd"
@@ -264,69 +537,148 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP\testeISP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744136880"
-SIZE="2480"
+TIME="1744228507"
+SIZE="2153"
 ENDFILE
 VALUE "<project>\component\work\testeISP\testeISP.v,hdl"
 STATE="utd"
-TIME="1744136879"
-SIZE="3120"
+TIME="1744228506"
+SIZE="2714"
 PARENT="<project>\component\work\testeISP\testeISP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229434"
 SIZE="702"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v,hdl"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229434"
 SIZE="1725"
 PARENT="<project>\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="605"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\mti\scripts\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1744229434"
+SIZE="1011"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\mti\scripts\wave_vlog_amba.do,do"
+STATE="utd"
+TIME="1744229434"
+SIZE="2034"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="12933"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="12129"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="13539"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="7305"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="15315"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v,hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="8540"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1744229434"
+SIZE="8953"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1744229434"
+SIZE="4042"
+PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
+ENDFILE
 VALUE "<project>\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229435"
 SIZE="471"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v,hdl"
 STATE="utd"
-TIME="1744131716"
+TIME="1744229435"
 SIZE="795"
 PARENT="<project>\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb\testeISP_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131717"
-SIZE="6562"
+TIME="1744229436"
+SIZE="6410"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb\testeISP_sb.v,hdl"
 STATE="utd"
-TIME="1744131716"
-SIZE="12237"
+TIME="1744229435"
+SIZE="25685"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1744131714"
-SIZE="13734"
+TIME="1744229432"
+SIZE="14772"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v,hdl"
 STATE="utd"
-TIME="1744131714"
-SIZE="45625"
+TIME="1744229432"
+SIZE="46495"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS_pre.v,hdl"
 STATE="utd"
-TIME="1744131713"
+TIME="1744229432"
 SIZE="58495"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -338,7 +690,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v,hdl"
 STATE="utd"
-TIME="1744131713"
+TIME="1744229432"
 SIZE="51351"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -375,8 +727,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
-TIME="1744131062"
-SIZE="1117"
+TIME="1744228560"
+SIZE="1013"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>\hdl\led_blink.v,hdl"
@@ -389,11 +741,35 @@ STATE="utd"
 TIME="1744134527"
 SIZE="4318"
 ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1739390372"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
 VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
 STATE="utd"
-TIME="1744131714"
+TIME="1744229432"
 SIZE="504"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1739390372"
+SIZE="8016"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1744229434"
+SIZE="2905"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreuart_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1744229434"
+SIZE="13006"
+PARENT="<project>\component\work\testeISP_sb\CoreUARTapb_0_0\testeISP_sb_CoreUARTapb_0_0_CoreUARTapb.cxf"
 ENDFILE
 VALUE "<project>\simulation\peripheral_init.bfm,sim"
 STATE="utd"
@@ -403,14 +779,14 @@ PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1744129994"
+TIME="1744129932"
 SIZE="602"
 PARENT="<project>\component\work\testeISP\testeISP.cxf"
 PARENT="<project>\component\work\testeISP_sb\testeISP_sb.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1744131714"
+TIME="1744229432"
 SIZE="734"
 PARENT="<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.cxf"
 ENDFILE
@@ -427,133 +803,56 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\testeISP.so,so"
 STATE="utd"
-TIME="1744129994"
-SIZE="286"
+TIME="1744228527"
+SIZE="259"
 ENDFILE
 VALUE "<project>\synthesis\testeISP.vm,syn_vm"
-STATE="utd"
-TIME="1744129994"
-SIZE="40457"
+STATE="ood"
+TIME="1744228527"
+SIZE="83383"
 ENDFILE
 VALUE "<project>\synthesis\testeISP_syn.prj,prj"
 STATE="utd"
-TIME="1744129994"
-SIZE="4222"
+TIME="1744228528"
+SIZE="4907"
 ENDFILE
 VALUE "<project>\synthesis\testeISP_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1744129994"
+TIME="1744228527"
 SIZE="1312"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work"
+FILE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\CoreUART.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
+ENDLIST
+ENDLIST
 LIST "testeISP::work"
-FILE "<project>\component\work\testeISP\testeISP.cxf,actgen_cxf"
-LIST PNRConstraints
-VALUE "<project>\constraint\io\user.pdc,io_pdc"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl4
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl5
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl6
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl7
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-ENDLIST
-LIST "testeISP_sb::work"
-FILE "<project>\component\work\testeISP_sb\testeISP_sb.v,hdl"
+FILE "<project>\component\work\testeISP\testeISP.v,hdl"
 LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
-ENDLIST
-LIST "testeISP_sb_MSS::work"
-FILE "<project>\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v,hdl"
-LIST Other_Association
-VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
-VALUE "<project>\simulation\user.bfm,sim"
-VALUE "<project>\simulation\test.bfm,sim"
-VALUE "<project>\simulation\peripheral_init.bfm,sim"
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
 ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
 LIST Other_Association
-LIST testeISP_sb
+LIST testeISP
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
-LIST testeISP_sb_MSS
-VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
-VALUE "<project>\simulation\user.bfm,sim"
-VALUE "<project>\simulation\test.bfm,sim"
-VALUE "<project>\simulation\peripheral_init.bfm,sim"
+LIST COREUART_C0_COREUART_C0_0_COREUART
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
 ENDLIST
 ENDLIST
 LIST SimulationOptions
@@ -649,78 +948,6 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "testeISP::work"
-LIST Impl1
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl2
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl3
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl4
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl5
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl6
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-LIST Impl7
-ideSYNTHESIS(<project>\synthesis\testeISP.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -736,25 +963,40 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;synthesis:synplify.log
-SmartDesign;Dev_Restart_after_ISP_blk;0
-SmartDesign;testeISP;0
 Constraint Manager;Constraint Manager;0
-StartPage;StartPage;0
 HDL;constraint\io\user.pdc;0
+SmartDesign;Dev_Restart_after_ISP_blk;0
+StartPage;StartPage;0
+SmartDesign;testeISP;0
 ACTIVEVIEW;testeISP
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
 ENDLIST
-LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
-SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
-SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+LIST "COREUART_C0::work","component\work\COREUART_C0\COREUART_C0.v","TRUE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
 ENDLIST
-LIST "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf","TRUE","FALSE"
+LIST "COREUART_C0_COREUART_C0_0_Clock_gen::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Clock_gen::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Rx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Tx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_ctrl_128::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_ctrl_128::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_ram128x8_pa4::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_ram128x8_pa4::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Rx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Tx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v","TRUE","FALSE"
 SUBBLOCK "Ram_intferface::work","hdl\Ram_interface.v","FALSE","FALSE"
 SUBBLOCK "TAMPER_C0::work","component\work\TAMPER_C0\TAMPER_C0.v","TRUE","FALSE"
 SUBBLOCK "TPSRAM_C0::work","component\work\TPSRAM_C0\TPSRAM_C0.v","TRUE","FALSE"
@@ -763,6 +1005,10 @@ LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\
 SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"
 ENDLIST
 LIST "MSS_025::work","component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_CoreUARTapb::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_COREUART::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_COREUART::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
 ENDLIST
 LIST "ISPtest::work","component\work\ISPtest\ISPtest.cxf","TRUE","FALSE"
 ENDLIST
@@ -778,18 +1024,6 @@ LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FA
 ENDLIST
 LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
 ENDLIST
-LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
-ENDLIST
-LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
-ENDLIST
 LIST "TAMPER::work","component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "TAMPER_C0::work","component\work\TAMPER_C0\TAMPER_C0.v","TRUE","FALSE"
@@ -798,17 +1032,39 @@ ENDLIST
 LIST "TAMPER_C0_TAMPER_C0_0_TAMPER::work","component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v","FALSE","FALSE"
 SUBBLOCK "TAMPER::work","component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v","FALSE","FALSE"
 ENDLIST
-LIST "testeISP::work","component\work\testeISP\testeISP.cxf","TRUE","FALSE"
-SUBBLOCK "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.cxf","TRUE","FALSE"
+LIST "testeISP::work","component\work\testeISP\testeISP.v","TRUE","FALSE"
+SUBBLOCK "Dev_Restart_after_ISP_blk::work","component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v","TRUE","FALSE"
 SUBBLOCK "testeISP_sb::work","component\work\testeISP_sb\testeISP_sb.v","TRUE","FALSE"
 ENDLIST
 LIST "testeISP_sb::work","component\work\testeISP_sb\testeISP_sb.v","TRUE","FALSE"
 SUBBLOCK "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_CoreUARTapb::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
 SUBBLOCK "testeISP_sb_CCC_0_FCCC::work","component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v","FALSE","FALSE"
 SUBBLOCK "testeISP_sb_FABOSC_0_OSC::work","component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v","FALSE","FALSE"
+SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v","FALSE","FALSE"
 SUBBLOCK "testeISP_sb_MSS::work","component\work\testeISP_sb_MSS\testeISP_sb_MSS.v","TRUE","FALSE"
 ENDLIST
 LIST "testeISP_sb_CCC_0_FCCC::work","component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Clock_gen::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_COREUART::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Clock_gen::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Rx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Tx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_fifo_256x8::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_fifo_256x8::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_fifo_ctrl_128::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_fifo_ctrl_128::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_ram128x8_pa4::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_ram128x8_pa4::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Rx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Tx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
 ENDLIST
 LIST "testeISP_sb_FABOSC_0_OSC::work","component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v","FALSE","FALSE"
 SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
@@ -825,6 +1081,103 @@ ENDLIST
 LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "BFM_AHBL::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_AHBLAPB::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahblapb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_AHBSLAVE::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_AHBSLAVEEXT::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_APB::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_APB2APB::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_APBSLAVE::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVEEXT::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_APBSLAVEEXT::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1l1OII::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_AHBSLAVEEXT::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_APB::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1l1OII::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Clock_gen::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_COREUART::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Clock_gen::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Rx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_Tx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_fifo_256x8::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Rx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "testeISP_sb_CoreUARTapb_0_0_Tx_async::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "BFM_MAIN::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "BFM_APB::work","component\Actel\DirectCore\CoreUARTapb\5.2.2\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "testeISP_sb_CoreUARTapb_0_0_CoreUARTapb::work","component\work\testeISP_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
+ENDLIST
+LIST "testbnch::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v","FALSE","TRUE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APB::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APBSLAVE::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_MAIN::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFMA1l1OII::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APB::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "BFM_MAIN::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APBSLAVE::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVEEXT::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APBSLAVEEXT::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "BFM_MAIN::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1l1OII::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "BFM_APB::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVE::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "BFM_APB::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVE::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

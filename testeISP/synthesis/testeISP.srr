@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: DESKTOP-V6FS948
 
-# Tue Apr  8 15:28:35 2025
+# Wed Apr  9 16:55:18 2025
 
 #Implementation: synthesis
 
@@ -77,25 +77,30 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I::"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v" (library work)
 @I::"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\CCC_0\testeISP_sb_CCC_0_FCCC.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\FABOSC_0\testeISP_sb_FABOSC_0_OSC.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS_syn.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb_MSS\testeISP_sb_MSS.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP_sb\testeISP_sb.v changed - recompiling
+File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\testeISP\testeISP.v changed - recompiling
 Selecting top level module testeISP
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":17:7:17:20|Synthesizing module Ram_intferface in library work.
 Running optimization stage 1 on Ram_intferface .......
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_test_complete. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_pass. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v":1:7:1:12|Synthesizing module TAMPER in library work.
 Running optimization stage 1 on TAMPER .......
-Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v":5:7:5:34|Synthesizing module TAMPER_C0_TAMPER_C0_0_TAMPER in library work.
 Running optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER .......
-Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0.v":31:7:31:15|Synthesizing module TAMPER_C0 in library work.
 Running optimization stage 1 on TAMPER_C0 .......
-Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
 Running optimization stage 1 on RAM1K18 .......
 Finished optimization stage 1 on RAM1K18 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
@@ -348,12 +353,12 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 95MB peak: 98MB)
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 96MB peak: 98MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:40 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]
 ###########################################################[
@@ -375,12 +380,12 @@ Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan
 @N|Running in 64-bit mode
 File C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:41 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]
 
@@ -390,12 +395,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 22MB peak: 23MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:41 2025
+# Wed Apr  9 16:55:22 2025
 
 ###########################################################]
 ###########################################################[
@@ -422,12 +427,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr  8 15:28:42 2025
+# Wed Apr  9 16:55:23 2025
 
 ###########################################################]
 Premap Report
 
-# Tue Apr  8 15:28:42 2025
+# Wed Apr  9 16:55:23 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -463,7 +468,7 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
@@ -476,7 +481,7 @@ NConnInternalConnection caching is on
 Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 @N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
@@ -489,7 +494,7 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 @W: MO129 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance testeISP_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
@@ -559,7 +564,7 @@ testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        testeIS
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\testeISP.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -574,19 +579,19 @@ original code -> new code
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 255MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 255MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Apr  8 15:28:43 2025
+# Wed Apr  9 16:55:25 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Tue Apr  8 15:28:43 2025
+# Wed Apr  9 16:55:25 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -730,7 +735,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CP
 @N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_state (in view: work.testeISP(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance testeISP_sb_0.CORERESETP_0.mss_ready_select (in view: work.testeISP(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
@@ -745,7 +750,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
 
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
@@ -784,7 +789,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Apr  8 15:28:46 2025
+# Timing report written on Wed Apr  9 16:55:27 2025
 #
 
 
@@ -962,10 +967,10 @@ SLE            64 uses
 
 DSP Blocks:    0 of 34 (0%)
 
-I/O ports: 5
-I/O primitives: 4
-INBUF          2 uses
-OUTBUF         2 uses
+I/O ports: 3
+I/O primitives: 2
+INBUF          1 use
+OUTBUF         1 use
 
 
 Global Clock Buffers: 2
@@ -989,6 +994,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 126MB peak: 258MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Tue Apr  8 15:28:46 2025
+# Wed Apr  9 16:55:28 2025
 
 ###########################################################]

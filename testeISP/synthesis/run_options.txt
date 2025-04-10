@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
 #--  Project file C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\run_options.txt
-#--  Written on Tue Apr  8 15:28:35 2025
+#--  Written on Wed Apr  9 16:55:18 2025
 
 
 #project files

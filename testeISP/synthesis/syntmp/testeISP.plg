@@ -17,6 +17,6 @@
 @P: testeISP Part : m2s025tvf400std
 @P: testeISP Register bits  : 64 
 @P: testeISP DSP Blocks  : 0
-@P: testeISP I/O primitives : 4
+@P: testeISP I/O primitives : 2
 @P: testeISP RAM1K18 :  1
 @P:  CPU Time : 0h:00m:02s

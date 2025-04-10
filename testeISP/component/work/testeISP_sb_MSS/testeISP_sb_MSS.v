@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Apr  8 14:01:54 2025
+// Created by SmartDesign Wed Apr  9 17:10:32 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -8,15 +8,22 @@
 // testeISP_sb_MSS
 module testeISP_sb_MSS(
     // Inputs
+    FIC_0_APB_M_PRDATA,
+    FIC_0_APB_M_PREADY,
+    FIC_0_APB_M_PSLVERR,
     FIC_2_APB_M_PRDATA,
     FIC_2_APB_M_PREADY,
     FIC_2_APB_M_PSLVERR,
     MCCC_CLK_BASE,
     MCCC_CLK_BASE_PLL_LOCK,
-    MMUART_0_RXD_F2M,
-    MMUART_1_RXD_F2M,
+    MSS_INT_F2M,
     MSS_RESET_N_F2M,
     // Outputs
+    FIC_0_APB_M_PADDR,
+    FIC_0_APB_M_PENABLE,
+    FIC_0_APB_M_PSEL,
+    FIC_0_APB_M_PWDATA,
+    FIC_0_APB_M_PWRITE,
     FIC_2_APB_M_PADDR,
     FIC_2_APB_M_PCLK,
     FIC_2_APB_M_PENABLE,
@@ -24,25 +31,30 @@ module testeISP_sb_MSS(
     FIC_2_APB_M_PSEL,
     FIC_2_APB_M_PWDATA,
     FIC_2_APB_M_PWRITE,
-    MMUART_0_TXD_M2F,
-    MMUART_1_TXD_M2F,
     MSS_RESET_N_M2F
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
+input  [31:0] FIC_0_APB_M_PRDATA;
+input         FIC_0_APB_M_PREADY;
+input         FIC_0_APB_M_PSLVERR;
 input  [31:0] FIC_2_APB_M_PRDATA;
 input         FIC_2_APB_M_PREADY;
 input         FIC_2_APB_M_PSLVERR;
 input         MCCC_CLK_BASE;
 input         MCCC_CLK_BASE_PLL_LOCK;
-input         MMUART_0_RXD_F2M;
-input         MMUART_1_RXD_F2M;
+input  [15:0] MSS_INT_F2M;
 input         MSS_RESET_N_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
+output [31:0] FIC_0_APB_M_PADDR;
+output        FIC_0_APB_M_PENABLE;
+output        FIC_0_APB_M_PSEL;
+output [31:0] FIC_0_APB_M_PWDATA;
+output        FIC_0_APB_M_PWRITE;
 output [15:2] FIC_2_APB_M_PADDR;
 output        FIC_2_APB_M_PCLK;
 output        FIC_2_APB_M_PENABLE;
@@ -50,12 +62,18 @@ output        FIC_2_APB_M_PRESET_N;
 output        FIC_2_APB_M_PSEL;
 output [31:0] FIC_2_APB_M_PWDATA;
 output        FIC_2_APB_M_PWRITE;
-output        MMUART_0_TXD_M2F;
-output        MMUART_1_TXD_M2F;
 output        MSS_RESET_N_M2F;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
+wire   [31:0] FIC_0_APB_MASTER_PADDR;
+wire          FIC_0_APB_MASTER_PENABLE;
+wire   [31:0] FIC_0_APB_M_PRDATA;
+wire          FIC_0_APB_M_PREADY;
+wire          FIC_0_APB_MASTER_PSELx;
+wire          FIC_0_APB_M_PSLVERR;
+wire   [31:0] FIC_0_APB_MASTER_PWDATA;
+wire          FIC_0_APB_MASTER_PWRITE;
 wire          FIC_2_APB_M_PCLK_0;
 wire          FIC_2_APB_M_PRESET_N_0;
 wire   [15:2] FIC_2_APB_MASTER_0_PADDR;
@@ -68,20 +86,20 @@ wire   [31:0] FIC_2_APB_MASTER_0_PWDATA;
 wire          FIC_2_APB_MASTER_0_PWRITE;
 wire          MCCC_CLK_BASE;
 wire          MCCC_CLK_BASE_PLL_LOCK;
-wire          MMUART_0_RXD_F2M;
-wire          MMUART_0_TXD_M2F_net_0;
-wire          MMUART_1_RXD_F2M;
-wire          MMUART_1_TXD_M2F_net_0;
+wire   [15:0] MSS_INT_F2M;
 wire          MSS_RESET_N_F2M;
 wire          MSS_RESET_N_M2F_net_0;
 wire          MSS_RESET_N_M2F_net_1;
-wire          MMUART_0_TXD_M2F_net_1;
-wire          MMUART_1_TXD_M2F_net_1;
+wire          FIC_0_APB_MASTER_PSELx_net_0;
+wire          FIC_0_APB_MASTER_PWRITE_net_0;
+wire          FIC_0_APB_MASTER_PENABLE_net_0;
 wire          FIC_2_APB_M_PRESET_N_0_net_0;
 wire          FIC_2_APB_M_PCLK_0_net_0;
 wire          FIC_2_APB_MASTER_0_PWRITE_net_0;
 wire          FIC_2_APB_MASTER_0_PENABLE_net_0;
 wire          FIC_2_APB_MASTER_0_PSELx_net_0;
+wire   [31:0] FIC_0_APB_MASTER_PADDR_net_0;
+wire   [31:0] FIC_0_APB_MASTER_PWDATA_net_0;
 wire   [15:2] FIC_2_APB_MASTER_0_PADDR_net_0;
 wire   [31:0] FIC_2_APB_MASTER_0_PWDATA_net_0;
 //--------------------------------------------------------------------
@@ -94,12 +112,10 @@ wire   [2:0]  DRAM_DQS_IN_const_net_0;
 wire   [1:0]  DRAM_FIFO_WE_IN_const_net_0;
 wire          VCC_net;
 wire   [1:0]  F2_DMAREADY_const_net_0;
-wire   [15:0] F2H_INTERRUPT_const_net_0;
 wire   [1:0]  F_DMAREADY_const_net_0;
 wire   [31:0] F_FM0_ADDR_const_net_0;
 wire   [1:0]  F_FM0_SIZE_const_net_0;
 wire   [31:0] F_FM0_WDATA_const_net_0;
-wire   [31:0] F_HM0_RDATA_const_net_0;
 wire   [1:0]  FAB_LINESTATE_const_net_0;
 wire   [7:0]  FAB_VSTATUS_const_net_0;
 wire   [7:0]  FAB_XDATAIN_const_net_0;
@@ -132,12 +148,10 @@ assign DRAM_DQS_IN_const_net_0         = 3'h0;
 assign DRAM_FIFO_WE_IN_const_net_0     = 2'h0;
 assign VCC_net                         = 1'b1;
 assign F2_DMAREADY_const_net_0         = 2'h3;
-assign F2H_INTERRUPT_const_net_0       = 16'h0000;
 assign F_DMAREADY_const_net_0          = 2'h3;
 assign F_FM0_ADDR_const_net_0          = 32'h00000000;
 assign F_FM0_SIZE_const_net_0          = 2'h0;
 assign F_FM0_WDATA_const_net_0         = 32'h00000000;
-assign F_HM0_RDATA_const_net_0         = 32'h00000000;
 assign FAB_LINESTATE_const_net_0       = 2'h3;
 assign FAB_VSTATUS_const_net_0         = 8'hFF;
 assign FAB_XDATAIN_const_net_0         = 8'hFF;
@@ -165,10 +179,12 @@ assign MDDR_FABRIC_PWDATA_const_net_0  = 16'hFFFF;
 //--------------------------------------------------------------------
 assign MSS_RESET_N_M2F_net_1            = MSS_RESET_N_M2F_net_0;
 assign MSS_RESET_N_M2F                  = MSS_RESET_N_M2F_net_1;
-assign MMUART_0_TXD_M2F_net_1           = MMUART_0_TXD_M2F_net_0;
-assign MMUART_0_TXD_M2F                 = MMUART_0_TXD_M2F_net_1;
-assign MMUART_1_TXD_M2F_net_1           = MMUART_1_TXD_M2F_net_0;
-assign MMUART_1_TXD_M2F                 = MMUART_1_TXD_M2F_net_1;
+assign FIC_0_APB_MASTER_PSELx_net_0     = FIC_0_APB_MASTER_PSELx;
+assign FIC_0_APB_M_PSEL                 = FIC_0_APB_MASTER_PSELx_net_0;
+assign FIC_0_APB_MASTER_PWRITE_net_0    = FIC_0_APB_MASTER_PWRITE;
+assign FIC_0_APB_M_PWRITE               = FIC_0_APB_MASTER_PWRITE_net_0;
+assign FIC_0_APB_MASTER_PENABLE_net_0   = FIC_0_APB_MASTER_PENABLE;
+assign FIC_0_APB_M_PENABLE              = FIC_0_APB_MASTER_PENABLE_net_0;
 assign FIC_2_APB_M_PRESET_N_0_net_0     = FIC_2_APB_M_PRESET_N_0;
 assign FIC_2_APB_M_PRESET_N             = FIC_2_APB_M_PRESET_N_0_net_0;
 assign FIC_2_APB_M_PCLK_0_net_0         = FIC_2_APB_M_PCLK_0;
@@ -179,6 +195,10 @@ assign FIC_2_APB_MASTER_0_PENABLE_net_0 = FIC_2_APB_MASTER_0_PENABLE;
 assign FIC_2_APB_M_PENABLE              = FIC_2_APB_MASTER_0_PENABLE_net_0;
 assign FIC_2_APB_MASTER_0_PSELx_net_0   = FIC_2_APB_MASTER_0_PSELx;
 assign FIC_2_APB_M_PSEL                 = FIC_2_APB_MASTER_0_PSELx_net_0;
+assign FIC_0_APB_MASTER_PADDR_net_0     = FIC_0_APB_MASTER_PADDR;
+assign FIC_0_APB_M_PADDR[31:0]          = FIC_0_APB_MASTER_PADDR_net_0;
+assign FIC_0_APB_MASTER_PWDATA_net_0    = FIC_0_APB_MASTER_PWDATA;
+assign FIC_0_APB_M_PWDATA[31:0]         = FIC_0_APB_MASTER_PWDATA_net_0;
 assign FIC_2_APB_MASTER_0_PADDR_net_0   = FIC_2_APB_MASTER_0_PADDR;
 assign FIC_2_APB_M_PADDR[15:2]          = FIC_2_APB_MASTER_0_PADDR_net_0;
 assign FIC_2_APB_MASTER_0_PWDATA_net_0  = FIC_2_APB_MASTER_0_PWDATA;
@@ -190,7 +210,7 @@ assign FIC_2_APB_M_PWDATA[31:0]         = FIC_2_APB_MASTER_0_PWDATA_net_0;
 MSS_025 #( 
         .ACT_UBITS         ( 56'hFFFFFFFFFFFFFF ),
         .DDR_CLK_FREQ      ( 50.0 ),
-        .INIT              ( 1438'h0000000000000030000000000000000000000C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33F00000000E09500700003FFFFE400000000000010000000000F01C000001FE5F84010842108421000001FE34001FF8000000400000000020051007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
+        .INIT              ( 1438'h00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000F000000000000000000000000000000007FFFFFFFB000001007C33C00000000609300000003FFFFE400000000000010000000000F01C000001FE5FE4010842108421000001FE34001FF8000000400000000020051007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF ),
         .MEMORYFILE        ( "ENVM_init.mem" ),
         .RTC_MAIN_XTL_FREQ ( 0.0 ),
         .RTC_MAIN_XTL_MODE ( "" ) )
@@ -202,7 +222,7 @@ MSS_ADLIB_INST(
         .COLF                                    ( VCC_net ), // tied to 1'b1 from definition
         .CRSF                                    ( VCC_net ), // tied to 1'b1 from definition
         .F2_DMAREADY                             ( F2_DMAREADY_const_net_0 ), // tied to 2'h3 from definition
-        .F2H_INTERRUPT                           ( F2H_INTERRUPT_const_net_0 ), // tied to 16'h0000 from definition
+        .F2H_INTERRUPT                           ( MSS_INT_F2M ),
         .F2HCALIB                                ( VCC_net ), // tied to 1'b1 from definition
         .F_DMAREADY                              ( F_DMAREADY_const_net_0 ), // tied to 2'h3 from definition
         .F_FM0_ADDR                              ( F_FM0_ADDR_const_net_0 ), // tied to 32'h00000000 from definition
@@ -214,9 +234,9 @@ MSS_ADLIB_INST(
         .F_FM0_TRANS1                            ( GND_net ), // tied to 1'b0 from definition
         .F_FM0_WDATA                             ( F_FM0_WDATA_const_net_0 ), // tied to 32'h00000000 from definition
         .F_FM0_WRITE                             ( GND_net ), // tied to 1'b0 from definition
-        .F_HM0_RDATA                             ( F_HM0_RDATA_const_net_0 ), // tied to 32'h00000000 from definition
-        .F_HM0_READY                             ( VCC_net ), // tied to 1'b1 from definition
-        .F_HM0_RESP                              ( GND_net ), // tied to 1'b0 from definition
+        .F_HM0_RDATA                             ( FIC_0_APB_M_PRDATA ),
+        .F_HM0_READY                             ( FIC_0_APB_M_PREADY ),
+        .F_HM0_RESP                              ( FIC_0_APB_M_PSLVERR ),
         .FAB_AVALID                              ( VCC_net ), // tied to 1'b1 from definition
         .FAB_HOSTDISCON                          ( VCC_net ), // tied to 1'b1 from definition
         .FAB_IDDIG                               ( VCC_net ), // tied to 1'b1 from definition
@@ -278,7 +298,7 @@ MSS_ADLIB_INST(
         .MMUART0_DTR_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_RI_F2H_SCP                      ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_RTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
-        .MMUART0_RXD_F2H_SCP                     ( MMUART_0_RXD_F2M ),
+        .MMUART0_RXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_SCK_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART0_TXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_CTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
@@ -286,7 +306,7 @@ MSS_ADLIB_INST(
         .MMUART1_DSR_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_RI_F2H_SCP                      ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_RTS_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
-        .MMUART1_RXD_F2H_SCP                     ( MMUART_1_RXD_F2M ),
+        .MMUART1_RXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_SCK_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .MMUART1_TXD_F2H_SCP                     ( VCC_net ), // tied to 1'b1 from definition
         .PER2_FABRIC_PRDATA                      ( FIC_2_APB_M_PRDATA ),
@@ -435,13 +455,13 @@ MSS_ADLIB_INST(
         .F_FM0_RDATA                             (  ),
         .F_FM0_READYOUT                          (  ),
         .F_FM0_RESP                              (  ),
-        .F_HM0_ADDR                              (  ),
-        .F_HM0_ENABLE                            (  ),
-        .F_HM0_SEL                               (  ),
+        .F_HM0_ADDR                              ( FIC_0_APB_MASTER_PADDR ),
+        .F_HM0_ENABLE                            ( FIC_0_APB_MASTER_PENABLE ),
+        .F_HM0_SEL                               ( FIC_0_APB_MASTER_PSELx ),
         .F_HM0_SIZE                              (  ),
         .F_HM0_TRANS1                            (  ),
-        .F_HM0_WDATA                             (  ),
-        .F_HM0_WRITE                             (  ),
+        .F_HM0_WDATA                             ( FIC_0_APB_MASTER_PWDATA ),
+        .F_HM0_WRITE                             ( FIC_0_APB_MASTER_PWRITE ),
         .FAB_CHRGVBUS                            (  ),
         .FAB_DISCHRGVBUS                         (  ),
         .FAB_DMPULLDOWN                          (  ),
@@ -491,7 +511,7 @@ MSS_ADLIB_INST(
         .MMUART0_RXD_MGPIO28B_H2F_B              (  ),
         .MMUART0_SCK_MGPIO29B_H2F_A              (  ),
         .MMUART0_SCK_MGPIO29B_H2F_B              (  ),
-        .MMUART0_TXD_MGPIO27B_H2F_A              ( MMUART_0_TXD_M2F_net_0 ),
+        .MMUART0_TXD_MGPIO27B_H2F_A              (  ),
         .MMUART0_TXD_MGPIO27B_H2F_B              (  ),
         .MMUART1_DTR_MGPIO12B_H2F_A              (  ),
         .MMUART1_RTS_MGPIO11B_H2F_A              (  ),
@@ -500,7 +520,7 @@ MSS_ADLIB_INST(
         .MMUART1_RXD_MGPIO26B_H2F_B              (  ),
         .MMUART1_SCK_MGPIO25B_H2F_A              (  ),
         .MMUART1_SCK_MGPIO25B_H2F_B              (  ),
-        .MMUART1_TXD_MGPIO24B_H2F_A              ( MMUART_1_TXD_M2F_net_0 ),
+        .MMUART1_TXD_MGPIO24B_H2F_A              (  ),
         .MMUART1_TXD_MGPIO24B_H2F_B              (  ),
         .MPLL_LOCK                               (  ),
         .PER2_FABRIC_PADDR                       ( FIC_2_APB_MASTER_0_PADDR ),

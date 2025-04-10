@@ -1,0 +1,189 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-V6FS948
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-V6FS948
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v" (library work)
+@W: CG100 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v":19:13:19:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS_syn.v" (library work)
+@W: CG100 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS_syn.v":532:13:532:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS.v" (library work)
+@I::"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp\mss_based_isp.v" (library work)
+Verilog syntax check successful!
+File C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp\mss_based_isp.v changed - recompiling
+Selecting top level module mss_based_isp
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v":17:7:17:20|Synthesizing module Ram_intferface in library work.
+Running optimization stage 1 on Ram_intferface .......
+@W: CL169 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_test_complete. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_pass. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v":1:7:1:12|Synthesizing module TAMPER in library work.
+Running optimization stage 1 on TAMPER .......
+Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v":5:7:5:34|Synthesizing module TAMPER_C0_TAMPER_C0_0_TAMPER in library work.
+Running optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER .......
+Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0.v":31:7:31:15|Synthesizing module TAMPER_C0 in library work.
+Running optimization stage 1 on TAMPER_C0 .......
+Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
+Running optimization stage 1 on RAM1K18 .......
+Finished optimization stage 1 on RAM1K18 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v":5:7:5:34|Synthesizing module TPSRAM_C0_TPSRAM_C0_0_TPSRAM in library work.
+Running optimization stage 1 on TPSRAM_C0_TPSRAM_C0_0_TPSRAM .......
+Finished optimization stage 1 on TPSRAM_C0_TPSRAM_C0_0_TPSRAM (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0.v":53:7:53:15|Synthesizing module TPSRAM_C0 in library work.
+Running optimization stage 1 on TPSRAM_C0 .......
+Finished optimization stage 1 on TPSRAM_C0 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v":9:7:9:31|Synthesizing module Dev_Restart_after_ISP_blk in library work.
+Running optimization stage 1 on Dev_Restart_after_ISP_blk .......
+Finished optimization stage 1 on Dev_Restart_after_ISP_blk (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+Running optimization stage 1 on TRIBUFF .......
+Finished optimization stage 1 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
+Running optimization stage 1 on MSS_025 .......
+Finished optimization stage 1 on MSS_025 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS.v":9:7:9:23|Synthesizing module mss_based_isp_MSS in library work.
+Running optimization stage 1 on mss_based_isp_MSS .......
+Finished optimization stage 1 on mss_based_isp_MSS (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+@N: CG364 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp\mss_based_isp.v":9:7:9:19|Synthesizing module mss_based_isp in library work.
+Running optimization stage 1 on mss_based_isp .......
+Finished optimization stage 1 on mss_based_isp (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+Running optimization stage 2 on mss_based_isp .......
+Finished optimization stage 2 on mss_based_isp (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on mss_based_isp_MSS .......
+Finished optimization stage 2 on mss_based_isp_MSS (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on MSS_025 .......
+Finished optimization stage 2 on MSS_025 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TRIBUFF .......
+Finished optimization stage 2 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on INBUF .......
+Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on Dev_Restart_after_ISP_blk .......
+Finished optimization stage 2 on Dev_Restart_after_ISP_blk (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TPSRAM_C0 .......
+Finished optimization stage 2 on TPSRAM_C0 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TPSRAM_C0_TPSRAM_C0_0_TPSRAM .......
+Finished optimization stage 2 on TPSRAM_C0_TPSRAM_C0_0_TPSRAM (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on RAM1K18 .......
+Finished optimization stage 2 on RAM1K18 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TAMPER_C0 .......
+Finished optimization stage 2 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TAMPER_C0_TAMPER_C0_0_TAMPER .......
+Finished optimization stage 2 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on TAMPER .......
+Finished optimization stage 2 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+Running optimization stage 2 on Ram_intferface .......
+@N: CL201 :"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v":61:0:61:5|Trying to extract state machine for register state_tpsram_access.
+Finished optimization stage 2 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Lucas\Documents\Nascerr\mss_based_isp\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Apr 10 09:59:46 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-V6FS948
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File C:\Users\Lucas\Documents\Nascerr\mss_based_isp\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Apr 10 09:59:47 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Lucas\Documents\Nascerr\mss_based_isp\synthesis\synwork\mss_based_isp_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Apr 10 09:59:47 2025
+
+###########################################################]

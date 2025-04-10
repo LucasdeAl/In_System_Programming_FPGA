@@ -22,11 +22,10 @@ data VCCI_2.5_VOLTR COM
 data VCCI_3.3_VOLTR COM
 data FLOW_TYPE NEW
 data PLANNER_IOMODE 1
-data AFL 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.afl'
+data AFL 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/COMPILE/testeISP.afl'
 data ADL 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.adl'
-data LOC 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.loc'
-data SEG 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.seg'
-data NMAT_PDC 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/testeISP.nmatinit.pdc'
+data LOC 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/COMPILE/testeISP.loc'
+data SEG 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/designer/testeISP/COMPILE/testeISP.seg'
 
 data IO_PDC_0 'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/constraint/io/user.pdc'
 data TARGET_IOPDC  'C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/constraint/io/user.pdc'

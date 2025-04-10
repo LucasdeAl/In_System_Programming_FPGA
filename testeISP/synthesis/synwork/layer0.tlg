@@ -3,19 +3,19 @@ Selecting top level module testeISP
 Running optimization stage 1 on Ram_intferface .......
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_test_complete. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\hdl\Ram_interface.v":61:0:61:5|Pruning unused register tpsram_pass. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on Ram_intferface (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v":1:7:1:12|Synthesizing module TAMPER in library work.
 Running optimization stage 1 on TAMPER .......
-Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v":5:7:5:34|Synthesizing module TAMPER_C0_TAMPER_C0_0_TAMPER in library work.
 Running optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER .......
-Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0_TAMPER_C0_0_TAMPER (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\component\work\TAMPER_C0\TAMPER_C0.v":31:7:31:15|Synthesizing module TAMPER_C0 in library work.
 Running optimization stage 1 on TAMPER_C0 .......
-Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+Finished optimization stage 1 on TAMPER_C0 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
 Running optimization stage 1 on RAM1K18 .......
 Finished optimization stage 1 on RAM1K18 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)

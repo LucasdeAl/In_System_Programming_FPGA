@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Apr 10 09:59:42 2025
+Project   :  C:\Users\Lucas\Documents\Nascerr\mss_based_isp
+Component :  mss_based_isp
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp/mss_based_isp.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/mss_based_isp/component/work/mss_based_isp/subsystem.bfm
+

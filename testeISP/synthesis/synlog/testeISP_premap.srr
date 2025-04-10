@@ -1,4 +1,4 @@
-# Tue Apr  8 15:28:42 2025
+# Wed Apr  9 16:55:23 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -34,7 +34,7 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
@@ -47,7 +47,7 @@ NConnInternalConnection caching is on
 Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 @N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\work\testeisp_sb\fabosc_0\testeisp_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.testeISP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
@@ -60,7 +60,7 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 @W: MO129 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance testeISP_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\lucas\documents\nascerr\in_system_programming_fpga\testeisp\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance testeISP_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
@@ -130,7 +130,7 @@ testeISP_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        testeIS
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP\synthesis\testeISP.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -145,13 +145,13 @@ original code -> new code
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 255MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 255MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Apr  8 15:28:43 2025
+# Wed Apr  9 16:55:25 2025
 
 ###########################################################]

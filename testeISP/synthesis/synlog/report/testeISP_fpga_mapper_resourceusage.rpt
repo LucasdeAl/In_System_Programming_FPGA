@@ -21,10 +21,10 @@ SLE            64 uses
 
 DSP Blocks:    0 of 34 (0%)
 
-I/O ports: 5
-I/O primitives: 4
-INBUF          2 uses
-OUTBUF         2 uses
+I/O ports: 3
+I/O primitives: 2
+INBUF          1 use
+OUTBUF         1 use
 
 
 Global Clock Buffers: 2

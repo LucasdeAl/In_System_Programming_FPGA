@@ -1,0 +1,62 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\synthesis\\synwork\\mss_based_isp_comp.srs|-top|mss_based_isp|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\hdl\\Ram_interface.v":1744231041
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\Actel\\SgCore\\TAMPER\\2.1.300\\tamper_comps.v":1744134279
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\TAMPER_C0\\TAMPER_C0_0\\TAMPER_C0_TAMPER_C0_0_TAMPER.v":1744230954
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\TAMPER_C0\\TAMPER_C0.v":1744230954
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\TPSRAM_C0\\TPSRAM_C0_0\\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v":1744230994
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\TPSRAM_C0\\TPSRAM_C0.v":1744230994
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\Dev_Restart_after_ISP_blk\\Dev_Restart_after_ISP_blk.v":1744289863
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\mss_based_isp_MSS\\mss_based_isp_MSS_syn.v":1744230910
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\mss_based_isp_MSS\\mss_based_isp_MSS.v":1744230910
+#CUR:"C:\\Users\\Lucas\\Documents\\Nascerr\\mss_based_isp\\component\\work\\mss_based_isp\\mss_based_isp.v":1744289981
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\hdl\Ram_interface.v" verilog
+1			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\Actel\SgCore\TAMPER\2.1.300\tamper_comps.v" verilog
+2			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0_0\TAMPER_C0_TAMPER_C0_0_TAMPER.v" verilog
+3			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TAMPER_C0\TAMPER_C0.v" verilog
+4			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0_0\TPSRAM_C0_TPSRAM_C0_0_TPSRAM.v" verilog
+5			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\TPSRAM_C0\TPSRAM_C0.v" verilog
+6			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\Dev_Restart_after_ISP_blk\Dev_Restart_after_ISP_blk.v" verilog
+7			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS_syn.v" verilog
+8			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp_MSS\mss_based_isp_MSS.v" verilog
+9			"C:\Users\Lucas\Documents\Nascerr\mss_based_isp\component\work\mss_based_isp\mss_based_isp.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 2
+4 -1
+5 4
+6 0 3 5
+7 -1
+8 7
+9 6 8
+#Dependency Lists(Users Of)
+0 6
+1 2
+2 3
+3 6
+4 5
+5 6
+6 9
+7 8
+8 9
+9 -1
+#Design Unit to File Association
+module work Ram_intferface 0
+module work TAMPER 1
+module work TAMPER_C0_TAMPER_C0_0_TAMPER 2
+module work TAMPER_C0 3
+module work TPSRAM_C0_TPSRAM_C0_0_TPSRAM 4
+module work TPSRAM_C0 5
+module work Dev_Restart_after_ISP_blk 6
+module work MSS_025 7
+module work mss_based_isp_MSS 8
+module work mss_based_isp 9

@@ -25,7 +25,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      64                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block testeISP:	64 (35.16 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block testeISP:	64 (35.56 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -35,7 +35,7 @@ CFG           49                 100 %
 ARI1          35                 100 %                
 BLACK BOX     5                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP:	89 (48.90 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP:	89 (49.44 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -43,7 +43,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block testeISP:	1 (0.55 % Utilization)
+Total MEMORY ELEMENTS in the block testeISP:	1 (0.56 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -51,15 +51,15 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block testeISP:	2 (1.10 % Utilization)
+Total GLOBAL BUFFERS in the block testeISP:	2 (1.11 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       4                  100 %                
+IO       2                  100 %                
 =================================================
-Total IO PADS in the block testeISP:	4 (2.20 % Utilization)
+Total IO PADS in the block testeISP:	2 (1.11 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   Dev_Restart_after_ISP_blk   ########
@@ -71,7 +71,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      64                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block testeISP.Dev_Restart_after_ISP_blk:	64 (35.16 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block testeISP.Dev_Restart_after_ISP_blk:	64 (35.56 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -81,7 +81,7 @@ CFG           49                 100 %
 ARI1          35                 100 %                
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP.Dev_Restart_after_ISP_blk:	85 (46.70 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP.Dev_Restart_after_ISP_blk:	85 (47.22 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -89,7 +89,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block testeISP.Dev_Restart_after_ISP_blk:	1 (0.55 % Utilization)
+Total MEMORY ELEMENTS in the block testeISP.Dev_Restart_after_ISP_blk:	1 (0.56 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   Ram_intferface   ########
@@ -101,7 +101,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      64                 100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Dev_Restart_after_ISP_blk.Ram_intferface:	64 (35.16 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Dev_Restart_after_ISP_blk.Ram_intferface:	64 (35.56 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -110,7 +110,7 @@ Name     Total elements     Utilization     Notes
 CFG      49                 100 %                
 ARI1     35                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block Dev_Restart_after_ISP_blk.Ram_intferface:	84 (46.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block Dev_Restart_after_ISP_blk.Ram_intferface:	84 (46.67 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   TAMPER_C0   ########
@@ -122,7 +122,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block Dev_Restart_after_ISP_blk.TAMPER_C0:	1 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block Dev_Restart_after_ISP_blk.TAMPER_C0:	1 (0.56 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   TAMPER_C0_TAMPER_C0_0_TAMPER   ########
@@ -134,7 +134,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block TAMPER_C0.TAMPER_C0_TAMPER_C0_0_TAMPER:	1 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block TAMPER_C0.TAMPER_C0_TAMPER_C0_0_TAMPER:	1 (0.56 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   TPSRAM_C0   ########
@@ -146,7 +146,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block Dev_Restart_after_ISP_blk.TPSRAM_C0:	1 (0.55 % Utilization)
+Total MEMORY ELEMENTS in the block Dev_Restart_after_ISP_blk.TPSRAM_C0:	1 (0.56 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   TPSRAM_C0_TPSRAM_C0_0_TPSRAM   ########
@@ -158,7 +158,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block TPSRAM_C0.TPSRAM_C0_TPSRAM_C0_0_TPSRAM:	1 (0.55 % Utilization)
+Total MEMORY ELEMENTS in the block TPSRAM_C0.TPSRAM_C0_TPSRAM_C0_0_TPSRAM:	1 (0.56 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   testeISP_sb   ########
@@ -170,7 +170,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     4                  80 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP.testeISP_sb:	4 (2.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP.testeISP_sb:	4 (2.22 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -178,7 +178,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block testeISP.testeISP_sb:	2 (1.10 % Utilization)
+Total GLOBAL BUFFERS in the block testeISP.testeISP_sb:	2 (1.11 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   testeISP_sb_CCC_0_FCCC   ########
@@ -190,7 +190,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_CCC_0_FCCC:	1 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_CCC_0_FCCC:	1 (0.56 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -198,7 +198,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block testeISP_sb.testeISP_sb_CCC_0_FCCC:	1 (0.55 % Utilization)
+Total GLOBAL BUFFERS in the block testeISP_sb.testeISP_sb_CCC_0_FCCC:	1 (0.56 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   testeISP_sb_FABOSC_0_OSC   ########
@@ -210,7 +210,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_FABOSC_0_OSC:	1 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_FABOSC_0_OSC:	1 (0.56 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   testeISP_sb_MSS   ########
@@ -222,7 +222,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_MSS:	1 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block testeISP_sb.testeISP_sb_MSS:	1 (0.56 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

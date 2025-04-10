@@ -1,0 +1,22 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Tue Apr  8 18:49:47 2025
+Project   :  C:\Users\Lucas\Documents\Nascerr\In_System_Programming_FPGA\testeISP
+Component :  COREUART_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Rx_async.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Tx_async.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g4.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vlog.do
+
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v
+    C:/Users/Lucas/Documents/Nascerr/In_System_Programming_FPGA/testeISP/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v
+

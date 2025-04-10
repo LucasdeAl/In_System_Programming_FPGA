@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Tue Apr  8 15:28:49 2025
+Date: Wed Apr  9 16:55:30 2025
 
 Device Selection
 +--------------------------------+----------------+
@@ -40,8 +40,8 @@ Resource Usage
 | 4LUT                      | 121  | 27696 | 0.44       |
 | DFF                       | 100  | 27696 | 0.36       |
 | I/O Register              | 0    | 414   | 0.00       |
-| User I/O                  | 4    | 138   | 2.90       |
-| -- Single-ended I/O       | 4    | 138   | 2.90       |
+| User I/O                  | 2    | 138   | 1.45       |
+| -- Single-ended I/O       | 2    | 138   | 1.45       |
 | -- Differential I/O Pairs | 0    | 65    | 0.00       |
 | RAM64x18                  | 0    | 34    | 0.00       |
 | RAM1K18                   | 1    | 31    | 3.23       |
@@ -78,7 +78,7 @@ MSS Resource Usage
 | CAN           | 0    | 1     |
 | SPI           | 0    | 2     |
 | I2C           | 0    | 2     |
-| UART          | 2    | 2     |
+| UART          | 1    | 2     |
 | USB           | 0    | 1     |
 | MAC           | 0    | 1     |
 | MDDR          | 0    | 1     |
@@ -100,8 +100,8 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 2            | 0           | 0               |
-| Output I/O                    | 2            | 0           | 0               |
+| Input I/O                     | 1            | 0           | 0               |
+| Output I/O                    | 1            | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -111,7 +111,7 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  2    |  2     |  0            |
+| LVCMOS25     |  2.50v |  N/A |  1    |  1     |  0            |
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources

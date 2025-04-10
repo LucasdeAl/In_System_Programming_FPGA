@@ -1,0 +1,10 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. mss_based_isp, 64, 49, 35, 0, 0, 1, 0, 2, 3
+.	. Dev_Restart_after_ISP_blk, 64, 49, 35, 0, 0, 1, 0, 0, 0
+.	.	. Ram_intferface, 64, 49, 35, 0, 0, 0, 0, 0, 0
+.	.	. TAMPER_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. TAMPER_C0_TAMPER_C0_0_TAMPER, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. TPSRAM_C0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. TPSRAM_C0_TPSRAM_C0_0_TPSRAM, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	. mss_based_isp_MSS, 0, 0, 0, 0, 0, 0, 0, 1, 2
